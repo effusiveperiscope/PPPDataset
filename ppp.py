@@ -97,7 +97,7 @@ class PPPDataset:
         import ffmpeg
         for char,files in self.file_dict.items():
             random.shuffle(files)
-            val_partition = min(
+            val_partition = max(
                 1,int(val_frac*len(files))) # min 1 val file per speaker
             for i,x in enumerate(files):
                 # 1. Resample and convert to wav
