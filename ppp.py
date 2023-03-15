@@ -1,17 +1,22 @@
 SLICED_DIALOGUE = r"D:\MLP_Samples\AI Data\Master file\Sliced Dialogue"
-ARPABET_DICTIONARY = "./horsewords.clean"
+HORSEWORDS_DICTIONARY = "./horsewords.clean"
+CMU_DICTIONARY = "./cmudict-0.7b.txt"
 import os
 import random
 import re
 from pathlib import Path
 
-def load_dictionary(dict_path):
+# Remove nums from ARPAbet dictionary
+def load_dictionary(dict_path, remove_nums=True):
     arpadict = dict()
-    with open(dict_path, "r", encoding="utf8") as f:
+    with open(dict_path, "r") as f:
         for line in f.readlines():
             word = line.split("  ")
             assert len(word) == 2
-            arpadict[word[0].strip().upper()] = word[1].strip()
+            maps_to = word[1].strip()
+            if remove_nums:
+                maps_to = re.sub(r'\d+', '', maps_to)
+            arpadict[word[0].strip().upper()] = maps_to
     return arpadict
 
 def dict_replace(tx, dictionary):
@@ -84,7 +89,8 @@ class PPPDataset:
             raise ValueError(data_path + ' points to an existing file!')
         os.makedirs(data_path, exist_ok=True)
 
-        arpa_dictionary = load_dictionary(ARPABET_DICTIONARY)
+        arpa_dictionary = (load_dictionary(HORSEWORDS_DICTIONARY) |
+            load_dictionary(CMU_DICTIONARY))
         val_file_data = []
         train_file_data = []
 
