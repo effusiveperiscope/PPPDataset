@@ -96,7 +96,10 @@ class PPPDataset:
             for i,x in enumerate(files):
                 # 1. Resample and convert to wav
                 out_path = os.path.join(data_path,Path(x['file']).stem+'.wav')
-                ffmpeg.input(x['file']).output(out_path, **{'ar':sr}).run()
+                if not os.path.exists(out_path):
+                    ffmpeg.input(x['file']).output(out_path, **{'ar':sr}).run()
+                else:
+                    print('Skipping existing file '+out_path)
 
                 # 2. Create ARPAbet transcription
                 arpa = dict_replace(x['line'], arpa_dictionary)
