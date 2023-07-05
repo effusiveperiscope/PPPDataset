@@ -1,9 +1,12 @@
-SLICED_DIALOGUE = r"D:\MLP_Samples\AI Data\Master file\Sliced Dialogue"
+#SLICED_DIALOGUE = r"D:\MLP_Samples\AI Data\Master file\Sliced Dialogue"
+SLICED_DIALOGUE = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Master file/Sliced Dialogue"
+SONGS = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Songs"
 HORSEWORDS_DICTIONARY = "./horsewords.clean"
 CMU_DICTIONARY = "./cmudict-0.7b.txt"
 import os
 import random
 import re
+import itertools
 from pathlib import Path
 
 # Remove nums from ARPAbet dictionary
@@ -26,6 +29,8 @@ def dict_replace(tx, dictionary):
         word = regex[i].upper()
         if word in dictionary.keys():
             regex[i] = "{" + dictionary[word] + "}"
+        elif any(c.isalpha() for c in word):
+            print("Note - "+word+" not in dictionary keys")
     return "".join(regex)
 
 class PPPDataset:
@@ -47,6 +52,7 @@ class PPPDataset:
             max_noise = 1,
             sliced_dialogue = SLICED_DIALOGUE):
         dataset = PPPDataset()
+
         if not len(characters):
             return
         for (root,_,files) in os.walk(sliced_dialogue):
@@ -105,7 +111,8 @@ class PPPDataset:
                 if not os.path.exists(out_path):
                     ffmpeg.input(x['file']).output(out_path, **{'ar':sr}).run()
                 else:
-                    print('Skipping existing file '+out_path)
+                    #print('Skipping existing file '+out_path)
+                    pass
 
                 # 2. Create ARPAbet transcription
                 arpa = dict_replace(x['line'], arpa_dictionary)
@@ -127,8 +134,8 @@ class PPPDataset:
             for d in train_file_data:
                 f.write(d['stem_wav']+'|'+d['arpa']+'|'+d['char']+'\n')
 
-PPPDataset.collect(['Twilight']).pits(
-        'D:/Code/pits/twilight_data',
-        'D:/Code/pits/training_filelist.txt',
-        'D:/Code/pits/validation_filelist.txt')
+#PPPDataset.collect(['Twilight']).pits(
+        #'D:/Code/pits/twilight_data',
+        #'D:/Code/pits/training_filelist.txt',
+        #'D:/Code/pits/validation_filelist.txt', val_frac=.02)
 print("Done")

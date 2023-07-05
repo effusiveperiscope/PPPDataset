@@ -47,12 +47,42 @@ def collect_index():
                 "title": text_info[1],
                 "writer": text_info[2],
                 "release_date": text_info[3],
-                "transcript_href": cells[4].find('a')['href']
+                "transcript_href": cells[4].find('a')['href'],
+                "episode_summary_href": cells[1].find('a')['href']
             })
         ret.append({"season":INDEX_TABLE_ORDER[i], "eps":eps})
 
     with open(INDEX_SAVE_FILE, 'w') as f:
         f.write(json.dumps(ret))
+
+# Unfinished, moved to Tier 1
+def index_to_summaries():
+    index = []
+    summaries = []
+    seasons_to_grab = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    with open(INDEX_SAVE_FILE, 'r') as f:
+        index = json.loads(f.read())
+    for s in index:
+        if s['season'] not in seasons_to_grab:
+            continue
+        season_save = {"season": s['season'], "eps":[]}
+        for e in s['eps']:
+            ep_save = {}
+            summary_page = requests.get(WIKI_ROOT + e['episode_summary_href'])
+            summary_text = ""
+            soup = BeautifulSoup(transcript_page.text, 'html.parser')
+
+            headers = soup.find_all(['h2'])
+            summary_first_idx = next(i for i,x in enumerate(texts) if x.text
+                == "Summary")
+            summary_end_idx = summayr_first_idx + 1
+
+            #ep_save['full_transcript'] = transcript_text
+            #season_save["eps"].append(ep_save)
+        transcripts.append(season_save)
+
+    with open(TRANSCRIPTS_SAVE_FILE, 'w') as f:
+        f.write(json.dumps(transcripts))
 
 def index_to_transcripts():
     index = []
@@ -88,4 +118,5 @@ def index_to_transcripts():
         f.write(json.dumps(transcripts))
 
 #index_to_transcripts()
+#collect_index()
 
