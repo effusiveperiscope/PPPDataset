@@ -48,7 +48,7 @@ with open(LOAD_FILE,'r') as f:
     wiki_synopsis_list = json.loads(f.read())
 
 instruct_dataset = []
-for s in range(1,3):
+for s in range(1,4):
     idx = s - 1
     for ep,x in enumerate(wiki_synopsis_list[idx]):
         instruction = gen_summary_question(
