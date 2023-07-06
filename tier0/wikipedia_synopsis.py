@@ -37,8 +37,12 @@ def process_season(i,url):
             return td_paras
         else:
             return [td_text]
-    season_synopses = list(process_td(x) for x in tds if 'description' in 
-        x.get('class',[]))
+    season_synopses = []
+
+    for y in (
+            process_td(x) for x in tds if 'description' in x.get('class',[])):
+        for z in y:
+            season_synopses.append(z.strip())
     eps_index_dict = wiki_episode_dict[i]["eps"]
 
     return list({"synopsis": synopsis,
