@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+from unidecode import unidecode
 
 INDEX_SAVE_FILE = r"D:\Code\PPPDataset\tier1\wiki_episode_index.json"
 WIKI_ROOT = "https://mlp.fandom.com/"
@@ -38,7 +39,7 @@ def index_to_summaries():
                     summary += current_element.text
                 current_element = current_element.next_sibling
 
-            ep_save['summary'] = summary
+            ep_save['summary'] = unidecode(summary)
             season_save['eps'].append(ep_save)
         summaries.append(season_save)
 
