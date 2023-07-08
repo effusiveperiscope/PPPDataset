@@ -1,0 +1,23 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+The following is a canonically accurate synopsis of MLP:FiM episode season {s}
+episode {ep} from Wikipedia: 
+
+{synopsis}
+
+The following is a MLP:FiM fandom wiki summary of the same episode, written in a
+less accurate, less formal storytelling format.
+
+{summary}
+
+Given that the Wikipedia synopsis is accurate but also using the fandom wiki summary as a guide, your task is to provide a series of question-answer pairs regarding the episode that follow the format shown in the example below (this example is only here to show the correct format; its content should be considered irrelevant to the content of your question-answer pairs).
+
+0) What is the name of the unicorn character who first appears in the episode?
+The name of the unicorn character who first appears in the episode is "Twilight Sparkle." She is a studious asocial unicorn who learns about a prophecy and tries to warn her mentor Princess Celestia of the impending danger, but is sent to Ponyville to make friends instead.
+
+Please provide exactly SEVEN question-answer pairs, not including the above, that can be answered using ONLY the information found above. Each answer should consist of 1-3 full sentences.
+
+
+### Response:
+

@@ -1,0 +1,16 @@
+Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+### Instruction:
+The following is a canonically accurate synopsis of MLP:FiM episode season {s}
+episode {ep} from Wikipedia: 
+
+{synopsis}
+
+The following is a MLP:FiM fandom wiki summary of the same episode, written in a
+less accurate, less formal storytelling format.
+
+{summary}
+
+Given that the Wikipedia synopsis is accurate but also using the fandom wiki summary as a guide, please provide an alternate summary of this episode. Keep your summary confined to events that occur in this episode ONLY.
+
+### Response:
