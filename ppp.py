@@ -87,6 +87,9 @@ class PPPDataset:
         print("Finished collection")
         return dataset
 
+    def __getitem__(self, c):
+        return self.file_dict[c]
+
     def pits(self, data_path : str, training_list : str, validation_list : str,
             sr=22050, val_frac=.05):
         print("Processing for pits")
