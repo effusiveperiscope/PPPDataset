@@ -1,17 +1,11 @@
 # Automates so-vits-svc 5.0 training
 # Designed to be AFK for 2 weeks.
 CHARACTERS_TO_TRAIN = [
+    'Twilight',
     'Fluttershy',
     'Rarity',
     'Applejack',
     'Rainbow',
-    'Celestia',
-    'Luna',
-    'Starlight',
-    'Apple Bloom',
-    'Sweetie Belle',
-    'Scootaloo',
-    'Trixie',
     'Pinkie'
 ]
 TEST_RUN = False # Does a minimal run-through for testing
@@ -23,27 +17,45 @@ from ppp import PPPDataset
 from pathlib import Path
 import os
 import math
+import re
+
+os.chdir(SVC5_INSTALL)
 for c in CHARACTERS_TO_TRAIN:
+    # -1: Check for pre-existing checkpoints
+    CHKPT = os.path.join("chkpt",c)
+    max_name = None
+    max_num = 0
+    if os.path.exists(CHKPT):
+        for name in os.listdir(CHKPT):
+            match = re.search(c+'_(\d+)\.pt', name)
+            if match and (int(match.group(1)) > max_num):
+                max_num = int(match.group(1))
+                max_name = name
+    if max_name is not None:
+        print("Pre-existing checkpoint detected, resuming training from",
+             max_name)
+        PREEXIST_CHKPT = os.path.join(CHKPT, max_name)
+        # resume training
+        subprocess.run(["python", "svc_trainer.py",
+            "-c", "configs/base.yaml",
+            "-n", model_name,
+            "-p", PREEXIST_CHKPT], env=os.environ)
 
     print("Processing "+c)
-    if c == 'Trixie': # Use speaking lines for Trixie
-        dataset = PPPDataset.collect([c],
-        sliced_dialogue = SLICED_DIALOGUE)
-    else:
-        dataset = PPPDataset.collect([c],
-        sliced_dialogue = SONGS)
+    dataset = PPPDataset.collect([c],
+    sliced_dialogue = SLICED_DIALOGUE)
     print("Collected "+str(len(dataset[c]))+" audio files")
     print("First audio file: "+str(dataset[c][0]['file']))
     dataset_length = len(dataset[c])
     batch_size = 16
-    target_epochs = 2000
+    target_epochs = 200
     model_name = c
 
     print("Target epochs: ",target_epochs)
 
-    # 0: adjust config
+    # 0: adjust config 
     import yaml
-    os.chdir(SVC5_INSTALL)
+
     cfg_path = os.path.join("configs","base.yaml")
     with open(cfg_path) as f:
         data = yaml.safe_load(f)
