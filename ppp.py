@@ -1,9 +1,12 @@
-#SLICED_DIALOGUE = r"D:\MLP_Samples\AI Data\Master file\Sliced Dialogue"
-SLICED_DIALOGUE = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Master file/Sliced Dialogue"
-SONGS = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Songs"
 HORSEWORDS_DICTIONARY = "./horsewords.clean"
 CMU_DICTIONARY = "./cmudict-0.7b.txt"
 import os
+if os.name == "nt":
+    SLICED_DIALOGUE = r"D:\MLP_Samples\AIData\Master file\Sliced Dialogue"
+    SONGS = r"D:\MLP_Samples\AI Data\Songs"
+else:
+    SLICED_DIALOGUE = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Master file/Sliced Dialogue"
+    SONGS = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Songs"
 import random
 import re
 import itertools
@@ -137,8 +140,75 @@ class PPPDataset:
             for d in train_file_data:
                 f.write(d['stem_wav']+'|'+d['arpa']+'|'+d['char']+'\n')
 
-#PPPDataset.collect(['Twilight']).pits(
-        #'D:/Code/pits/twilight_data',
-        #'D:/Code/pits/training_filelist.txt',
-        #'D:/Code/pits/validation_filelist.txt', val_frac=.02)
+    def vits2(self, data_path : str, training_list : str,
+            validation_list : str,
+            sr = 22050, val_frac = .05):
+        print("Processing for vits2")
+
+        data_path = os.path.abspath(data_path)
+        if os.path.exists(data_path) and not os.path.isdir(data_path):
+            raise ValueError(data_path + ' points to an existing file!')
+        os.makedirs(data_path, exist_ok=True)
+
+        val_file_data = []
+        train_file_data = []
+
+        import ffmpeg
+        if len(self.file_dict) > 1:
+            print("Multispeaker training detected")
+            sid = 0
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in enumerate(files):
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.wav')
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                            out_path, **{'ar':sr}).run()
+
+                    # TODO do we need to convert to ASCII?
+                    # 2. Separate into validation/training files
+                    if i < val_partition:
+                        val_file_data.append(out_path+"|"+sid+"|"+x['line']+'\n')
+                    else:
+                        train_file_data.append(out_path+"|"+sid+"|"+x['line']+'\n')
+                sid += 1
+
+            # config considered out of scope
+            # (if you are the one collecting the dataset you should know
+            # how many speakers are in it.)
+        else:
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in enumerate(files):
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.wav')
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                            out_path, **{'ar':sr}).run()
+
+                    # 2. Separate into validation/training files
+                    if i < val_partition:
+                        val_file_data.append(out_path+"|"+x['line']+'\n')
+                    else:
+                        train_file_data.append(out_path+"|"+x['line']+'\n')
+
+        # Write filelists
+        with open(validation_list, 'w') as f:
+            for d in val_file_data:
+                f.write(d)
+        with open(training_list, 'w') as f:
+            for d in train_file_data:
+                f.write(d)
+        pass
+
+
+PPPDataset.collect(['Twilight']).vits2(
+        'D:/Code/vits2_pytorch/twilight_data',
+        'D:/Code/vits2_pytorch/filelists/training_filelist.txt',
+        'D:/Code/vits2_pytorch/filelists/validation_filelist.txt', val_frac=.02)
 print("Done")
