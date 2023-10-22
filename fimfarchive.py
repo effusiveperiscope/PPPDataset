@@ -38,6 +38,7 @@ class Story:
             if content_div:
                 text = content_div.get_text()
                 stream.write(text)
+                stream.write('\n\n\n') # Standard separator in textgen
 
 class MatchedStories:
     def __init__(self, matched_list : list, matched_ids_list : list):
