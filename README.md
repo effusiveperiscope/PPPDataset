@@ -10,6 +10,9 @@ training voice models (example is for PITS). Also has an updated version of
 # FiMFiction Tools
 Various tools for trimming/sampling the fimficOmegaV3 dataset.
 
+# fimfarchive.py
+A tool for accessing and manipulating a downloaded copy of the fimfarchive archives.
+
 # Text training data
 Tools for scraping sources like the FiMFiction wiki for episode summaries,
 episode titles/transcripts, Wikipedia episode synopsis, as well as experiments
