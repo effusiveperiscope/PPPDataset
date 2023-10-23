@@ -54,6 +54,21 @@ class Story:
                     stream.write('\n\n')
                 stream.write('\n') 
 
+    def debug_dump(self, stream, paragraph_filter = None):
+        epub_path = os.path.join(ARCH_PATH, self.path())
+        book = epub.read_epub(epub_path)
+        stream.write('---TITLE: '+self.index["title"]+'\n')
+        stream.write('---DESC: '+self.desc_text()+'\n')
+        for chapter in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
+            soup = BeautifulSoup(chapter.content, 'html.parser')
+            content_div = soup.find('div', id='content')
+            if content_div:
+                paras = content_div.find_all('p')
+                for p in paras:
+                    stream.write(p.get_text())
+                    stream.write('\n\n')
+                stream.write('\n') 
+
 class MatchedStories:
     def __init__(self, matched_list : list, matched_ids_list : list):
         self.matched_list = matched_list
@@ -76,12 +91,16 @@ class MatchedStories:
                 story.write_full_text(f)
 
 class FIMFarchive:
-    def __init__(self):
+    def __init__(self, blacklist_ids=["145150"]):
 
         with open(os.path.join(ARCH_PATH, "index.json"),
             "r", encoding="utf-8") as f:
             start_time = time.time()
             self.index = json.loads(f.read())
+
+            for blacklisted_id in blacklist_ids:
+                if blacklisted_id in self.index:
+                    self.index.pop(blacklisted_id)
 
             self.stories = [Story(id,item) for (id,item) in self.index.items()]
             end_time = time.time()
@@ -105,10 +124,11 @@ class FIMFarchive:
 
 def example_comparator(story):
     return (story.compare_tags({"Sex", "Second Person"},
-        {"Anthro","My Little Pony: Equestria Girls"})
+        {"Anthro","My Little Pony: Equestria Girls","Alternate Universe"})
             and story.ratio() > 0.8
             and not story.desc_intersect(
-                {"futa", "pegging", "oviposition", "shrinking", "macro"}))
+                {"humanized", "humanization", "futa", "pegging",
+                 "oviposition", "shrinking", "macro", "gay", "femanon"}))
 
 archive = FIMFarchive()
 match1 = archive.filter(example_comparator)

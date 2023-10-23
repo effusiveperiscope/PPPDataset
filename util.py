@@ -1,4 +1,4 @@
 import string
+import re
 def remove_punc(text):
-    translator = str.maketrans('','',string.punctuation)
-    return text.translate(translator)
+    return re.sub(r'[^\w\s]+',' ',text)
