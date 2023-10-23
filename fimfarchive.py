@@ -26,19 +26,33 @@ class Story:
     def score(self):
         return self.index["num_likes"] - self.index["num_dislikes"]
 
+    def ratio(self):
+        return self.index["num_likes"] / (
+            self.index["num_likes"] + self.index["num_dislikes"])
+
     def path(self):
         return self.index["archive"]["path"]
 
-    def write_full_text(self, stream):
+    def desc_text(self):
+        return BeautifulSoup(self.index["description_html"]).get_text()
+
+    def desc_intersect(self, words : set):
+        from util import remove_punc
+        desc_set = set(remove_punc(self.desc_text().lower()).split(' '))
+        return words.intersection(desc_set)
+
+    def write_full_text(self, stream, paragraph_filter = None):
         epub_path = os.path.join(ARCH_PATH, self.path())
         book = epub.read_epub(epub_path)
         for chapter in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
             soup = BeautifulSoup(chapter.content, 'html.parser')
             content_div = soup.find('div', id='content')
             if content_div:
-                text = content_div.get_text()
-                stream.write(text)
-                stream.write('\n\n\n') # Standard separator in textgen
+                paras = content_div.find_all('p')
+                for p in paras:
+                    stream.write(p.get_text())
+                    stream.write('\n\n')
+                stream.write('\n') 
 
 class MatchedStories:
     def __init__(self, matched_list : list, matched_ids_list : list):
@@ -48,6 +62,10 @@ class MatchedStories:
     def print_titles(self):
         for story in self.matched_list:
             print(story.index["title"])
+
+    def print_descs(self):
+        for story in self.matched_list:
+            print(story.desc_text())
 
     def print_ids(self):
         print(self.matched_ids_list)
@@ -86,10 +104,14 @@ class FIMFarchive:
         return MatchedStories(matched_stories, ids)
 
 def example_comparator(story):
-    return story.compare_tags({"Porn", "Second Person"},
-        {"Anthro","My Little Pony: Equestria Girls"}) and story.score() > 350
+    return (story.compare_tags({"Sex", "Second Person"},
+        {"Anthro","My Little Pony: Equestria Girls"})
+            and story.ratio() > 0.8
+            and not story.desc_intersect(
+                {"futa", "pegging", "oviposition", "shrinking", "macro"}))
 
 archive = FIMFarchive()
 match1 = archive.filter(example_comparator)
 match1.print_titles()
-match1.dump_to_file('match1.txt')
+match1.print_descs()
+match1.dump_to_file('match3.txt')
