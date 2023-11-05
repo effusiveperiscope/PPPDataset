@@ -10,3 +10,9 @@ def signif(x, digits=6):
         return x
     digits -= math.ceil(math.log10(abs(x)))
     return round(x, digits)
+
+from pydub import AudioSegment
+def check_file_dur_ms(path):
+    audio = AudioSegment.from_file(path)
+    audio_length_ms = len(audio)
+    return audio_length_ms
