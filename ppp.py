@@ -2,7 +2,7 @@ HORSEWORDS_DICTIONARY = "./horsewords.clean"
 CMU_DICTIONARY = "./cmudict-0.7b.txt"
 import os
 if os.name == "nt":
-    SLICED_DIALOGUE = r"D:\MLP_Samples\AIData\Master file\Sliced Dialogue"
+    SLICED_DIALOGUE = r"X:"
     SONGS = r"D:\MLP_Samples\AI Data\Songs"
 else:
     SLICED_DIALOGUE = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Master file/Sliced Dialogue"
@@ -13,6 +13,8 @@ import itertools
 from pathlib import Path
 from util import check_file_dur_ms
 import logging
+import pickle
+from unidecode import unidecode
 from tqdm import tqdm
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -45,20 +47,50 @@ class PPPDataset:
     def character_parse(fname):
         ret = {}
         split = os.path.basename(fname).split('_')
-        ret['hour'] = split[0]
-        ret['min'] = split[1]
-        ret['sec'] = split[2]
-        ret['char'] = split[3]
-        ret['emotion'] = split[4]
-        ret['noise'] = split[5]
+        try:
+            ret['hour'] = split[0]
+            ret['min'] = split[1]
+            ret['sec'] = split[2]
+            ret['char'] = split[3]
+            ret['emotion'] = split[4]
+            ret['noise'] = split[5]
+        except IndexError as e:
+            print("Failed parse: "+fname)
+            return None
         return ret
 
     def __init__(self):
         self.file_dict = {}
 
+    def __len__(self):
+        return sum(len(lst) for lst in self.file_dict.values())
+
+    def save_to_pickle(self, pkl_path):
+        with open(pkl_path, 'wb') as f:
+            pickle.dump(self.file_dict, f)
+
+    def from_pickle(self, pkl_path):
+        with open(pkl_path, 'rb') as f:
+            self.file_dict = pickle.load(f)
+
+    def search(self, substr):
+        for char, files in self.file_dict.items():
+            for x in files:
+                if substr in x['line']:
+                    yield self.obj_to_info1(x)
+
+    def obj_to_info1(self, obj):
+        ep = Path(obj['file']).parent.name
+        return (f"ep:{ep}|h:{obj['hour']}"
+            f"|m:obj['min']|s:obj['s']|char:{obj['char']}|line:{obj['line']}")
+
     def collect(characters : list,
             max_noise = 1,
-            sliced_dialogue = SLICED_DIALOGUE):
+            sliced_dialogue = SLICED_DIALOGUE,
+            ignore_text = False,
+            no_parse = False,
+            audio_input_format = '.flac',
+            force_character = ''):
         dataset = PPPDataset()
 
         print(f"Collecting data for {characters}")
@@ -67,28 +99,44 @@ class PPPDataset:
             return
         for (root,_,files) in tqdm(os.walk(sliced_dialogue)):
             for f in files:
-                if not f.endswith('.flac'):
+                if not f.endswith(audio_input_format):
                     continue
                 f = os.path.join(root,f)
 
-                parse = PPPDataset.character_parse(f)
-                if parse['char'] not in characters:
-                    continue
-                if max_noise == 0:
-                    if parse['noise'] in ['Noisy','Very Noisy']:
+                if no_parse:
+                    print("No parse")
+                    parse = {}
+                    parse['char'] = force_character
+                    parse['emotion'] = ''
+                    parse['txt'] = ''
+                    parse['line'] = ''
+                    parse['noise'] = 'Clean'
+                    parse['file'] = os.path.abspath(f)
+                else:
+                    print("Yes parse")
+                    parse = PPPDataset.character_parse(f)
+                    if parse is None:
                         continue
-                elif max_noise == 1:
-                    if parse['noise'] == 'Very Noisy':
+                    if parse['char'] not in characters:
                         continue
-                txt = str(Path(f.removesuffix('..flac').removesuffix('.flac')
-                    ))+'.txt'
-                if not os.path.exists(txt):
-                    txt = txt[:-4]+'..txt'
-                    assert os.path.exists(txt) 
-                parse['file'] = os.path.abspath(f)
-                parse['txt'] = os.path.abspath(txt)
-                with open(parse['txt'], 'r', encoding='utf8') as f:
-                    parse['line'] = f.read()
+                    if max_noise == 0:
+                        if parse['noise'] in ['Noisy','Very Noisy']:
+                            continue
+                    elif max_noise == 1:
+                        if parse['noise'] == 'Very Noisy':
+                            continue
+                    parse['file'] = os.path.abspath(f)
+                    if not ignore_text:
+                        txt = str(Path(f.removesuffix('..flac').removesuffix('.flac')
+                            ))+'.txt'
+                        if not os.path.exists(txt):
+                            print(txt)
+                            txt = txt[:-4]+'..txt'
+                            print(txt)
+                            assert os.path.exists(txt) 
+                        parse['txt'] = os.path.abspath(txt)
+                        with open(parse['txt'], 'r', encoding='utf8') as f:
+                            parse['line'] = f.read()
 
                 if not parse['char'] in dataset.file_dict:
                     dataset.file_dict[parse['char']] = []
@@ -236,6 +284,77 @@ class PPPDataset:
                 f.write(d)
         pass
 
+    # coqui
+    def coqui(self, data_path : str, training_list : str,
+            validation_list : str,
+            sr = 22050, val_frac = .05):
+        print("Processing for coqui")
+
+        data_path = os.path.abspath(data_path)
+        if os.path.exists(data_path) and not os.path.isdir(data_path):
+            raise ValueError(data_path + ' points to an existing file!')
+        os.makedirs(data_path, exist_ok=True)
+
+        val_file_data = []
+        train_file_data = []
+
+        ff_opts = {'ar':sr, 'ac':1}
+
+        import ffmpeg
+        if len(self.file_dict) > 1:
+            print("Multispeaker training detected")
+            sid = 0
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in enumerate(files):
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.wav')
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                                out_path, **ff_opts).run()
+
+                    # 2. Separate into validation/training files
+                    if i < val_partition:
+                        val_file_data.append(out_path+"|"+x['line']+"|"
+                            +x['line']+'\n')
+                    else:
+                        train_file_data.append(out_path+"|"+x['line']+"|"
+                            +x['line']+'\n')
+                sid += 1
+
+            # config considered out of scope
+            # (if you are the one collecting the dataset you should know
+            # how many speakers are in it.)
+        else:
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in enumerate(files):
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.wav')
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                            out_path, **ff_opts).run()
+
+                    if i < val_partition:
+                        val_file_data.append(out_path+"|"+x['line']+"|"
+                            +x['line']+'\n')
+                    else:
+                        train_file_data.append(out_path+"|"+x['line']+"|"
+                            +x['line']+'\n')
+
+        # Write filelists
+        with open(validation_list, 'w') as f:
+            for d in val_file_data:
+                f.write(d)
+        with open(training_list, 'w') as f:
+            for d in train_file_data:
+                f.write(d)
+        pass
+
     def styletts2(self, data_path : str, training_list : str,
             validation_list : str,
             sr = 24000, val_frac = .05,
@@ -367,7 +486,7 @@ class PPPDataset:
                     # TODO do we need to convert to ASCII?
                     # 2. Separate into validation/training files
                     ood_file_data.append(
-                        rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
                 sid += 1
 
             # config considered out of scope
@@ -403,14 +522,59 @@ class PPPDataset:
             for d in ood_file_data:
                 f.write(d)
 
+    def xtts2(self, data_path : str,
+            training_list : str = "metadata_train.csv",
+            validation_list : str = "metadata_eval.csv",
+            sr = 48000, val_frac = .05):
+        print("Processing for xtts2")
 
-PPPDataset.collect(['Twilight']).styletts2(
-    'D:/Code/StyleTTS2/twilight_data',
-    'D:/Code/StyleTTS2/Data/train_list.txt',
-    'D:/Code/StyleTTS2/Data/val_list.txt')
-#PPPDataset.collect(['Twilight']).stats()
-ss = PPPDataset.collect(['Sunset Shimmer'])
-#ss.stats()
-ss.styletts2_ood('D:/Code/StyleTTS2/sunset_data',
-    'D:/Code/StyleTTS2/Data/OOD_texts.txt')
+        data_path = os.path.abspath(data_path)
+        if os.path.exists(data_path) and not os.path.isdir(data_path):
+            raise ValueError(data_path + ' points to an existing file!')
+        os.makedirs(data_path, exist_ok=True)
+
+        val_file_data = []
+        train_file_data = []
+
+        # Audio needs to be loudness normalized for XTTS training
+        ff_opts = {'ar':sr, 'ac':1, 'af':'loudnorm=TP=-1.5:linear=True'}
+
+        import ffmpeg
+        for char,files in self.file_dict.items():
+            random.shuffle(files)
+            val_partition = max(1,int(val_frac*len(files)))
+            for i,x in enumerate(files):
+                # 1. Resample and convert to wav
+                out_path = os.path.join(
+                    data_path,unidecode(Path(x['file']).stem)+'.wav')
+                if not os.path.exists(out_path):
+                    ffmpeg.input(x['file']).output(
+                            out_path, **ff_opts).run()
+
+                # 2. Separate into validation/training files
+                if i < val_partition:
+                    val_file_data.append(out_path+"|"
+                        +unidecode(x['line']).lower()+"|"
+                        +x['char']+'\n')
+                else:
+                    train_file_data.append(out_path+"|"
+                        +unidecode(x['line']).lower()+"|"
+                        +x['char']+'\n')
+
+        # Write filelists
+        with open(validation_list, 'w') as f:
+            f.write('audio_file|text|speaker_name\n')
+            for d in val_file_data:
+                f.write(d)
+        with open(training_list, 'w') as f:
+            f.write('audio_file|text|speaker_name\n')
+            for d in train_file_data:
+                f.write(d)
+        pass
+
+
+#PPPDataset.collect(['Rarity']).xtts2(
+#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity',
+#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_train.csv',
+#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_eval.csv')
 print("Done")

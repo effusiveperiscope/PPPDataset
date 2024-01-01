@@ -1,1 +1,6 @@
 ebooklib==0.18
+eng_to_ipa
+babygruut
+ffmpeg
+pydub
+tqdm

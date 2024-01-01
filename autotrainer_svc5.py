@@ -1,26 +1,43 @@
 # Automates so-vits-svc 5.0 training
 # Designed to be AFK for 2 weeks.
 CHARACTERS_TO_TRAIN = [
+    #'Cozy Glow'
     'Twilight',
     'Fluttershy',
     'Rarity',
     'Applejack',
+    #'RainbowDashAlt',
+    'Pinkie',
     'Rainbow',
-    'Pinkie'
+    'Sweetie Belle',
+    'Apple Bloom',
+    'Scootaloo',
+    'Celestia',
+    'Luna',
+    'Starlight',
+    'Trixie',
+    'Diamond Tiara',
+    #'Tempest Shadow'
 ]
 TEST_RUN = False # Does a minimal run-through for testing
-SLICED_DIALOGUE = r"D:\MLP_Samples\AIData\Master file\Sliced Dialogue"
+FEATURES_ONLY = True # Does data preprocessing but no training, just features
+#SLICED_DIALOGUE = r"D:\MLP_Samples\AIData\Master file\Sliced Dialogue"
 SONGS = r"D:\MLP_Samples\AIData\Songs"
 SVC5_INSTALL = r"D:\Code\sovits5\so-vits-svc"
+#DATASET_DIR = r"D:\MLP_Samples\AIData\Rainbow Dash Alt"
+DATASET_DIR = SONGS
 
 from ppp import PPPDataset
 from pathlib import Path
 import os
 import math
 import re
+import subprocess
 
 os.chdir(SVC5_INSTALL)
 for c in CHARACTERS_TO_TRAIN:
+    model_name = c
+
     # -1: Check for pre-existing checkpoints
     CHKPT = os.path.join("chkpt",c)
     max_name = None
@@ -31,7 +48,7 @@ for c in CHARACTERS_TO_TRAIN:
             if match and (int(match.group(1)) > max_num):
                 max_num = int(match.group(1))
                 max_name = name
-    if max_name is not None:
+    if (not FEATURES_ONLY) and (max_name is not None):
         print("Pre-existing checkpoint detected, resuming training from",
              max_name)
         PREEXIST_CHKPT = os.path.join(CHKPT, max_name)
@@ -43,15 +60,17 @@ for c in CHARACTERS_TO_TRAIN:
 
     print("Processing "+c)
     dataset = PPPDataset.collect([c],
-    sliced_dialogue = SLICED_DIALOGUE)
+    sliced_dialogue = DATASET_DIR,
+    ignore_text=True,
+    )
     print("Collected "+str(len(dataset[c]))+" audio files")
     print("First audio file: "+str(dataset[c][0]['file']))
     dataset_length = len(dataset[c])
     batch_size = 16
-    target_epochs = 200
-    model_name = c
+    target_epochs = 500
 
-    print("Target epochs: ",target_epochs)
+    if not FEATURES_ONLY:
+        print("Target epochs: ",target_epochs)
 
     # 0: adjust config 
     import yaml
@@ -92,7 +111,6 @@ for c in CHARACTERS_TO_TRAIN:
                 pass
 
     # Resampling
-    import subprocess
     subprocess.run(["python", "prepare/preprocess_a.py", "-w",
         DATASET_RAW, "-o", os.path.join(DATASET, "waves-16k"), "-s", "16000"],
         env=os.environ)
@@ -101,29 +119,34 @@ for c in CHARACTERS_TO_TRAIN:
         env=os.environ)
 
     # pitch extraction
-    subprocess.run(["python", "prepare/preprocess_crepe.py",
-        "-w", os.path.join(DATASET, "waves-16k"),
-        "-p", os.path.join(DATASET, "pitch")], env=os.environ)
+    if not os.path.exists(os.path.join(DATASET, "whisper")):
+        subprocess.run(["python", "prepare/preprocess_crepe.py",
+            "-w", os.path.join(DATASET, "waves-16k"),
+            "-p", os.path.join(DATASET, "pitch")], env=os.environ)
 
     # ppg extraction
-    subprocess.run(["python", "prepare/preprocess_ppg.py",
-        "-w", os.path.join(DATASET, "waves-16k"),
-        "-p", os.path.join(DATASET, "whisper")], env=os.environ)
+    if not os.path.exists(os.path.join(DATASET, "hubert")):
+        subprocess.run(["python", "prepare/preprocess_ppg.py",
+            "-w", os.path.join(DATASET, "waves-16k"),
+            "-p", os.path.join(DATASET, "whisper")], env=os.environ)
 
     # hubert extraction
-    subprocess.run(["python", "prepare/preprocess_hubert.py",
-        "-w", os.path.join(DATASET, "waves-16k"),
-        "-v", os.path.join(DATASET, "hubert")], env=os.environ)
+    if not os.path.exists(os.path.join(DATASET, "speaker")):
+        subprocess.run(["python", "prepare/preprocess_hubert.py",
+            "-w", os.path.join(DATASET, "waves-16k"),
+            "-v", os.path.join(DATASET, "hubert")], env=os.environ)
 
     # timbre code extraction
-    subprocess.run(["python", "prepare/preprocess_speaker.py",
-        os.path.join(DATASET, "waves-16k"),
-        os.path.join(DATASET, "speaker")], env=os.environ)
+    if not os.path.exists(os.path.join(DATASET, "singer")):
+        subprocess.run(["python", "prepare/preprocess_speaker.py",
+            os.path.join(DATASET, "waves-16k"),
+            os.path.join(DATASET, "speaker")], env=os.environ)
 
     # timbre code average
-    subprocess.run(["python", "prepare/preprocess_speaker_ave.py",
-        os.path.join(DATASET, "speaker"),
-        os.path.join(DATASET, "singer")], env=os.environ)
+    if not os.path.exists(os.path.join(DATASET, "specs")):
+        subprocess.run(["python", "prepare/preprocess_speaker_ave.py",
+            os.path.join(DATASET, "speaker"),
+            os.path.join(DATASET, "singer")], env=os.environ)
 
     # spec extraction
     subprocess.run(["python", "prepare/preprocess_spec.py",
@@ -139,9 +162,13 @@ for c in CHARACTERS_TO_TRAIN:
     subprocess.run(["python", "prepare/preprocess_zzz.py"], env=os.environ)
 
     # start training
-    subprocess.run(["python", "svc_trainer.py",
-        "-c", "configs/base.yaml",
-        "-n", model_name], env=os.environ)
+    if not FEATURES_ONLY:
+        subprocess.run(["python", "svc_trainer.py",
+            "-c", "configs/base.yaml",
+            "-n", model_name], env=os.environ)
+
+    subprocess.run(["python", "svc_train_retrieval.py",
+        "--base-path", DATASET, "--prefix", model_name], env=os.environ)
 
     # rosebud peas. full of country goodness and green pea-ness.
     # wait, that's terrible.
