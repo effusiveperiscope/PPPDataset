@@ -104,7 +104,6 @@ class PPPDataset:
                 f = os.path.join(root,f)
 
                 if no_parse:
-                    print("No parse")
                     parse = {}
                     parse['char'] = force_character
                     parse['emotion'] = ''
@@ -113,7 +112,6 @@ class PPPDataset:
                     parse['noise'] = 'Clean'
                     parse['file'] = os.path.abspath(f)
                 else:
-                    print("Yes parse")
                     parse = PPPDataset.character_parse(f)
                     if parse is None:
                         continue
@@ -444,84 +442,6 @@ class PPPDataset:
                 f.write(d)
         pass
 
-    def styletts2_ood(self, data_path : str, ood_list : str, sr = 24000,
-        skip_below = 50, # Skip lines with ipa transcription shorter than these chars
-        min_audio_ms=900): # Skip audio shorter than these ms
-        from g2p_utils import conv_to_ipa
-        print("Processing for styletts2")
-
-        data_path = os.path.abspath(data_path)
-        if os.path.exists(data_path) and not os.path.isdir(data_path):
-            raise ValueError(data_path + ' points to an existing file!')
-        os.makedirs(data_path, exist_ok=True)
-
-        ood_file_data = []
-
-        ff_opts = {'ar':sr, 'ac':1}
-
-        import ffmpeg
-        if len(self.file_dict) > 1:
-            print("Multispeaker OOD detected")
-            sid = 0
-            for char,files in self.file_dict.items():
-                random.shuffle(files)
-                for i,x in tqdm(enumerate(files), "StyleTTS2 OOD"):
-                    # 0. Check file length and reject if below min_audio_ms
-                    file_ms = check_file_dur_ms(x['file'])
-                    if file_ms < min_audio_ms:
-                        logger.info(f"Rejected file {x['file']} with dur below min\n")
-                        continue
-
-                    # 1. Resample and convert to wav
-                    out_path = os.path.join(
-                        data_path,Path(x['file']).stem+'.wav')
-                    rel_path = Path(x['file']).stem+'.wav'
-                    if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                                out_path, **ff_opts).run()
-                    ipa_line = conv_to_ipa(x['line'])
-                    if len(ipa_line) < skip_below:
-                        continue
-
-                    # TODO do we need to convert to ASCII?
-                    # 2. Separate into validation/training files
-                    ood_file_data.append(
-                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
-                sid += 1
-
-            # config considered out of scope
-            # (if you are the one collecting the dataset you should know
-            # how many speakers are in it.)
-        else:
-            for char,files in self.file_dict.items():
-                random.shuffle(files)
-                for i,x in tqdm(enumerate(files), "StyleTTS2 OOD"):
-                    # 0. Check file length and reject if below min_audio_ms
-                    file_ms = check_file_dur_ms(x['file'])
-                    if file_ms < min_audio_ms:
-                        logger.info(f"Rejected file {x['file']} with dur below min\n")
-                        continue
-
-                    # 1. Resample and convert to wav
-                    out_path = os.path.join(
-                        data_path,Path(x['file']).stem+'.wav')
-                    rel_path = Path(x['file']).stem+'.wav'
-                    if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                            out_path, **ff_opts).run()
-                    ipa_line = conv_to_ipa(x['line'])
-                    if len(ipa_line) < skip_below:
-                        continue
-
-                    # 2. Separate into validation/training files
-                    ood_file_data.append(
-                        rel_path+"|"+ipa_line+"|0\n")
-
-        # Write filelists
-        with open(ood_list, 'w', encoding='utf-8') as f:
-            for d in ood_file_data:
-                f.write(d)
-
     def xtts2(self, data_path : str,
             training_list : str = "metadata_train.csv",
             validation_list : str = "metadata_eval.csv",
@@ -572,9 +492,107 @@ class PPPDataset:
                 f.write(d)
         pass
 
+    def styletts2_portable(self,
+            data_path : str,
+            training_list : str,
+            validation_list : str,
+            sr = 24000, val_frac = .05,
+            min_audio_ms = 900):
+        from g2p_utils import conv_to_ipa
+        print("Processing for styletts2 low bandwidth")
+
+        data_path = os.path.abspath(data_path)
+        if os.path.exists(data_path) and not os.path.isdir(data_path):
+            raise ValueError(data_path + ' points to an existing file!')
+        os.makedirs(data_path, exist_ok=True)
+
+        val_file_data = []
+        train_file_data = []
+
+        ff_opts = {'ar':sr, 'ac':1, 'b:a':'160k'}
+
+        import ffmpeg
+        if len(self.file_dict) > 1:
+            print("Multispeaker training detected")
+            sid = 0
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in tqdm(enumerate(files), desc="StyleTTS2"):
+                    # 0. Check file length and reject if below min_audio_ms
+                    file_ms = check_file_dur_ms(x['file'])
+                    if file_ms < min_audio_ms:
+                        logger.info(f"Rejected file {x['file']} with dur below min\n")
+                        continue
+
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.opus')
+                    rel_path = Path(x['file']).stem+'.wav'
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                                out_path, **ff_opts).run()
+                    ipa_line = conv_to_ipa(x['line'])
+
+                    # 2. Separate into validation/training files
+                    if i < val_partition:
+                        val_file_data.append(
+                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                    else:
+                        train_file_data.append(
+                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                sid += 1
+
+            # config considered out of scope
+            # (if you are the one collecting the dataset you should know
+            # how many speakers are in it.)
+        else:
+            for char,files in self.file_dict.items():
+                random.shuffle(files)
+                val_partition = max(1,int(val_frac*len(files)))
+                for i,x in tqdm(enumerate(files), desc="StyleTTS2"):
+                    # 0. Check file length and reject if below min_audio_ms
+                    file_ms = check_file_dur_ms(x['file'])
+                    if file_ms < min_audio_ms:
+                        logger.info(f"Rejected file {x['file']} with dur below min\n")
+                        continue
+                    # 1. Resample and convert to wav
+                    out_path = os.path.join(
+                        data_path,Path(x['file']).stem+'.opus')
+                    rel_path = Path(x['file']).stem+'.wav'
+                    if not os.path.exists(out_path):
+                        ffmpeg.input(x['file']).output(
+                            out_path, **ff_opts).run()
+                    ipa_line = conv_to_ipa(x['line'])
+
+                    # 2. Separate into validation/training files
+                    if i < val_partition:
+                        val_file_data.append(
+                            rel_path+"|"+ipa_line+"|0\n")
+                    else:
+                        train_file_data.append(
+                            rel_path+"|"+ipa_line+"|0\n")
+
+        # Write filelists
+        with open(validation_list, 'w', encoding='utf-8') as f:
+            for d in val_file_data:
+                f.write(d)
+        with open(training_list, 'w', encoding='utf-8') as f:
+            for d in train_file_data:
+                f.write(d)
+        pass
+
 
 #PPPDataset.collect(['Rarity']).xtts2(
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity',
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_train.csv',
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_eval.csv')
+#PPPDataset.collect(['Twilight', 'Rainbow', 'Pinkie', 'Fluttershy', 'Rarity',
+#    'Applejack', 'Celestia', 'Luna', 'Cadance', 'Apple Bloom', 'Sweetie Belle',
+#    'Scootaloo', 'Starlight', 'Trixie', 'Spike', 'Big Mac', 'Zecora',
+#    'Cozy Glow', 'Cheerilee', 'Shining Armor', 'Discord', 'Diamond Tiara',
+#    'Gilda', 'Chrysalis', 'Tirek', 'Flim', 'Flam']).styletts2_portable(
+#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata',
+#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata/train_list.txt',
+#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata/val_list.txt')
 print("Done")
