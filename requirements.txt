@@ -4,3 +4,4 @@ babygruut
 ffmpeg
 pydub
 tqdm
+unidecode
