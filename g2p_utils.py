@@ -169,7 +169,9 @@ def conv_to_ipa(text : str, print_unhandled : bool = False,
 
 # for dirtier sources; implements arpabet escapes
 from nltk import sent_tokenize, word_tokenize
-def conv_to_ipa2(text : str, normalize : bool = False):
+def conv_to_ipa2(text : str,
+    normalize : bool = False,
+    do_arpa_escapes : bool = True):
     transcription = []
     sentences = sent_tokenize(text)
     total_ipa = ''
@@ -180,13 +182,13 @@ def conv_to_ipa2(text : str, normalize : bool = False):
         arpabet_escape = False
         arpabet_chunk = []
         for w in words:
-            if w == '{':
+            if w == '{' and do_arpa_escapes:
                 if len(cur_chunk):
                     chunks.append(('cmu', ' '.join(cur_chunk)))
                     cur_chunk = []
                 arpabet_escape = True
                 continue
-            elif w == '}':
+            elif w == '}' and do_arpa_escapes:
                 arpabet_escape = False
                 chunks.append(('ipa',arpabet_toks_to_ipa(arpabet_chunk)))
                 arpabet_chunk = []
@@ -200,7 +202,7 @@ def conv_to_ipa2(text : str, normalize : bool = False):
                 else:
                     chunks.append(('exc', w))
                 continue
-            if arpabet_escape and w != '{':
+            if arpabet_escape and w != '{' and do_arpa_escapes:
                 arpabet_chunk.append(w)
                 continue
             if not ipa.isin_cmu(w):
