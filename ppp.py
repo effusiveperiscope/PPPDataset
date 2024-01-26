@@ -90,13 +90,15 @@ class PPPDataset:
             ignore_text = False,
             no_parse = False,
             audio_input_format = '.flac',
-            force_character = ''):
+            force_character = '',
+            emotions : list = []):
         dataset = PPPDataset()
 
-        print(f"Collecting data for {characters}")
+        if len(characters):
+            print(f"Collecting data for {characters}")
+        else:
+            print(f"Collecting data for all characters")
 
-        if not len(characters):
-            return
         for (root,_,files) in tqdm(os.walk(sliced_dialogue)):
             for f in files:
                 if not f.endswith(audio_input_format):
@@ -115,7 +117,10 @@ class PPPDataset:
                     parse = PPPDataset.character_parse(f)
                     if parse is None:
                         continue
-                    if parse['char'] not in characters:
+                    # empty characters array = collect for all characters
+                    if len(characters) and (parse['char'] not in characters):
+                        continue
+                    if len(emotions) and parse['emotion'] not in emotions:
                         continue
                     if max_noise == 0:
                         if parse['noise'] in ['Noisy','Very Noisy']:
@@ -140,8 +145,18 @@ class PPPDataset:
                     dataset.file_dict[parse['char']] = []
                 dataset.file_dict[parse['char']].append(parse)
 
-        print(f"Finished collection for characters {characters}")
+        if len(characters):
+            print(f"Finished collecting data for {characters}")
+        else:
+            print(f"Finished collecting data for all characters")
         return dataset
+
+    def all_dialogue_paths(self):
+        paths = []
+        for char,files in self.file_dict.items():
+            for f in files:
+                paths.append(f['file'])
+        return paths
 
     def stats(self):
         from pydub import AudioSegment
@@ -389,18 +404,19 @@ class PPPDataset:
                         data_path,Path(x['file']).stem+'.wav')
                     rel_path = Path(x['file']).stem+'.wav'
                     if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                                out_path, **ff_opts).run()
+                        ffmpeg.input(x['file']).filter('apad',pad_dur=0.1).output(
+                                out_path, **ff_opts).global_args(
+                                "-hide_banner").global_args("-loglevel","error").run()
                     ipa_line = conv_to_ipa(x['line'])
 
-                    # TODO do we need to convert to ASCII?
+                    # -- Use $ as a stop token
                     # 2. Separate into validation/training files
                     if i < val_partition:
                         val_file_data.append(
-                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                            rel_path+"|"+ipa_line+"$|"+str(sid)+'\n')
                     else:
                         train_file_data.append(
-                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                            rel_path+"|"+ipa_line+"$|"+str(sid)+'\n')
                 sid += 1
 
             # config considered out of scope
@@ -421,17 +437,18 @@ class PPPDataset:
                         data_path,Path(x['file']).stem+'.wav')
                     rel_path = Path(x['file']).stem+'.wav'
                     if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                            out_path, **ff_opts).run()
+                        ffmpeg.input(x['file']).filter('apad',pad_dur=0.1).output(
+                                out_path, **ff_opts).global_args(
+                                "-hide_banner").global_args("-loglevel","error").run()
                     ipa_line = conv_to_ipa(x['line'])
 
                     # 2. Separate into validation/training files
                     if i < val_partition:
                         val_file_data.append(
-                            rel_path+"|"+ipa_line+"|0\n")
+                            rel_path+"|"+ipa_line+"$|0\n")
                     else:
                         train_file_data.append(
-                            rel_path+"|"+ipa_line+"|0\n")
+                            rel_path+"|"+ipa_line+"$|0\n")
 
         # Write filelists
         with open(validation_list, 'w', encoding='utf-8') as f:
@@ -530,17 +547,18 @@ class PPPDataset:
                         data_path,Path(x['file']).stem+'.opus')
                     rel_path = Path(x['file']).stem+'.wav'
                     if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                                out_path, **ff_opts).run()
+                        ffmpeg.input(x['file']).filter('apad',pad_dur=0.1).output(
+                                out_path, **ff_opts).global_args(
+                                "-hide_banner").global_args("-loglevel","error").run()
                     ipa_line = conv_to_ipa(x['line'])
 
                     # 2. Separate into validation/training files
                     if i < val_partition:
                         val_file_data.append(
-                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                            rel_path+"|"+ipa_line+"$|"+str(sid)+'\n')
                     else:
                         train_file_data.append(
-                            rel_path+"|"+ipa_line+"|"+str(sid)+'\n')
+                            rel_path+"|"+ipa_line+"$|"+str(sid)+'\n')
                 sid += 1
 
             # config considered out of scope
@@ -561,17 +579,18 @@ class PPPDataset:
                         data_path,Path(x['file']).stem+'.opus')
                     rel_path = Path(x['file']).stem+'.wav'
                     if not os.path.exists(out_path):
-                        ffmpeg.input(x['file']).output(
-                            out_path, **ff_opts).run()
+                        ffmpeg.input(x['file']).filter('apad',pad_dur=0.1).output(
+                            out_path, **ff_opts).global_args(
+                                "-hide_banner").global_args("-loglevel","error").run()
                     ipa_line = conv_to_ipa(x['line'])
 
                     # 2. Separate into validation/training files
                     if i < val_partition:
                         val_file_data.append(
-                            rel_path+"|"+ipa_line+"|0\n")
+                            rel_path+"|"+ipa_line+"$|0\n")
                     else:
                         train_file_data.append(
-                            rel_path+"|"+ipa_line+"|0\n")
+                            rel_path+"|"+ipa_line+"$|0\n")
 
         # Write filelists
         with open(validation_list, 'w', encoding='utf-8') as f:
@@ -582,11 +601,52 @@ class PPPDataset:
                 f.write(d)
         pass
 
+    def gpt_sovits(self, data_path : str,
+            training_list : str = "train.list",
+            sr = 48000):
+        print("Processing for gpt-sovits")
+
+        data_path = os.path.abspath(data_path)
+        if os.path.exists(data_path) and not os.path.isdir(data_path):
+            raise ValueError(data_path + ' points to an existing file!')
+        os.makedirs(data_path, exist_ok=True)
+
+        val_file_data = []
+        train_file_data = []
+
+        ff_opts = {'ar':sr, 'ac':1, 'af':'loudnorm=TP=-1.5:linear=True'}
+
+        import ffmpeg
+        for char,files in self.file_dict.items():
+            random.shuffle(files)
+            for i,x in enumerate(files):
+                # 1. Resample and convert to wav
+                out_path = os.path.join(
+                    data_path,unidecode(Path(x['file']).stem)+'.wav')
+                if not os.path.exists(out_path):
+                    ffmpeg.input(x['file']).output(
+                            out_path, **ff_opts).run()
+
+                #vocal_path|speaker_name|language|text
+                train_file_data.append(Path(out_path).name+"|"+x['char']+"|en|"
+                    +unidecode(x['line'])+"\n")
+
+        # Write filelists
+        with open(training_list, 'w') as f:
+            for d in train_file_data:
+                f.write(d)
+        pass
+
 
 #PPPDataset.collect(['Rarity']).xtts2(
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity',
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_train.csv',
 #    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_eval.csv')
+#PPPDataset.collect(['Pinkie']).styletts2(
+#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie',
+#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie/train_list.txt',
+#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie/val_list.txt')
+
 #PPPDataset.collect(['Twilight', 'Rainbow', 'Pinkie', 'Fluttershy', 'Rarity',
 #    'Applejack', 'Celestia', 'Luna', 'Cadance', 'Apple Bloom', 'Sweetie Belle',
 #    'Scootaloo', 'Starlight', 'Trixie', 'Spike', 'Big Mac', 'Zecora',
@@ -595,4 +655,9 @@ class PPPDataset:
 #            'D:/MLP_Samples/AIData/StyleTTS2Omnidata',
 #            'D:/MLP_Samples/AIData/StyleTTS2Omnidata/train_list.txt',
 #            'D:/MLP_Samples/AIData/StyleTTS2Omnidata/val_list.txt')
-print("Done")
+#PPPDataset.collect(
+#    ['Twilight', 'Rainbow', 'Pinkie', 'Fluttershy', 'Rarity', 'Applejack']).gpt_sovits(
+#        'D:/Code/GPT-SoVITS-beta/GPT-SoVITS/mane6_ft',
+#        'D:/Code/GPT-SoVITS-beta/GPT-SoVITS/mane6_ft.list',
+#    )
+#print("Done")
