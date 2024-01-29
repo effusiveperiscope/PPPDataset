@@ -3,8 +3,8 @@ from tqdm import tqdm
 import os
 import random
 import pickle
-SFX_DIRECTORY = "D:\SFX and Music\SFX"
-BGM_DIRECTORY = "D:\MEGASyncDownloads\Master file 2\SFX and Music\Music"
+SFX_DIRECTORY = r"D:\SFX and Music\SFX"
+BGM_DIRECTORY = r"D:\MEGASyncDownloads\Master file 2\SFX and Music\Music"
 
 VOCAL_TAGS = {
     "arguing", "agree", "agreement", "annoyed", "beatbox", "beatboxing", 
@@ -74,12 +74,18 @@ class PPPSFXDataset:
         while cur_duration < target_duration:
             to_overlay = random.choice(source_list)
             to_overlay = AudioSegment.from_file(to_overlay, channels=1)
+            # select a random segment from the file if it is longer than 10 secs
+            if len(to_overlay) > target_duration:
+                max_start = len(to_overlay) - target_duration
+                rand_start = random.randint(0, max_start)
+                to_overlay = to_overlay[rand_start:rand_start+target_duration-1]
             if random.random() <= chance:
                 working_segment = working_segment.overlay(
                     to_overlay, position=cur_duration)
             cur_duration += len(to_overlay) + gap_ms
         return working_segment
 
+    # MUSDB format
     def synthetic_mixdown(
         self,
         pppdataset_paths,
@@ -110,13 +116,17 @@ class PPPSFXDataset:
             os.makedirs(out_path, exist_ok=True)
 
         for n in tqdm(range(n_samples), desc="Generating samples"):
+            sample_folder = os.path.join(out_path,str(n))
+            if not os.path.exists(sample_folder):
+                os.makedirs(sample_folder, exist_ok=True)
+
             vocal_base = AudioSegment.silent(duration=sample_duration*1000) # ms
             sfx_base = AudioSegment.silent(duration=sample_duration*1000)
 
             # Add dialogue layer
             vocal_base = self.fill_layer(
                 vocal_base, sample_duration*1000, dialogue_paths, gap_ms = 500)
-            vocal_base.export(os.path.join(out_path,f"vocals_{n}.wav"),
+            vocal_base.export(os.path.join(sample_folder,f"vocals.wav"),
                 format='wav')
 
             # Overlay a crowd layer
@@ -146,24 +156,25 @@ class PPPSFXDataset:
 
             sfx_base = sfx_base.apply_gain(random.randint(
                 sfx_gainred_max, sfx_gainred_min+1))
-            sfx_base.export(os.path.join(out_path,f"sfx_{n}.wav"),
+            sfx_base.export(os.path.join(sample_folder,f"sfx.wav"),
                 format='wav')
 
             mixed = vocal_base.overlay(sfx_base)
-            mixed.export(os.path.join(out_path,f"mixed_{n}.wav"), format='wav')
+            mixed.export(os.path.join(sample_folder,f"mixture.wav"),
+                format='wav')
     pass
 
 from ppp import PPPDataset
 import pickle
-# Collect dialogue for all characters
+
+# Collect CLEAN dialogue for all characters
+dialogue_dataset = PPPDataset.collect(
+    characters=[], max_noise=0)
+with open('all_paths_pickle.pkl','wb') as f:
+    pickle.dump(dialogue_dataset.all_dialogue_paths(), f)
 
 # Cached this in a pickle to save time
-#ppp_dataset = PPPDataset.collect(characters=[]) 
-#sfx_dataset.synthetic_mixdown(ppp_dataset.all_dialogue_paths())
-#with open('all_paths_pickle.pkl','wb') as f:
-    #pickle.dump(ppp_dataset.all_dialogue_paths(), f)
 with open('all_paths_pickle.pkl','rb') as f:
     pppdataset_paths = pickle.load(f)
-
 sfx_dataset = PPPSFXDataset()
 sfx_dataset.synthetic_mixdown(pppdataset_paths, n_samples=200)
