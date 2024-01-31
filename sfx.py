@@ -71,6 +71,7 @@ class PPPSFXDataset:
         gap_ms = 0):
         working_segment = target_segment
         cur_duration = 0
+        dirty = False
         while cur_duration < target_duration:
             to_overlay = random.choice(source_list)
             to_overlay = AudioSegment.from_file(to_overlay, channels=1)
@@ -82,8 +83,9 @@ class PPPSFXDataset:
             if random.random() <= chance:
                 working_segment = working_segment.overlay(
                     to_overlay, position=cur_duration)
+                dirty = True
             cur_duration += len(to_overlay) + gap_ms
-        return working_segment
+        return working_segment, dirty
 
     # MUSDB format
     def synthetic_mixdown(
@@ -95,7 +97,7 @@ class PPPSFXDataset:
         seed=42,
         max_sfx_layers=3,
         crowd_chance=0.02,
-        move_chance=0.05,
+        move_chance=0.1,
         bgm_chance=0.3,
         bgm_volume=0.2,
         sfx_gainred_min=-6,
@@ -124,42 +126,52 @@ class PPPSFXDataset:
             sfx_base = AudioSegment.silent(duration=sample_duration*1000)
 
             # Add dialogue layer
-            vocal_base = self.fill_layer(
+            vocal_base, _ = self.fill_layer(
                 vocal_base, sample_duration*1000, dialogue_paths, gap_ms = 500)
+            vocal_base = vocal_base.set_sample_width(2).set_frame_rate(48000)
             vocal_base.export(os.path.join(sample_folder,f"vocals.wav"),
                 format='wav')
 
+            dirty = False
+
             # Overlay a crowd layer
             if random.random() < crowd_chance:
-                sfx_base = self.fill_layer(
+                sfx_base, d = self.fill_layer(
                     sfx_base, sample_duration*1000, crowd_paths, 0.5)
                 sfx_base = sfx_base.apply_gain(random.randint(
                     sfx_gainred_max, sfx_gainred_min+1))
+                dirty = dirty or d
 
             # Overlay a BGM layer
             if random.random() < bgm_chance:
-                sfx_base = self.fill_layer(
+                sfx_base, d = self.fill_layer(
                     sfx_base, sample_duration*1000, bgm_paths)
                 sfx_base = sfx_base.apply_gain(random.randint(
                     sfx_gainred_max, sfx_gainred_min+1))
+                dirty = dirty or d
 
             # Overlay a move layer
             if random.random() < move_chance:
-                sfx_base = self.fill_layer(
+                sfx_base, d = self.fill_layer(
                     sfx_base, sample_duration*1000, move_paths, 0.5)
+                dirty = dirty or d
 
             # Add extra sfx layers
             n_sfx_layers = random.randint(1,max_sfx_layers)
             for l in range(max_sfx_layers):
-                sfx_base = self.fill_layer(
-                    sfx_base, sample_duration*1000, nonvocal_paths, 0.3)
+                sfx_base, _ = self.fill_layer(
+                    sfx_base, sample_duration*1000, nonvocal_paths, 
+                    0.5 if dirty else 1.0) # 100% chance for a SFX if not dirty yet
 
             sfx_base = sfx_base.apply_gain(random.randint(
                 sfx_gainred_max, sfx_gainred_min+1))
-            sfx_base.export(os.path.join(sample_folder,f"sfx.wav"),
+            sfx_base = sfx_base.set_sample_width(2).set_frame_rate(48000)
+            
+            sfx_base.export(os.path.join(sample_folder,f"other.wav"),
                 format='wav')
 
             mixed = vocal_base.overlay(sfx_base)
+            mixed = mixed.set_sample_width(2).set_frame_rate(48000)
             mixed.export(os.path.join(sample_folder,f"mixture.wav"),
                 format='wav')
     pass
@@ -168,13 +180,15 @@ from ppp import PPPDataset
 import pickle
 
 # Collect CLEAN dialogue for all characters
-dialogue_dataset = PPPDataset.collect(
-    characters=[], max_noise=0)
-with open('all_paths_pickle.pkl','wb') as f:
-    pickle.dump(dialogue_dataset.all_dialogue_paths(), f)
+#dialogue_dataset = PPPDataset.collect(
+#    characters=[], max_noise=0)
+#with open('all_paths_pickle.pkl','wb') as f:
+#    pickle.dump(dialogue_dataset.all_dialogue_paths(), f)
 
 # Cached this in a pickle to save time
 with open('all_paths_pickle.pkl','rb') as f:
     pppdataset_paths = pickle.load(f)
 sfx_dataset = PPPSFXDataset()
-sfx_dataset.synthetic_mixdown(pppdataset_paths, n_samples=200)
+#sfx_dataset.synthetic_mixdown(pppdataset_paths, n_samples=200)
+# test set
+sfx_dataset.synthetic_mixdown(pppdataset_paths, seed=50, n_samples=2000)
