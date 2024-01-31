@@ -128,7 +128,7 @@ class PPPSFXDataset:
             # Add dialogue layer
             vocal_base, _ = self.fill_layer(
                 vocal_base, sample_duration*1000, dialogue_paths, gap_ms = 500)
-            vocal_base = vocal_base.set_sample_width(2).set_frame_rate(48000)
+            vocal_base = vocal_base.set_sample_width(2).set_frame_rate(48000).set_channels(2)
             vocal_base.export(os.path.join(sample_folder,f"vocals.wav"),
                 format='wav')
 
@@ -165,13 +165,13 @@ class PPPSFXDataset:
 
             sfx_base = sfx_base.apply_gain(random.randint(
                 sfx_gainred_max, sfx_gainred_min+1))
-            sfx_base = sfx_base.set_sample_width(2).set_frame_rate(48000)
+            sfx_base = sfx_base.set_sample_width(2).set_frame_rate(48000).set_channels(2)
             
             sfx_base.export(os.path.join(sample_folder,f"other.wav"),
                 format='wav')
 
             mixed = vocal_base.overlay(sfx_base)
-            mixed = mixed.set_sample_width(2).set_frame_rate(48000)
+            mixed = mixed.set_sample_width(2).set_frame_rate(48000).set_channels(2)
             mixed.export(os.path.join(sample_folder,f"mixture.wav"),
                 format='wav')
     pass
