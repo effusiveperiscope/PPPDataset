@@ -231,9 +231,6 @@ class PPPDataset:
     #def specifier_to_num(sp):
         #return sp[1], sp[3:]
 
-    # TODO:
-    # We need the original file path (i.e. the "current best" version as decided by Clipper)
-    # And we need to be able to find the associated episode, grab the center channel
     def generate_fim_episodes_labels_index(
             labels_dir = SLICED_DIALOGUE + "/Label files",
             master_file_1 = 'D:/MLP_Samples/AIData/Master file',
@@ -786,30 +783,12 @@ class PPPDataset:
                 f.write(d)
         pass
 
-
-#PPPDataset.collect(['Rarity']).xtts2(
-#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity',
-#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_train.csv',
-#    'D:/MLP_Samples/AIData/XTTS_Data/Rarity_eval.csv')
-#PPPDataset.collect(['Pinkie']).styletts2(
-#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie',
-#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie/train_list.txt',
-#            'D:/MLP_Samples/AIData/StyleTTS2Pinkie/val_list.txt')
-
-#PPPDataset.collect(['Twilight', 'Rainbow', 'Pinkie', 'Fluttershy', 'Rarity',
-#    'Applejack', 'Celestia', 'Luna', 'Cadance', 'Apple Bloom', 'Sweetie Belle',
-#    'Scootaloo', 'Starlight', 'Trixie', 'Spike', 'Big Mac', 'Zecora',
-#    'Cozy Glow', 'Cheerilee', 'Shining Armor', 'Discord', 'Diamond Tiara',
-#    'Gilda', 'Chrysalis', 'Tirek', 'Flim', 'Flam']).styletts2(
-#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata48k',
-#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata48k/train_list.txt',
-#            'D:/MLP_Samples/AIData/StyleTTS2Omnidata48k/val_list.txt',
-#            sr=48000)
-#PPPDataset.collect(
-#    ['Twilight', 'Rainbow', 'Pinkie', 'Fluttershy', 'Rarity', 'Applejack']).gpt_sovits(
-#        'D:/Code/GPT-SoVITS-beta/GPT-SoVITS/mane6_ft',
-#        'D:/Code/GPT-SoVITS-beta/GPT-SoVITS/mane6_ft.list',
-#    )
 idx = PPPDataset.generate_fim_episodes_labels_index()
-print(idx['s1e1']['lines'][0])
+import json
+with open('episodes_labels_index.json','w') as f:
+    json.dump(idx, f, ensure_ascii=False)
 #print("Done")
+
+# There are two main episode specifications:
+# Pony.Tube: S08E01
+# YayPonies: 08x06
