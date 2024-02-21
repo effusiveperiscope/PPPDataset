@@ -286,6 +286,7 @@ class PPPDataset:
                             index[specifier]['lines'].append({
                                 'ts': sp[0],
                                 'te': sp[1],
+                                'label': sp[2],
                                 'orig_file': placeholder_filepath.replace('\\','/'),
                                 'parse': parse
                             })
@@ -787,7 +788,7 @@ idx = PPPDataset.generate_fim_episodes_labels_index()
 import json
 with open('episodes_labels_index.json','w') as f:
     json.dump(idx, f, ensure_ascii=False)
-#print("Done")
+print("Done")
 
 # There are two main episode specifications:
 # Pony.Tube: S08E01
