@@ -11,7 +11,7 @@ import random
 import re
 import itertools
 from pathlib import Path
-from util import check_file_dur_ms
+from util import check_file_dur_ms, longpath
 import logging
 import pickle
 from unidecode import unidecode
@@ -124,6 +124,23 @@ class PPPDataset:
         return (f"ep:{ep}|h:{obj['hour']}"
             f"|m:obj['min']|s:obj['s']|char:{obj['char']}|line:{obj['line']}")
 
+    # Generates a "dummy" dataset based on a walk of an existing folder.
+    # This is useful for untagged datasets.
+    def dummy(base_folder, char=''):
+        dataset = PPPDataset()
+        for f in os.listdir(base_folder):
+            parse = {}
+            parse['char'] = char
+            parse['emotion'] = ''
+            parse['txt'] = ''
+            parse['line'] = ''
+            parse['noise'] = ''
+            parse['file'] = os.path.abspath(os.path.join(base_folder,f))
+            if not parse['char'] in dataset.file_dict:
+                dataset.file_dict[char] = []
+            dataset.file_dict[char].append(parse)
+        return dataset
+
     def collect(characters : list,
             max_noise = 1,
             sliced_dialogue = SLICED_DIALOGUE,
@@ -220,6 +237,7 @@ class PPPDataset:
             mapping = 'MASTER_FILE_1/Sliced Dialogue/Special source/Outtakes'
             specifier = ''.join(re.findall(r'\d+', sp[1]))[1:]
             mapping += '/' + specifier + ' outtakes'
+            specifier = 's' + specifier[0] + 'e' + str(int(specifier[1:]))
             return mapping, specifier, True
         elif sp[0] == 'fim':
             mapping = 'MASTER_FILE_1/Sliced Dialogue/FiM/'
@@ -242,7 +260,6 @@ class PPPDataset:
             force_character = '',
             emotions : list = []):
             index = {}
-            special_episodes = set()
             for (root,_,files) in os.walk(labels_dir):
                 for f in tqdm(files, desc="Label files"):
                     # 'Other' not in scope for now
@@ -254,26 +271,41 @@ class PPPDataset:
                     # Ignore original/izo text lists, we just care about overall
                     if f.endswith('_original.txt') or f.endswith('_izo.txt') or f.endswith('_unmix.txt'):
                         continue
-                    # If a special source version exists, prefer that
                     f_basename = f.removesuffix('.txt')
-                    special_source_path = os.path.join(root, f_basename+'_special source.txt')
-                    if os.path.exists(special_source_path):
-                        continue
+                    f_basename_true = f_basename.removesuffix(
+                        '_special source').removesuffix('_outtakes')
+                    is_special = f_basename.endswith('_special source')
+                    is_outtake = f_basename.endswith('_outtakes')
+                    # Outtake is priority 1
+                    # Special source is priority 2
+                    special_source_path = os.path.join(root, f_basename_true+'_special source.txt')
+                    outtake_path = os.path.join(root, f_basename_true+'_outtakes.txt')
+                    #print(f_basename, f_basename_true, is_special, is_outtake, special_source_path)
+                    if not is_special and not is_outtake:
+                        if os.path.exists(special_source_path):
+                            #print(f"base skip {f_basename_true} for outtake")
+                            continue
+                        if os.path.exists(outtake_path):
+                            #print(f"base skip {f_basename_true} for outtake")
+                            continue
+                    if is_special:
+                        if os.path.exists(outtake_path):
+                            #print(f"special skip {f_basename_true} for outtake")
+                            continue
 
                     mapping, specifier, special_source = PPPDataset.label_mapping(f_basename)
-                    if special_source:
-                        special_episodes.add(specifier)
+                    print(f"specifier for {f_basename_true}: {specifier}")
                     placeholder_mapping = mapping
                     mapping = mapping.replace('MASTER_FILE_1', master_file_1)
                     mapping = mapping.replace('MASTER_FILE_2', master_file_2)
-                    assert os.path.exists(mapping) or (specifier in special_episodes), mapping
+                    assert os.path.exists(mapping), mapping
 
                     index[specifier] = {
                         'season': specifier[1],
                         'episode': specifier[3:],
                         'lines': []
                     }
-                    with open(os.path.join(root,f)) as f2:
+                    with open(os.path.join(root,f), encoding='utf-8') as f2:
                         line = f2.readline()
                         while line:
                             sp = [x.strip() for x in line.split('\t')]
@@ -281,8 +313,14 @@ class PPPDataset:
                             sig = sig.replace('?','_')
                             parse = PPPDataset.character_parse(sig)
                             filepath = os.path.join(mapping, sig+'.flac')
+                            if not os.path.exists(longpath(filepath)):
+                                alt_filepath = os.path.join(mapping, sig.rstrip('.').rstrip()+'.flac')
+                                if os.path.exists(longpath(alt_filepath)):
+                                    filepath = alt_filepath
                             placeholder_filepath = os.path.join(placeholder_mapping, sig+'.flac')
-                            assert(os.path.exists(filepath), filepath)
+                            if not os.path.exists(longpath(filepath)):
+                                print(f"Warning: {filepath} not found")
+                            #assert os.path.exists(longpath(filepath)), filepath
                             index[specifier]['lines'].append({
                                 'ts': sp[0],
                                 'te': sp[1],
@@ -786,7 +824,7 @@ class PPPDataset:
 
 idx = PPPDataset.generate_fim_episodes_labels_index()
 import json
-with open('episodes_labels_index.json','w') as f:
+with open('episodes_labels_index.json','w',encoding='utf-8') as f:
     json.dump(idx, f, ensure_ascii=False)
 print("Done")
 
