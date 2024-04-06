@@ -50,13 +50,27 @@ SPECIAL_LABEL_MAPPINGS = {
     'fim_s09e23_special source': 'MASTER_FILE_1/Sliced Dialogue/Special source/s9e23 [CAUTION - REVERB]',
     'fim_s09e25_special source': 'MASTER_FILE_1/Sliced Dialogue/Special source/s9e25 [CAUTION - REVERB]',
     'fim_s09e26_special source': 'MASTER_FILE_1/Sliced Dialogue/Special source/s9e26 [CAUTION - REVERB]',
-    'fim_movie': "MASTER_FILE_2/MLP Movie (still has music, don't use this in any training)",
+    'fim_movie': "MASTER_FILE_2/MLP Movie (still has music, don't use this in any training)/MLP Movie",
     'fim_rainbow roadtrip': "MASTER_FILE_1/Sliced Dialogue/FiM/Rainbow Roadtrip",
 }
 SPECIAL_LABEL_MAPPINGS_SPECIFIER = {
     'fim_s09e23_special source': 's9e23',
     'fim_s09e25_special source': 's9e25',
-    'fim_s09e26_special source': 's9e26'
+    'fim_s09e26_special source': 's9e26',
+    'eqg_dance magic' : 'eqg_dance magic',
+    'eqg_forgotten friendship' : 'eqg_forgotten friendship',
+    'eqg_friendship_games' : 'eqg_friendship_games',
+    'eqg_legend_of_everfree' : 'eqg_legend_of_everfree',
+    'eqg_mirror magic' : 'eqg_mirror magic',
+    'eqg_movie magic' : 'eqg_movie magic',
+    'eqg_rollercoaster of friendship' : 'eqg_rollercoaster of friendship',
+    'eqg_better together_s02e04' : 'eqg_better together_s02e04',
+    'eqg_better together_s02e05' : 'eqg_better together_s02e05',
+    'eqg_better together_s02e06' : 'eqg_better together_s02e06',
+    'eqg_better together_s02e07' : 'eqg_better together_s02e07',
+    'eqg_better together_s02e08' : 'eqg_better together_s02e08',
+    'fim_movie' : 'fim_movie',
+    'fim_rainbow roadtrip' : 'fim_rainbow roadtrip',
 }
 
 # Remove nums from ARPAbet dictionary
@@ -258,16 +272,19 @@ class PPPDataset:
             no_parse = False,
             audio_input_format = '.flac',
             force_character = '',
-            emotions : list = []):
+            emotions : list = [],
+            override_select : list = [],
+            special_source_handling : bool = True):
             index = {}
             for (root,_,files) in os.walk(labels_dir):
                 for f in tqdm(files, desc="Label files"):
                     # 'Other' not in scope for now
                     if 'Other' in root:
                         continue
-                    # Process fim episodes only
-                    if 'fim' not in f or 's' not in f:
-                        continue
+                    # Process fim episodes only if no override
+                    if len(override_select) == 0:
+                        if 'fim' not in f or 's' not in f:
+                            continue
                     # Ignore original/izo text lists, we just care about overall
                     if f.endswith('_original.txt') or f.endswith('_izo.txt') or f.endswith('_unmix.txt'):
                         continue
@@ -281,19 +298,22 @@ class PPPDataset:
                     special_source_path = os.path.join(root, f_basename_true+'_special source.txt')
                     outtake_path = os.path.join(root, f_basename_true+'_outtakes.txt')
                     #print(f_basename, f_basename_true, is_special, is_outtake, special_source_path)
-                    if not is_special and not is_outtake:
-                        if os.path.exists(special_source_path):
-                            #print(f"base skip {f_basename_true} for outtake")
-                            continue
-                        if os.path.exists(outtake_path):
-                            #print(f"base skip {f_basename_true} for outtake")
-                            continue
-                    if is_special:
-                        if os.path.exists(outtake_path):
-                            #print(f"special skip {f_basename_true} for outtake")
-                            continue
+                    if special_source_handling:
+                        if not is_special and not is_outtake:
+                            if os.path.exists(special_source_path):
+                                #print(f"base skip {f_basename_true} for outtake")
+                                continue
+                            if os.path.exists(outtake_path):
+                                #print(f"base skip {f_basename_true} for outtake")
+                                continue
+                        if is_special:
+                            if os.path.exists(outtake_path):
+                                #print(f"special skip {f_basename_true} for outtake")
+                                continue
 
                     mapping, specifier, special_source = PPPDataset.label_mapping(f_basename)
+                    if len(override_select) != 0 and specifier not in override_select:
+                        continue
                     print(f"specifier for {f_basename_true}: {specifier}")
                     placeholder_mapping = mapping
                     mapping = mapping.replace('MASTER_FILE_1', master_file_1)
@@ -301,10 +321,11 @@ class PPPDataset:
                     assert os.path.exists(mapping), mapping
 
                     index[specifier] = {
-                        'season': specifier[1],
-                        'episode': specifier[3:],
                         'lines': []
                     }
+                    if len(override_select) == 0:
+                        index[specifier]['season'] = specifier[1]
+                        index[specifier]['episode'] = specifier[3:]
                     with open(os.path.join(root,f), encoding='utf-8') as f2:
                         line = f2.readline()
                         while line:
@@ -320,6 +341,9 @@ class PPPDataset:
                             placeholder_filepath = os.path.join(placeholder_mapping, sig+'.flac')
                             if not os.path.exists(longpath(filepath)):
                                 print(f"Warning: {filepath} not found")
+                                # Ignore lines for which the original file does not exist
+                                line = f2.readline()
+                                continue
                             #assert os.path.exists(longpath(filepath)), filepath
                             index[specifier]['lines'].append({
                                 'ts': sp[0],
@@ -822,9 +846,27 @@ class PPPDataset:
                 f.write(d)
         pass
 
-idx = PPPDataset.generate_fim_episodes_labels_index()
+idx = PPPDataset.generate_fim_episodes_labels_index(
+    override_select = [
+        'eqg_dance magic',
+        'eqg_forgotten friendship',
+        'eqg_friendship_games',
+        'eqg_legend_of_everfree',
+        'eqg_mirror magic',
+        'eqg_movie magic',
+        'eqg_rollercoaster of friendship',
+        'eqg_better together_s02e04',
+        'eqg_better together_s02e05',
+        'eqg_better together_s02e06',
+        'eqg_better together_s02e07',
+        'eqg_better together_s02e08',
+        'fim_movie',
+        'fim_rainbow roadtrip',
+    ],
+    special_source_handling = False
+)
 import json
-with open('episodes_labels_index.json','w',encoding='utf-8') as f:
+with open('extras_labels_index.json','w',encoding='utf-8') as f:
     json.dump(idx, f, ensure_ascii=False)
 print("Done")
 
