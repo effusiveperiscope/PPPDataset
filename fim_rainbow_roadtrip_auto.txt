@@ -1,0 +1,667 @@
+38.944875	42.08489	00_00_40_Pinkie_Neutral_Noisy_Okay, not technically a road trip because we're taking that.
+47.81875	49.095631000000004	00_00_49_Rainbow_Happy_Very Noisy_beat you to the balloon!
+49.095625	50.790102	00_00_50_Pinkie_Neutral_Noisy_nope, i'm gonna beat you!
+60.250375	61.675921	00_01_02_Pinkie_Happy_Very Noisy_I'm gonna beat you!
+64.16925	64.73139900000001	00_01_06_Applejack_Neutral_Noisy_Howdy.
+74.649375	76.44088	00_01_16_Rainbow_Annoyed_Noisy_okay, i was fourth.
+76.481875	78.480013	00_01_18_Pinkie_Neutral_Noisy_Yeah? well i was fifth!
+80.074125	81.04985500000001	00_01_21_Rainbow_Annoyed_Noisy_that's not even!
+82.529875	84.573875	00_01_24_Rainbow_Annoyed_Noisy_But, i beat you!
+84.614875	86.70087500000001	00_01_26_Applejack_Annoyed__Y'all are both still late!
+86.742875	88.931967	00_01_28_Applejack_Neutral_Noisy_We gotta shove off soon or we'll miss the tailwind.
+89.381625	91.913814	00_01_31_Fluttershy_Neutral_Very Noisy_Don't worry, we wouldn't have left without you.
+92.120125	99.15903200000001	00_01_33_Rarity_Neutral__Well that goes without saying darling, After all, rainbow dash is the guest of honor At the, rainbow festival!
+102.22675	106.50711199999999	00_01_44_Fluttershy_Neutral__Has anypony seen twilight? It's not like her to be late for an adventure.
+106.571375	107.98477799999999	00_01_48_Twilight_Anxious__i'm coming, i'm coming!
+113.4135	116.963068	00_01_55_Twilight_Neutral_Very Noisy_Sorry! i just had to pack up a few books and papers to grade.
+117.147875	121.098927	00_01_58_Spike_Anxious_Very Noisy_And by few, she means slightly less Than i'm able to lift.
+121.735875	125.96552999999999	00_02_03_Rainbow_Annoyed_Very Noisy_Wait. you're bringing work To a festival?!
+125.89325	129.51509499999997	00_02_07_Pinkie_Happy_Very Noisy_Yeah! it's supposed to be a non-stop fun-o-rama party!
+130.816	134.67756200000002	00_02_12_Twilight_Happy_Very Noisy_Grading papers is fun! it's relaxing, and rewarding and.
+134.6415	136.212705	00_02_16_Applejack_Neutral__Too much to talk about right now!
+144.0105	145.359657	00_02_25_Applejack_Happy_Very Noisy_let her loose spike!
+145.675875	150.19414600000002	00_02_27_Twilight_Neutral_Very Noisy_Keep an eye on things for me! and feel free To file those class assignments while i'm gone!
+150.055875	152.26587499999997	00_02_31_Spike_Neutral_Very Noisy_It's my top priority!
+154.872	156.85384700000003	00_02_36_Spike_Neutral_Very Noisy_Have fun everypony!
+159.773875	162.850526	00_02_41_Fluttershy_Neutral_Very Noisy_Um. why aren't we going anywhere?
+163.2035	165.99849999999998	00_02_45_Applejack_Neutral_Very Noisy_Hmm. the basket's too heavy.
+166.44025	167.797438	00_02_48_Rainbow_Neutral_Very Noisy_Rarity?
+168.114875	171.868875	00_02_49_Rarity_Annoyed_Very Noisy_How dare you! i brought the itsiest valise.
+171.910875	174.07987500000002	00_02_53_Applejack_Neutral_Very Noisy_Sorry to do this twilight, but.
+175.34625	176.325995	00_02_57_Twilight_Anxious Shouting_Very Noisy_my papers!
+180.335875	182.172386	00_03_02_Applejack_Neutral_Noisy_they'll keep till we get back.
+186.58125	187.400381	00_03_08_Spike_Happy_Very Noisy_See ya!
+187.520875	192.83719699999997	00_03_09_Spike_Neutral_Noisy_and remember, Whatever happens at the rainbow festival, I wanna hear all about it when you get back!
+218.039875	222.020709	00_03_39_Rarity_Neutral_Very Noisy_Did somepony mention something about a spa in.
+221.9565	223.048675	00_03_43_Rarity_Neutral__where is it we're going again?
+223.064125	226.550002	00_03_44_Rainbow_Happy_Noisy_hope hollow! Or as i like to call it.
+227.716875	230.51087499999997	00_03_49_Rainbow_Happy_Very Noisy_rainbow dash fan central!
+231.33625	232.817914	00_03_53_Applejack_Annoyed_Noisy_you're gonna be like this the whole trip.
+233.930875	237.42358799999997	00_03_55_Rainbow_Happy_Noisy_You know it! i mean, look at this letter.
+237.487875	239.614875	00_03_59_Rainbow_Happy_Very Noisy_They love me there!
+241.214125	247.237148	00_04_03_Twilight_Neutral_Very Noisy_dear rainbow dash, thank you for agreeing to be our guest At this year's famous hope hollow rainbow festival.
+247.110875	249.887231	00_04_08_Twilight_Neutral_Very Noisy_The many members of your fan club.
+252.698	262.350899	00_04_14_Twilight_Neutral_Very Noisy_are looking forward to your visit. You and your friends will be staying at our famous Luxury rainbow resort and spa, Where your every whim will be catered to!
+262.543625	265.980764	00_04_24_Rarity_Happy_Very Noisy_Ooh i accept that challenge, I have so many whims.
+265.9325	270.638489	00_04_27_Fluttershy_Happy_Very Noisy_oh look, There's a famous butterfly garden too!
+270.759875	278.492578	00_04_32_Twilight_Neutral_Very Noisy_Hmm. you know, It's strange that we never heard of this festival before, Especially since everything in the town is so well-known.
+278.934875	288.370336	00_04_40_Rainbow_Happy_Very Noisy_at this year's festival, you can eat treats At the traditional rainbow bakery booth, Sing your favorite rainbow-themed songs At the karaoke competition.
+288.555	293.076283	00_04_50_Pinkie_Happy_Very Noisy_Bakery and karaoke?! It's like they see into my soul!
+293.323875	297.38881	00_04_55_Applejack_Neutral_Very Noisy_and try our famous rainbow trout Catch and release activity.
+298.30425	300.20581500000003	00_05_00_Applejack_Happy_Very Noisy_Huh. now that sounds right up my river.
+300.246875	303.765184	00_05_02_Pinkie_Happy_Very Noisy_Plus we get to watch the mayor give rainbow dash an award!
+304.084875	306.029841	00_05_05_Pinkie_Happy_Very Noisy_I call dibs on the cheering section!
+310.18975	312.759573	00_05_12_Rarity_Confused_Noisy_An award for what, exactly?
+313.699125	315.779076	00_05_15_Rainbow_Neutral__showing up? General coolness?
+316.373375	317.49165	00_05_18_Rainbow_Neutral__all of the above?
+318.056875	320.966939	00_05_19_Twilight_Happy__Well, we're so glad you invited us along.
+321.9065	326.81827599999997	00_05_23_Pinkie_Happy__it's gonna be one long party! Which starts, now!
+327.47975	331.13371700000005	00_05_29_Pinkie_Happy__a hundred bottles of pop on the wall a hundred bottles of pop!
+339.044	341.991266	00_05_40_Pinkie_Happy_Noisy_two bottles of pop on the wall, two bottles of pop!
+342.52125	346.295678	00_05_44_Pinkie_Happy_Very Noisy_take it down, pass it around, one bottle of pop on the wall!
+346.33475	348.158758	00_05_48_Pinkie_Happy_Very Noisy_and a-one more time!
+348.118625	350.150392	00_05_49_Pinkie_Happy_Very Noisy_a hundred bottles of pop on the wall.
+351.92375	353.04945299999997	00_05_53_Pinkie_Neutral_Noisy_six times too many?
+353.800875	356.01187500000003	00_05_55_Rainbow_Annoyed_Noisy_Shouldn't we be there by now?
+356.63125	357.964346	00_05_58_Applejack_Neutral_Noisy_i thought so too.
+358.388875	361.550072	00_06_00_Applejack_Neutral__Maybe we should've turned left at that last cloud instead of right.
+362.308875	365.020875	00_06_04_Fluttershy_Anxious__It's getting darker by the minute.
+368.023875	370.1710259999999	00_06_09_Rarity_Anxious Shouting__I can't see anything!
+372.475875	375.01357599999994	00_06_14_Pinkie_Happy_Very Noisy_I spy with my little eye.
+375.431125	376.948927	00_06_17_Pinkie_Happy__A rainbow!
+377.069375	379.518738	00_06_18_Rainbow_Annoyed_Noisy_Great. we're playing that game now?
+379.701875	382.3288749999999	00_06_21_Pinkie_Happy__No. i really do spy a rainbow!
+385.874875	388.83587499999993	00_06_27_Twilight_Happy__Wow! that's the biggest rainbow i've ever seen.
+388.877875	390.93841100000003	00_06_30_Rarity_Anxious__And we're heading right for it!
+391.463875	395.71667599999995	00_06_33_Rainbow_Neutral_Very Noisy_Don't worry, we'll pass right through it! Rainbows aren't solid.
+399.434875	401.255458	00_06_41_Applejack_Anxious_Very Noisy_Tell that to the rainbow.
+401.36225	404.791358	00_06_43_Twilight_Anxious_Very Noisy_i don't think that's a rainbow! It's a rainbow billboard!
+408.104875	409.802521	00_06_49_Twilight_Anxious_Very Noisy_Hang on, everypony!
+414.604875	416.39572100000004	00_06_56_Rarity_Fear Crazy Shouting_Very Noisy_I don't think that's working!
+432.16825	435.589327	00_07_09_Twilight_Anxious Shouting_Very Noisy_Rainbow dash, fluttershy! Let's get everypony out!
+452.85475	456.742144	00_07_30_Applejack_Neutral_Very Noisy_Phew. thanks, y'all. That basket could've been us.
+456.81675	458.90175	00_07_34_Fluttershy_Confused_Very Noisy_Where are we?
+462.0425	465.246749	00_07_39_Pinkie_Neutral_Very Noisy_welcome to hope hollow. Home of the famous.
+467.82775	469.35837	00_07_45_Pinkie_Happy_Very Noisy_rainbow festival!
+469.358375	470.33812	00_07_46_Rarity_Neutral_Very Noisy_we've arrived?
+470.715625	473.124817	00_07_47_Rarity_Confused_Very Noisy_And there's nopony here to greet us?
+473.16675	477.86287899999996	00_07_50_Twilight_Anxious_Very Noisy_Good thing too. the guest of honor and her friends Just destroyed the town sign.
+478.46375	482.135211	00_07_55_Fluttershy_Neutral_Very Noisy_Rainbow dash? did your letter say where our hotel is?
+484.600625	487.363185	00_08_01_Rainbow_Neutral_Very Noisy_The, middle of town.
+489.122	491.97289800000004	00_08_06_Twilight_Neutral_Very Noisy_Hmm. doesn't really help much When you don't know where the middle is.
+492.422625	493.75572099999994	00_08_09_Twilight_Neutral_Very Noisy_Let's start looking.
+517.00175	523.3326910000001	00_08_34_Applejack_Neutral__Huh, funny. You'd think a big luxury resort would be sorta well, easier to spot.
+523.429125	524.778282	00_08_40_Pinkie_Neutral_Very Noisy_yeah!
+524.818375	527.388198	00_08_42_Pinkie_Neutral_Very Noisy_It seems like the whole town's shut down.
+528.30375	530.473806	00_08_45_Fluttershy_Neutral_Very Noisy_Oh look! there's somepony.
+537.169625	540.422058	00_08_54_Twilight_Neutral_Very Noisy_Maybe you can help us, We're here for the rainbow festival.
+540.60875	543.160485	00_08_57_Petunia Petals_Neutral_Noisy_Oh, uh, rainbow festival?
+543.27775	546.702023	00_09_00_Rainbow_Happy Smug_Very Noisy_Yeah y'know, the one where i'm the guest of honor?
+552.20375	555.848988	00_09_09_Petunia Petals_Anxious__Oh for cryin' in the mud. What's sunny done now?
+556.065875	557.077742	00_09_13_Applejack_Confused__excuse me?
+558.8605	561.181372	00_09_16_Petunia Petals_Neutral__you'd best talk to mayor skies about that.
+561.285875	563.9038830000001	00_09_18_Twilight_Happy__Great! and where will we find him?
+564.184875	569.830456	00_09_21_Petunia Petals_Neutral__City hall! uh. But it's closed till tomorrow, don'cha know. Is there something i can help you with?
+570.336375	575.0825169999999	00_09_27_Rarity_Neutral__Uh yes please, Could you direct us to the hope hollow luxury resort?
+578.68875	581.105533	00_09_35_Petunia Petals_Neutral__Oh! oh, you mean the hotel?
+582.27	584.896038	00_09_39_Petunia Petals_Neutral__That's easy, There's only one in town.
+585.032625	587.238831	00_09_42_Applejack_Neutral__Could you uh, give us directions?
+587.28075	589.192446	00_09_44_Petunia Petals_Happy_Noisy_No need, you're there!
+590.53375	591.850607	00_09_47_Petunia Petals_Neutral_Very Noisy_I mean here.
+597.335625	602.306627	00_09_54_Petunia Petals_Happy_Very Noisy_Hotel hope. Also known as the town information center and library!
+602.439125	604.868411	00_09_59_Petunia Petals_Happy__My name's petunia petals, by the way.
+607.550625	608.859629	00_10_04_Petunia Petals_Neutral_Noisy_I'm the librarian here.
+609.80725	611.108223	00_10_07_Petunia Petals_Neutral_Noisy_And the information guide.
+612.602	614.015403	00_10_09_Petunia Petals_Happy_Very Noisy_and the hotel manager!
+613.999375	616.851853	00_10_11_Petunia Petals_Happy_Very Noisy_Historian, chef, portrait painter.
+616.89375	620.9859789999999	00_10_14_Rainbow_Neutral__Um, I-i'm rainbow dash, And this is, everypony.
+623.355125	628.695539	00_10_20_Petunia Petals_Happy__Well hello everypony! You just wait one hoof shake and i'll take you to the room.
+629.064875	630.899875	00_10_26_Rarity_Anxious Confused__the, room?
+630.92	632.028236	00_10_28_Petunia Petals_Neutral__There's only one.
+632.65875	634.95275	00_10_29_Petunia Petals_Happy_Very Noisy_Makes it easier to find!
+642.267375	645.833005	00_10_39_Petunia Petals_Happy_Very Noisy_Here it is! The royal suite!
+656.076125	658.2257610000001	00_10_53_Rarity_Anxious_Noisy_How rustic and charming.
+658.397	659.8505560000001	00_10_55_Petunia Petals_Happy__Isn't it just?
+660.111625	664.468279	00_10_57_Rainbow_Confused_Noisy_I couldn't help noticing, There are only three beds.
+666.15075	667.499782	00_11_03_Rainbow_Neutral_Very Noisy_okay, four.
+667.692625	669.788637	00_11_04_Petunia Petals_Neutral_Very Noisy_oh there's a pop-out too.
+671.981	673.2659110000001	00_11_09_Petunia Petals_Neutral__it can be a little tricky.
+675.883875	678.120794	00_11_13_Petunia Petals_Happy_Very Noisy_There she is! sleeps two.
+678.16275	680.999385	00_11_15_Petunia Petals_Happy_Noisy_You'll be all fresh and ready to see the mayor in the mornin'.
+682.12475	683.1676739999999	00_11_19_Petunia Petals_Happy__Sleep tight!
+686.43625	689.343363	00_11_23_Twilight_Neutral__Did anypony notice anything strange about petunia?
+689.71575	693.13377	00_11_26_Rarity_Sarcastic__Other than she just called this place the royal suite?
+693.294375	698.4822059999999	00_11_30_Applejack_Neutral__Hard to tell in this light, but, She looked a little, gray didn't she?
+698.55775	701.164468	00_11_35_Rarity_Annoyed_Noisy_Probably from all the dust up here.
+704.23075	705.6897659999998	00_11_41_Pinkie_Neutral__N'aw this room's not so bad.
+706.10775	708.251559	00_11_43_Pinkie_Neutral_Very Noisy_All it needs are some balloons.
+711.1145	713.572747	00_11_48_Pinkie_Happy_Very Noisy_And, the piñata!
+713.61475	714.748394	00_11_50_Pinkie_Happy__Good thing i brought some!
+717.141625	718.085232	00_11_54_Fluttershy_Neutral_Noisy_and look.
+719.334	721.610703	00_11_56_Fluttershy_Happy_Noisy_It comes with a cute little spider!
+721.99875	723.116381	00_11_59_Fluttershy_Happy__Hello spider.
+730.412375	734.805167	00_12_07_Rainbow_Neutral__Sorry everypony. I didn't know what i was getting you into.
+735.9535	738.410893	00_12_13_Twilight_Happy__the most important thing is we're all together.
+738.30575	742.3217950000001	00_12_15_Applejack_Happy_Very Noisy_Yeah, as long as we have beds to sleep in, We're set.
+754.01075	756.026455	00_12_31_Twilight_Neutral_Noisy_It wasn't the worst night of sleep ever.
+756.644625	758.61783	00_12_33_Rarity_Anxious Tired_Noisy_But definitely in the top three.
+759.069875	760.828809	00_12_36_Rarity_Anxious Tired_Noisy_Or would that be the bottom three?
+766.369625	768.7467110000001	00_12_43_Fluttershy_Anxious Confused_Very Noisy_Why is everypony looking at us?
+769.280875	771.6727760000001	00_12_46_Applejack_Neutral_Very Noisy_Maybe they recognize rainbow dash.
+771.71475	774.950521	00_12_48_Rainbow_Neutral_Very Noisy_Or princess twilight. but probably me.
+775.328	779.9215589999999	00_12_52_Rarity_Anxious__No. I think they're staring because we're the only part of this town That isn't.
+780.724625	781.6160329999999	00_12_57_Rarity_Neutral_Very Noisy_gray.
+782.170125	783.14987	00_12_59_Pinkie_Neutral__what do you mean?
+783.149875	784.113559	00_13_00_Rarity_Anxious__look around!
+785.59925	787.1652359999999	00_13_02_Rarity_Anxious__All the colors here are gone!
+787.711375	789.523825	00_13_04_Twilight_Neutral__That's so strange.
+789.76725	794.400963	00_13_06_Twilight_Neutral__It's just like i noticed about petunia last night. everything's mostly gray.
+794.449125	795.870559	00_13_11_Petunia Petals_Happy__Oh, hello!
+796.44775	798.777602	00_13_13_Applejack_Confused_Noisy_Except the stuff that's, grayer.
+799.07575	801.837298	00_13_16_Fluttershy_Anxious_Very Noisy_Oh my. i knew something was different, but.
+801.837375	804.3509839999999	00_13_19_Rainbow_Anxious__This is so, weird!
+807.83375	812.2370520000001	00_13_25_Rarity_Neutral_Noisy_From the way they're gawking at us, It appears they think we're the odd ones.
+812.41375	814.340772	00_13_29_Fluttershy_Neutral_Noisy_Maybe they don't even notice.
+814.38175	816.268463	00_13_31_Fluttershy_Whispering_Noisy_It might be rude to mention it.
+816.557625	818.511807	00_13_33_Twilight_Neutral__I wonder what caused this.
+818.55275	819.7216629999999	00_13_35_Applejack_Neutral__we can ask the mayor.
+819.8825	822.2995970000001	00_13_37_Rainbow_Annoyed_Very Noisy_yeah, If we ever find him.
+855.17275	858.413566	00_14_12_Mrs. Hoofington_Annoyed_Noisy_Don't pout dear, it'll wrinkle your withers.
+858.63475	862.910757	00_14_15_Mr. Hoofington_Annoyed_Noisy_I'm not pouting sweetums, But i am hurt by your comment.
+862.90275	865.416358	00_14_20_Mr. Hoofington_Annoyed_Noisy_I thought the pie i baked was quite tasty.
+865.39225	866.845807	00_14_22_Mrs. Hoofington_Annoyed_Noisy_i didn't say it wasn't.
+866.845875	868.349623	00_14_24_Mr. Hoofington_Annoyed_Noisy_you didn't say it was.
+869.142625	871.897155	00_14_26_Mr. Hoofington_Annoyed__watch where you're going! You don't own the sidewalk y'know!
+873.27475	874.723913	00_14_30_Mr. Hoofington_Happy__well i never!
+884.82775	887.91375	00_14_42_Applejack_Happy_Very Noisy_Well look at that! somepony's fixin' up our balloon!
+893.21075	898.430534	00_14_50_Mayor Sunny Skies_Anxious_Very Noisy_Oh, goodness! this is unfortunate. Bad with a side of terribly awful!
+898.46575	900.75975	00_14_55_Mayor Sunny Skies_Anxious_Very Noisy_excuse me, sorry, sorry.
+906.30775	913.022312	00_15_03_Mayor Sunny Skies_Happy_Very Noisy_Well stuff me in an olive and call me a pimento! It's the rainbow dash! you made it!
+913.472	915.495736	00_15_10_Mayor Sunny Skies_Anxious__Eh, it is you, isn't it?
+916.242625	918.152753	00_15_13_Rainbow_Smug__pretty sure, yeah.
+918.19475	924.923807	00_15_15_Mayor Sunny Skies_Happy__Ha! thank celestia! I saw the balloon thought the worst and, Well, you're here! all of ya!
+925.188875	928.882996	00_15_22_Mayor Sunny Skies_Happy__Welcome to the hope hollow annual rainbow festival!
+929.53875	933.315886	00_15_26_Twilight_Neutral__I'm twilight sparkle, And you must be?
+933.332	938.905305	00_15_30_Mayor Sunny Skies_Happy__Sunny skies. the mayor of this lovely town And pleased as a poplar tree to meetcha!
+939.266625	942.3825360000001	00_15_36_Fluttershy_Neutral__We're very sorry about your rainbow billboard Mister mayor.
+943.635375	951.0557399999999	00_15_40_Mayor Sunny Skies_Neutral__D'ohh, don't give it a second thought! That old thing needed repair anyway, Haven't used it since, eh, well, never mind.
+951.17625	955.2478140000001	00_15_48_Mayor Sunny Skies_Neutral_Very Noisy_Eh, anyway! once your balloon's fixed up, Torque can take care of the billboard.
+955.68975	959.1506420000001	00_15_52_Mayor Sunny Skies_Neutral_Very Noisy_Everypony, meet torque wrench, our town handy-pony.
+959.18275	961.2225480000001	00_15_56_Mayor Sunny Skies_Happy__She offered to repair your balloon for ya.
+961.36275	963.246298	00_15_58_Torque Wrench_Annoyed_Very Noisy_He volunteered me.
+963.53075	965.679599	00_16_00_Mayor Sunny Skies_Happy_Very Noisy_She'll have it fixed in a jiffy!
+966.033	968.626915	00_16_03_Torque Wrench_Annoyed_Noisy_If by jiffy you mean this'll take all day.
+970.20475	972.610091	00_16_07_Mayor Sunny Skies_Happy_Very Noisy_So, you got in last night, heh!
+972.63425	976.19988	00_16_09_Mayor Sunny Skies_Happy__I wish i'd known i would've been here to greet ya! Eh, where did y'all stay?
+976.29625	978.4725689999999	00_16_13_Rarity_Happy__at the, luxury hotel.
+978.4565	980.383867	00_16_15_Applejack_Neutral__Petunia petals let us in.
+980.520375	986.7602269999999	00_16_17_Mayor Sunny Skies_Happy__Oh well of course she did! She's something i'll tell you what, I'd be lost without her!
+986.97175	989.68275	00_16_24_Mayor Sunny Skies_Anxious__I-i mean the town would be!
+991.18375	996.212313	00_16_28_Twilight_Anxious_Noisy_Mayor i hope you don't mind my asking but, Is there a reason your town is, faded?
+996.694125	1004.23495	00_16_33_Mayor Sunny Skies_Anxious__Oh heh, you spotted that did ya? Well it's a, long story eh, Why don't i show you the town highlights first?
+1018.596875	1024.411101	00_16_51_Mayor Sunny Skies_Happy_Very Noisy_Here is our famous outdoor spa With the all-natural mud bath. pretty huh?
+1027.165625	1031.1970350000001	00_16_59_Twilight_Happy_Very Noisy_Maybe we could see some of the rainbow festival activities! from the brochure!
+1031.341625	1034.144339	00_17_03_Mayor Sunny Skies_Happy_Noisy_of course! The bakery booth is there.
+1036.996375	1042.0626029999999	00_17_09_Mayor Sunny Skies_Happy__Or, will be we're, still settin' up But we got a lotta great things planned!
+1041.959375	1044.415597	00_17_14_Fluttershy_Happy__And, the butterfly garden?
+1044.616375	1046.612003	00_17_17_Mayor Sunny Skies_Happy__Oh that's right over here.
+1051.135375	1053.048598	00_17_23_Mayor Sunny Skies_Anxious_Very Noisy_Oop. eh, lemme fix that.
+1054.513375	1058.228398	00_17_27_Fluttershy_Confused__So, none of the butterflies are actually?
+1058.276625	1064.88589	00_17_30_Mayor Sunny Skies_Neutral__Real? oh no. uh, What with the flowers not having color and all The butterflies don't really come around much anymore.
+1065.094625	1069.190281	00_17_37_Applejack_Neutral__I'm almost afraid to ask but, The brochure mentioned fishing?
+1069.278625	1071.599497	00_17_41_Mayor Sunny Skies_Confused__Fishing? Oh not sure what you mean.
+1071.623625	1073.7838829999998	00_17_44_Twilight_Confused__our famous rainbow trout?
+1073.866375	1080.642076	00_17_46_Mayor Sunny Skies_Happy__Oh yeah sure! Ah well uh, you don't fish for them exactly You just kinda, uh, talk to him.
+1080.70625	1082.264205	00_17_53_Mayor Sunny Skies_Anxious__Uh he's right over uh.
+1085.2115	1086.9380999999998	00_17_57_Mayor Sunny Skies_Confused__That's funny where'd our trout go?
+1096.64725	1104.5655179999999	00_18_09_Pinkie_Happy_Noisy_Um so, no big deal, Well actually okay yes kind of a big deal, But the brochure also mentioned the karaoke contest?
+1105.304375	1106.412611	00_18_17_Mayor Sunny Skies_Happy__Right here!
+1110.861375	1112.6042539999999	00_18_23_Mayor Sunny Skies_Neutral__The trout doubles on harmonica.
+1115.574375	1118.4586329999997	00_18_28_Fluttershy_Confused__How, Multi-talented of him.
+1118.924375	1121.5745060000002	00_18_31_Pinkie_Happy__Good thing i bring my own karaoke party!
+1126.836375	1130.231636	00_18_39_Mayor Sunny Skies_Anxious__well uh, That's the big tour.
+1134.52	1139.137651	00_18_47_Twilight_Confused_Noisy_I don't understand. your rainbow festival isn't, Quite as you described.
+1139.234	1143.4982999999997	00_18_51_Rainbow_Neutral_Noisy_And the resort hotel wasn't what it cracked up to be either.
+1143.477375	1144.847507	00_18_56_Applejack_Sarcastic_Noisy_except for all the cracks.
+1145.187375	1148.4131360000001	00_18_57_Rarity_Neutral_Noisy_None of these things are as pictured in your brochure.
+1149.192125	1159.061853	00_19_01_Mayor Sunny Skies_Anxious__Well, maybe i exaggerated a little but, I-i intended on having everything ready! It's just kinda hard getting anypony excited about anything In this town anymore!
+1159.993375	1162.34637	00_19_12_Mayor Sunny Skies_Sad_Noisy_I didn't think you'd come if you knew the truth.
+1162.44275	1163.6152319999999	00_19_15_Twilight_Confused__The truth?
+1163.761375	1167.34952	00_19_16_Mayor Sunny Skies_Sad__Oh, there is no rainbow festival!
+1169.253375	1170.987429	00_19_21_Applejack_Anxious_Noisy_no rainbow festival?
+1171.124	1172.38482	00_19_23_Rainbow_Anxious_Noisy_no fan club?
+1172.742125	1174.681539	00_19_25_Mayor Sunny Skies_Anxious__Believe me i didn't mean to.
+1174.6535	1176.448361	00_19_27_Rainbow_Annoyed__bring us here for nothing?!
+1176.633	1178.478555	00_19_29_Twilight_Anxious__think of all the papers I could be grading!
+1178.4785	1179.550598	00_19_31_Mayor Sunny Skies_Anxious_Very Noisy_I-if you just let me!
+1179.545125	1181.395197	00_19_32_Rarity_Annoyed_Noisy_We should leave this very moment!
+1181.499625	1182.736353	00_19_34_Applejack_Neutral_Noisy_balloon's not fixed yet.
+1182.732375	1185.703734	00_19_35_Fluttershy_Neutral__Maybe, We should let the mayor explain?
+1186.645375	1193.979317	00_19_39_Mayor Sunny Skies_Neutral__Uh, guess i should start at the beginning. A long time ago when my grandpa skies was mayor, hope hollow was different.
+1194.268375	1198.396154	00_19_46_Mayor Sunny Skies_Neutral__They used to call this town, the end of the rainbow.
+1199.038625	1202.0902899999999	00_19_51_Mayor Sunny Skies_Neutral_Noisy_'cause everything you'd ever want you could find right here!
+1207.81625	1215.6863340000002	00_20_00_Mayor Sunny Skies_Happy Singingnging_Noisy_next-door neighbors chatting, over white wood fences, stopping on the street to say #hello#.
+1215.959375	1223.933859	00_20_08_Mayor Sunny Skies_Happy Singing_Noisy_when friends did well, we sang their praises, brought soup to comfort them when they felt #low#.
+1223.90175	1229.185949	00_20_16_Mayor Sunny Skies_Happy Singing_Noisy_that was our town at the end of the rainbow.
+1232.4705	1240.693935	00_20_25_Mayor Sunny Skies_Happy Singing_Very Noisy_no pots of gold, or buried treasure, just everypony looking after each #other#.
+1240.6585	1249.053969	00_20_33_Mayor Sunny Skies_Happy Singing_Very Noisy_the truest riches, cannot be measured, it was a lesson that had kept us #together#.
+1249.0835	1254.5710579999998	00_20_41_Mayor Sunny Skies_Happy Singing_Noisy_in our town at the end of the #rainbow#.
+1257.49425	1265.4928260000002	00_20_50_Mayor Sunny Skies_Happy Singing_Very Noisy_to honor our fine town my grandpa skies decided, to throw a party each and every #year#.
+1265.5585	1278.277679	00_20_58_Mayor Sunny Skies_Happy Singing_Very Noisy_they planned for weeks, cooked for days, celebrated fifty #ways#, so everypony would gather here, in our town at the end of the #rainbow#.
+1278.374	1286.3725760000002	00_21_10_Mayor Sunny Skies_Happy Singing_Very Noisy_grandpa made a gizmo called the rainbow generator, to paint the sky with lots of colors shining bold and bright.
+1286.53325	1294.69244	00_21_19_Mayor Sunny Skies_Happy Singing_Very Noisy_to remind us all, together we are greater, and darkness never wins against the coming of the light.
+1294.628125	1302.8997439999998	00_21_27_Mayor Sunny Skies_Happy Singing_Noisy_grandpa passed it onto dad then it was my #turn#, to make the pretty rainbows in the #sky#.
+1302.9285	1308.360674	00_21_35_Mayor Sunny Skies_Happy Singing_Very Noisy_it filled my heart with pride to see, our whole town gathered #gratefully#.
+1308.2675	1316.9374589999998	00_21_40_Mayor Sunny Skies_Happy Singing_Very Noisy_where we were sure there would never be an #end# to the #rainbow#.
+1321.3225	1329.1601810000002	00_21_53_Mayor Sunny Skies_Sad Si_Noisy_then fences went #up#, we lost track of our neighbors, each year passing dimming spirits all #around#.
+1329.7475	1338.0581949999998	00_22_02_Mayor Sunny Skies_Sad Si_Very Noisy_the happy days came to an #end#, and nopony had time to spend to gather in the #town#.
+1338.315125	1346.907972	00_22_10_Mayor Sunny Skies_Sad Si_Very Noisy_i thought i knew exactly what the #festival# #needed#.
+1346.8055	1355.3563179999999	00_22_19_Mayor Sunny Skies_Sad Si_Very Noisy_a bigger better #rainbow#, would surely make them see #it#.
+1355.5225	1362.85699	00_22_28_Mayor Sunny Skies_Sad Si_Very Noisy_but the extra magic was too much for the #rainbow# #generator#.
+1362.8635	1370.8716269999998	00_22_35_Mayor Sunny Skies_Sad Si_Very Noisy_and i'm the one who brought the #rainbow#, to an end.
+1374.1245	1385.9693389999998	00_22_46_Mayor Sunny Skies_Sad Si_Noisy_that's how our #town#, our little pony #town#, that's how our town saw the #end#, of the #rainbow#.
+1398.641625	1403.315491	00_23_11_Pinkie_Sad_Very Noisy_That is the saddest story-song I've ever heard!
+1403.487375	1407.981357	00_23_16_Mayor Sunny Skies_Neutral__I tried for a long time to get everypony Interested in the festival again.
+1408.519375	1412.470479	00_23_21_Mayor Sunny Skies_Sad__To remember what it's like to come together as a community And share the fun!
+1413.289375	1415.624375	00_23_25_Mayor Sunny Skies_Sad_Noisy_But nopony even bothered listenin'.
+1416.020125	1418.2847820000002	00_23_28_Mayor Sunny Skies_Sad_Very Noisy_That's why i wrote to you, rainbow dash.
+1418.324875	1426.138745	00_23_30_Mayor Sunny Skies_Sad_Noisy_You were my last hope! i figured if a pony of your stature Came to town it would get everypony excited About puttin' on the festival again!
+1426.051375	1428.403422	00_23_38_Mayor Sunny Skies_Sad Anxious__I mean, rainbow's even part of your name!
+1428.679375	1431.265375	00_23_41_Rainbow_Neutral__Hmm, yeah i can see that.
+1431.307375	1435.574836	00_23_43_Twilight_Neutral__Mister mayor, what kind of magic did you use On the rainbow generator?
+1435.470375	1437.132729	00_23_48_Mayor Sunny Skies_Anxious__ooh. i'm not sure.
+1438.1205	1441.533547	00_23_50_Mayor Sunny Skies_Sad_Noisy_I didn't know what i was dealing with, I only wanted to help.
+1441.817375	1445.1554580000002	00_23_54_Mayor Sunny Skies_Sad__But instead i sucked all the color out of the town.
+1445.362375	1448.6573749999998	00_23_57_Mayor Sunny Skies_Neutral_Very Noisy_That billboard's one of the only things that didn't change.
+1448.88175	1451.234745	00_24_01_Mayor Sunny Skies_Neutral__To me it's a reminder of what we can be!
+1451.577375	1453.491323	00_24_04_Mayor Sunny Skies_Neutral__Keeps the hope in hope hollow.
+1453.746375	1458.8718909999998	00_24_06_Twilight_Neutral__Hmm. if i could find out the type of magic you used, I might be able to reverse the spell.
+1459.126375	1461.289131	00_24_11_Mayor Sunny Skies_Happy__You mean, you're gonna stay?!
+1462.798875	1468.307934	00_24_15_Applejack_Happy__Heh. nothing we like better than a challenge, especially when it comes to helpin' ponies.
+1468.291875	1473.0942329999998	00_24_20_Mayor Sunny Skies_Happy__You don't know how clam-happy this all makes me! Thank you kindly.
+1473.455625	1476.555475	00_24_26_Twilight_Neutral_Noisy_we'll do whatever we can To bring back your rainbow festival.
+1477.181875	1479.743668	00_24_29_Mayor Sunny Skies_Neutral__I won't fib to ya, it won't be easy.
+1480.048875	1483.21297	00_24_32_Mayor Sunny Skies_Anxious_Very Noisy_It's gotten so nopony even talks to each other anymore.
+1483.927625	1489.107426	00_24_36_Twilight_Neutral_Very Noisy_Hm, it might be tough but. We have a little experience bringing ponies together.
+1490.9545	1493.723083	00_24_43_Pinkie_Happy_Very Noisy_Yay! this is exactly like planning a party!
+1494.126625	1496.403328	00_24_46_Pinkie_Happy_Very Noisy_Only bigger, 'cause it's a festival!
+1498.7965	1501.5429989999998	00_24_51_Pinkie_Happy_Noisy_Which means more cupcakes! Woo hoo!
+1505.096625	1508.5658869999997	00_24_57_Pinkie_Happy_Noisy_i've got a date with the bakery booth. ha-ha!
+1512.513375	1514.372045	00_25_05_Fluttershy_Neutral_Noisy_Um. i'd better go with her.
+1516.275375	1523.904538	00_25_08_Rarity_Neutral_Noisy_Hmm. an overall stylistic look To unify the sentiment of the celebration That's what this festival needs!
+1524.394375	1526.2976500000002	00_25_17_Mayor Sunny Skies_Neutral__you mean like, a rainbow?
+1526.5065	1532.015559	00_25_19_Rarity_Happy__yes darling yes yes But more complex, more thematic, Something like, ooh!
+1532.73825	1534.2560520000002	00_25_25_Rarity_Happy__Something like that!
+1535.828375	1537.620915	00_25_28_Rarity_Happy__Formidable!
+1538.664375	1543.587724	00_25_31_Twilight_Neutral__The biggest challenge is getting your town interested In a rainbow festival when everything's so, gray.
+1543.85275	1547.169428	00_25_36_Twilight_Neutral__I think if we can bring the color back, It'll solve everything.
+1547.297375	1548.9181	00_25_39_Mayor Sunny Skies_Anxious__i'm with ya there but.
+1552.428375	1555.7903700000002	00_25_45_Rainbow_Neutral__Mister mayor? seriously, Is there a fan club?
+1555.955	1559.81375	00_25_48_Mayor Sunny Skies_Neutral__oh you betcha! They're around. somewhere.
+1562.271375	1569.165497	00_25_54_Applejack_Neutral__Any tools i can borrow your honor? I'm gonna spruce up that billboard to let everypony know this here rainbow festival's back in business.
+1569.534875	1571.55058	00_26_02_Mayor Sunny Skies_Happy__Oho, that's music to my ears!
+1571.97625	1577.03559	00_26_04_Mayor Sunny Skies_Happy__torque wrench! Let's get our host tooled up whaddya say? She's gonna put our rainbow back up!
+1577.244375	1579.147655	00_26_09_Torque Wrench_Sarcastic__Oh, yippee.
+1587.2185	1591.1053579999998	00_26_19_Mayor Sunny Skies_Happy__If you don't mind i uh, i have a speech to work on. see ya around.
+1602.8585	1605.025419	00_26_31_Rainbow_Neutral__So, what's your plan?
+1605.330625	1608.510782	00_26_33_Twilight_Happy__If magic caused this, Maybe magic can solve it.
+1619.6975	1624.1384759999999	00_26_48_Twilight_Anxious__Ooh, i was afraid of that. I've never seen any magic like this before.
+1625.222625	1629.0934220000001	00_26_53_Rainbow_Happy__let me try. I mean, rainbow's part of my name right?
+1655.5465	1657.240977	00_27_23_Rainbow_Neutral__yeah that's all i got.
+1658.188625	1659.304892	00_27_26_Twilight_Neutral__thanks for trying.
+1659.377125	1661.344646	00_27_27_Twilight_Neutral_Very Noisy_I guess i need to do more research.
+1680.514	1681.8821709999997	00_27_48_Rainbow_Anxious_Noisy_A-are you okay?
+1684.465125	1686.898427	00_27_52_Barley Barrel_Annoyed_Noisy_Why did you zig in front of me like that?
+1687.2035	1689.397889	00_27_55_Pickle Barrel_Annoyed_Very Noisy_I didn't zig you zigged! i zagged!
+1689.169	1690.7390010000001	00_27_57_Barley Barrel_Annoyed_Noisy_That's no excuse for.
+1690.733	1694.459244	00_27_59_Rainbow_Anxious_Noisy_Guys, guys! hold on! It was just an accident.
+1694.8665	1697.2855000000002	00_28_03_Pickle Barrel_Sad_Noisy_An accident that happened in front of you.
+1697.3275	1702.851366	00_28_05_Barley Barrel_Sad__Ugh! i'm so embarrassed. All of our lives we've been wanting to meet you and.
+1702.83925	1706.11176	00_28_11_Rainbow_Confused__Wait! so, you're the fan club?
+1706.906875	1708.4849069999998	00_28_15_Barley Barrel_Happy__You've heard of us?
+1709.777875	1710.8941419999999	00_28_18_Pickle Barrel_Happy_Very Noisy_Barley's the president.
+1710.8825	1712.6367719999998	00_28_19_Barley Barrel_Happy_Noisy_Pickle's the assistant president.
+1712.869625	1717.154003	00_28_21_Rainbow_Happy_Noisy_Well, what do you know? The mayor was telling the truth about something.
+1717.2225	1719.796139	00_28_25_Barley Barrel_Happy_Noisy_Anyway, you're my brother's favorite wonderbolt!
+1719.8085	1721.9684430000002	00_28_28_Pickle Barrel_Happy_Noisy_And my sister's favorite wonderbolt too!
+1722.8945	1724.5503130000002	00_28_31_Barley Barrel_Happy_Noisy_He knows all of your best moves.
+1724.47	1725.092881	00_28_32_Pickle Barrel_Happy_Noisy_so does she!
+1725.094375	1726.8892359999998	00_28_33_Barley Barrel_Happy_Noisy_We practice all of them, everyday!
+1730.7355	1733.1873280000002	00_28_39_Pickle Barrel_Sad_Noisy_But, we really can't do them.
+1734.046625	1735.1066769999998	00_28_42_Pickle Barrel_Annoyed__Well, it's true!
+1735.419875	1736.761002	00_28_43_Barley Barrel_Anxious Whispering__go ahead, ask her.
+1736.793125	1737.9415139999999	00_28_45_Pickle Barrel_Anxious Whispering__no, you ask her.
+1737.9495	1739.2625189999999	00_28_46_Barley Barrel_Anxious Whispering__no you ask her!
+1739.32675	1739.9330679999998	00_28_47_Pickle Barrel_Anxious Whispering_Very Noisy_no, you!
+1741.8645	1743.595116	00_28_50_Rainbow_Annoyed__Somepony ask me!
+1745.3755	1751.16003	00_28_53_Barley Barrel_Anxious__Do you think, maybe. You could give us a lesson? just a tiny one? Show us some of your moves?
+1753.938625	1759.1344860000002	00_29_02_Rainbow_Happy__Well, you promise to listen? And work hard? and practice?
+1763.24625	1769.062483	00_29_11_Rainbow_Happy__Tell you what, if i like what i see, The three of us will put on a show At the rainbow festival!
+1771.6865	1773.9029730000002	00_29_20_Barley Barrel_Surprised Confused__There's still a rainbow festival?
+1773.924875	1776.16544	00_29_22_Pickle Barrel_Surprised Confused__And, we're gonna perform at it?
+1776.521	1782.455685	00_29_24_Rainbow_Happy_Noisy_I think the whole town should know there's a couple Of future wonderbolt's living here.
+1782.712625	1784.387025	00_29_31_Rainbow_Happy_Very Noisy_C'mon, we got work to do!
+1786.54325	1788.15742	00_29_34_Barley Barrel_Happy_Very Noisy_Did you hear that?!
+1788.11725	1790.719196	00_29_36_Pickle Barrel_Happy_Noisy_She called us future wonderbolts!
+1803.102625	1806.202474	00_29_51_Applejack_Neutral_Noisy_I think some of this can be saved, But we'll need some fresh lumber.
+1806.724375	1809.454812	00_29_55_Applejack_Neutral__Uh, torque? the mayor said maybe you can lend a hoof?
+1810.386375	1814.6587060000002	00_29_58_Torque Wrench_Annoyed__him and his crazy schemes. What's your business in this anyhoo, hmm?
+1815.028125	1822.199538	00_30_03_Applejack_Neutral__Well for one thing, we're helping the mayor. And for another, granny smith always says, you break something, you fix it.
+1822.4105	1825.4134999999999	00_30_10_Applejack_Neutral_Very Noisy_And any job you do, you should be proud of.
+1826.42375	1828.6321919999998	00_30_14_Torque Wrench_Amused__proud of being a repair pony?
+1829.8765	1835.5225130000001	00_30_18_Applejack_Neutral__Well absolutely. it's a pretty rare talent to have. Nice work on that balloon basket by the way.
+1836.4245	1838.7669150000002	00_30_24_Applejack_Neutral_Noisy_Reweavin' all that straw is no joke.
+1839.939375	1842.461014	00_30_28_Torque Wrench_Neutral__yeah well, Thanks for well, noticing.
+1863.099875	1865.453445	00_30_51_Rarity_Anxious_Very Noisy_That's one of my designs!
+1869.9165	1871.4679170000002	00_30_58_Rarity_Neutral_Very Noisy_Hello?
+1874.57575	1879.0970329999998	00_31_02_Kerfuffle_Happy_Noisy_No way! stack my pancakes! Are you really the rarity?
+1879.5095	1881.5062899999998	00_31_07_Rarity_Neutral__Uh, it's just rarity.
+1881.538375	1884.389273	00_31_09_Rarity_Anxious__Uh and i-i couldn't help but notice that you've got.
+1884.847	1891.279589	00_31_13_Kerfuffle_Happy_Noisy_I love you! i love you so much, Your work i mean your designs your taste Your eye for beauty.
+1891.2555	1892.8696699999998	00_31_19_Rarity_Anxious_Noisy_well, thank you.
+1892.829625	1895.6403690000002	00_31_21_Kerfuffle_Happy_Noisy_They're the perfect canvas for me to fancy up!
+1895.865125	1900.2900390000002	00_31_24_Rarity_Anxious_Noisy_Yes about that! the-the hat, the-the bow, the scarf, the.
+1900.241875	1901.4464799999998	00_31_28_Kerfuffle_Happy_Noisy_do you like 'em? very charming.
+1901.567	1902.659175	00_31_29_Rarity_Neutral__Very charming.
+1903.33375	1906.385415	00_31_31_Kerfuffle_Happy__thank you! Those are kerfuffle originals.
+1906.289	1909.50931	00_31_34_Kerfuffle_Happy__i'm kerfuffle, Spelled like it sounds with a double.
+1910.14375	1911.057242	00_31_38_Kerfuffle_Happy__For the fuff!
+1911.774	1913.8775099999998	00_31_40_Kerfuffle_Anxious__I should really stop talking now.
+1914.022625	1922.8965460000002	00_31_42_Rarity_Neutral__I do hope you don't mind my asking, But with all this talent, Why don't you simply display your own work? Instead of adding to others?
+1927.81125	1932.701945	00_31_56_Kerfuffle_Sad_Noisy_oh no. I-i-i couldn't it's, Not good enough by itself.
+1933.248125	1934.388484	00_32_01_Rarity_Annoyed__au contraire!
+1934.492875	1938.243211	00_32_02_Rarity_Neutral_Very Noisy_take this shawl. Hoof-dyed, nicely woven.
+1938.203	1942.330778	00_32_06_Rarity_Happy__A piece of art by itself! Imagine if you could work in color.
+1942.652	1946.458551	00_32_11_Kerfuffle_Happy__Oh i do imagine! I mean that's how i design things.
+1946.474625	1954.3607700000002	00_32_14_Kerfuffle_Happy_Noisy_I feel in my heart what the colors are. Like this scarf, this stripe is red, Then orange, yellow!
+1954.34475	1955.7525289999999	00_32_22_Rarity_Happy__Like a rainbow.
+1955.7945	1960.78534	00_32_24_Rarity_Happy__How would you like to work with me as the official assistant Designer of the rainbow festival?
+1961.94175	1966.639708	00_32_30_Kerfuffle_Happy__really? Work with you?  I-i can't believe it!
+1970.117	1972.863499	00_32_38_Kerfuffle_Confused__Wait, there's still a rainbow festival?
+1973.0195	1981.761524	00_32_41_Rarity_Happy__Darling! if we have anything to do with it, Not only will there be a festival, It will be the most stylish anypony in this town Has ever seen!
+1982.002375	1984.114448	00_32_50_Rarity_Happy_Noisy_now let's get started!
+2005.8445	2006.7209329999998	00_33_14_Petunia Petals_Happy_Very Noisy_you like it?
+2007.60425	2008.64824	00_33_15_Twilight_Happy__I love it.
+2009.7365	2013.253946	00_33_18_Petunia Petals_Happy_Noisy_That a teeny town like hope hollow Would have a library this grand?
+2013.571125	2016.116857	00_33_21_Petunia Petals_Happy_Noisy_we may be small, But we are well read!
+2017.00025	2018.0522720000001	00_33_25_Petunia Petals_Happy_Noisy_I make sure of it!
+2018.4395	2021.915014	00_33_26_Twilight_Happy_Noisy_Mayor sunny was right! you are something!
+2022.067625	2023.7018719999999	00_33_30_Petunia Petals_Happy_Noisy_Did he really say that?
+2024.360375	2026.512602	00_33_32_Petunia Petals_Happy_Noisy_Oh, that silly unicorn.
+2026.705375	2028.018394	00_33_35_Petunia Petals_Neutral__Did he say anything else?
+2028.283375	2031.4115180000001	00_33_36_Petunia Petals_Neutral__i mean Uh, anywho! what can i do ya for?
+2031.4525	2034.4188100000001	00_33_39_Twilight_Neutral_Noisy_I don't suppose you have a magic section?
+2035.84425	2039.690955	00_33_44_Petunia Petals_Neutral__arcane? Elemental? or theory of?
+2050.13325	2051.3012499999995	00_33_53_Petunia Petals_Neutral__Let's see.
+2051.6175	2053.3641769999995	00_33_55_Petunia Petals_Neutral_Very Noisy_If fifty cupcakes makes a party.
+2053.37225	2055.355832	00_33_57_Pinkie_Neutral_Noisy_That means for the festival we need.
+2055.60075	2057.495994	00_33_59_Pinkie_Neutral_Very Noisy_Divide by two, carry the one.
+2058.49725	2062.683843	00_34_02_Pinkie_Happy__more? super more! We're gonna need some baking help!
+2069.9315	2072.1772020000003	00_34_13_Fluttershy_Neutral_Very Noisy_It looks like it's closed.
+2075.396375	2077.046684	00_34_19_Pinkie_Sad_Very Noisy_Aw, that's so sad!
+2077.01525	2079.5964929999996	00_34_20_Mr. Hoofington_Annoyed_Very Noisy_We can only use the ones from our yard lovey.
+2079.572375	2081.503758	00_34_23_Mrs. Hoofington_Annoyed_Very Noisy_Oh, darling, stop it!
+2081.38325	2084.4710529999998	00_34_25_Pinkie_Happy_Very Noisy_Excuse me! i see you're taking your pie for a walk, And i was wondering.
+2084.0575	2085.707808	00_34_27_Mrs. Hoofington_Annoyed_Very Noisy_we're not interested. oh!
+2086.56725	2091.3293430000003	00_34_30_Mrs. Hoofington_Annoyed_Very Noisy_It's getting so a pony can't even walk Without being terrorized.
+2092.774875	2094.083878	00_34_36_Pinkie_Happy_Very Noisy_that's not terrorized.
+2096.81425	2098.2031899999997	00_34_40_Pinkie_Happy_Very Noisy_is terrorized!
+2100.355875	2105.9452400000005	00_34_44_Pinkie_Happy_Very Noisy_So! how would you like to be a part of the official baking team At the rainbow festival?
+2106.16925	2108.17125	00_34_49_Mrs. Hoofington_Confused_Very Noisy_There's still a rainbow festival?
+2108.531125	2113.3896969999996	00_34_52_Pinkie_Happy_Very Noisy_Uh-huh! we'll have a booth with cupcakes And pastimes and fun and we're going to start with this pie!
+2113.34325	2115.8069109999997	00_34_57_Pinkie_Happy_Noisy_Let the taste test, begin!
+2122.72825	2125.516024	00_35_06_Pinkie_Anxious_Noisy_What kind of pie did you say this was supposed to be?
+2125.85625	2127.94125	00_35_09_Mr. Hoofington_Annoyed_Very Noisy_Apricot.
+2127.98325	2131.7157230000003	00_35_11_Pinkie_Neutral__Are you sure? it's kinda, Crunchy.
+2131.82025	2134.8557260000002	00_35_15_Fluttershy_Anxious__Not, that there's anything wrong with that.
+2134.944	2138.822827	00_35_18_Mrs. Hoofington_Annoyed_Very Noisy_Well! the apricots are from Our very own tree!
+2138.91125	2140.74625	00_35_22_Mr. Hoofington_Neutral_Very Noisy_In our very own yard!
+2140.78725	2143.5402499999996	00_35_24_Mrs. Hoofington_Annoyed_Very Noisy_Behind our very own house!
+2143.58225	2146.5484229999997	00_35_27_Pinkie_Neutral_Very Noisy_Yeah. maybe we should get a look at this tree.
+2151.061625	2153.3001999999997	00_35_34_Rainbow_Neutral_Very Noisy_Alright, rookies.
+2153.34225	2155.4384050000003	00_35_37_Rainbow_Happy_Noisy_Show me what ya got!
+2156.217375	2159.2851020000003	00_35_39_Barley Barrel_Happy Whispering__she sounds just like we always imagined she'd sound!
+2159.365375	2161.7003749999994	00_35_43_Pickle Barrel_Happy Whispering__Only twenty percent cooler!
+2162.103875	2165.693597	00_35_45_Rainbow_Confused__Well? Aren't you gonna fly or something?
+2165.81225	2167.9422019999997	00_35_49_Pickle Barrel_Anxious_Noisy_Yes sir! i mean, m'am!
+2193.92425	2200.410314	00_36_17_Rainbow_Neutral__Fancy flying is something you have to work up to, Even i didn't become rainbow dash in one day.
+2200.900125	2202.329589	00_36_24_Barley Barrel_Neutral_Noisy_Two days?
+2204.55925	2207.72925	00_36_28_Rainbow_Neutral_Very Noisy_Everypony's gotta learn the basics before they can show off.
+2220.310375	2224.783473	00_36_44_Rainbow_Neutral_Noisy_You'll get there. but first, Let's start with a single flip.
+2235.351875	2239.889219	00_36_59_Fluttershy_Neutral_Noisy_If you don't mind my asking, You don't sound like the other ponies here in town.
+2240.01225	2244.2579250000003	00_37_03_Mr. Hoofington_Neutral__Oh we weren't born here, We're originally from manehattan.
+2244.6755	2250.3130499999997	00_37_08_Mrs. Hoofington_Neutral__But it was so big, All those ponies crammed together Never talking to each other.
+2250.68925	2254.2722059999996	00_37_14_Mr. Hoofington_Neutral_Noisy_We heard hope hollow was just the opposite, So we moved here.
+2254.56825	2257.2372499999997	00_37_18_Mrs. Hoofington_Happy__And it was wonderful.
+2258.0145	2259.197239	00_37_21_Mrs. Hoofington_Neutral__for a while.
+2259.564375	2260.809133	00_37_23_Fluttershy_Neutral__what happened?
+2260.921625	2264.109812	00_37_24_Mrs. Hoofington_Neutral__uh, Things changed. ah! here!
+2264.8165	2266.3423329999996	00_37_28_Mrs. Hoofington_Happy__This is the tree!
+2266.59925	2269.124173	00_37_30_Mr. Hoofington_Neutral_Noisy_This is where the apricots in my pie came from.
+2271.29325	2276.2361650000003	00_37_35_Pinkie_Confused_Noisy_Well i'm no expert but, I don't think these are very ripe.
+2276.444875	2279.625031	00_37_40_Pinkie_Neutral__Apricots are supposed to be orange.
+2279.67325	2286.555559	00_37_43_Mr. Hoofington_Anxious__Well, that's the problem isn't it? With hardly any colors in this town, One apricot looks like another!
+2286.884875	2290.916286	00_37_50_Fluttershy_Neutral__What about that tree? Its apricots are big and juicy.
+2291.04475	2295.100252	00_37_54_Mr. Hoofington_Annoyed__oh, We can't use the apricots from that tree.
+2295.148375	2296.1522130000003	00_37_58_Pinkie_Happy_Noisy_Sure you can.
+2296.979375	2299.5291669999997	00_38_00_Moody Root_Angry Shouting_Very Noisy_Hey! stay away from my tree!
+2300.890375	2302.1993789999997	00_38_04_Fluttershy_Anxious__what was that?
+2302.49125	2304.53425	00_38_06_Mr. Hoofington_Neutral__Just old moody root.
+2304.57625	2310.2534720000003	00_38_08_Mrs. Hoofington_Neutral__He's made it quite clear he won't share his apricots, He hasn't even said hello in ages.
+2310.49925	2313.1854059999996	00_38_14_Fluttershy_Annoyed__Have you tried saying hello to him?
+2313.185375	2316.9758650000003	00_38_16_Mr. Hoofington_Confused__What? Well, no, but.
+2316.967875	2319.963325	00_38_20_Fluttershy_Neutral__Mister moody root? are you there?
+2320.09975	2321.681798	00_38_23_Mr. Moody Root_Annoyed_Very Noisy_who wants to know?
+2322.58925	2330.395089	00_38_26_Fluttershy_Happy_Noisy_I'm fluttershy. Your apricot tree is beautiful. So healthy. you must take very good care of it.
+2330.788625	2337.349705	00_38_34_Moody Root_Neutral__Well, i try to uh, Plant food, a good waterin' now and then Keeps my apricots happy.
+2337.855625	2342.561614	00_38_41_Fluttershy_Happy__I bet that's why you have so many of them, You must always be busy making things.
+2342.48925	2345.4527510000003	00_38_46_Fluttershy_Neutral_Noisy_Jam cobbler, pie.
+2345.46075	2350.1587090000003	00_38_49_Moody Root_Neutral__Nope i just eat 'em. although, Pie does sound pretty good.
+2350.20525	2352.70725	00_38_53_Mrs. Hoofington_Confused__What in equestria is she doing?
+2352.74925	2355.210049	00_38_56_Mr. Hoofington_Confused__I haven't the foggiest, dear.
+2355.6115	2357.879166	00_38_59_Pinkie_Happy__Doing what she does best.
+2357.92125	2362.558137	00_39_01_Fluttershy_Neutral_Noisy_Your neighbors were just about to bake some pies. You know them right?
+2363.353125	2366.734048	00_39_07_Fluttershy_Happy_Noisy_Mister and missus hoofington, mister moody root.
+2374.4355	2377.037446	00_39_18_Fluttershy_Neutral__but, They're a little short on apricots.
+2377.206125	2381.928175	00_39_20_Pinkie_Happy_Noisy_If only there were some apricots We could use!
+2385.82425	2389.3967300000004	00_39_29_Mrs. Hoofington_Happy__Oh yes of course! we'd be happy to bake you a pie.
+2389.45225	2392.16425	00_39_33_Mr. Hoofington_Happy__Two or, three pies even!
+2392.20525	2395.8534109999996	00_39_35_Moody Root_Neutral__So you mean if i give you my apricots?
+2397.025875	2399.713232	00_39_40_Pinkie_Happy__what a great idea!
+2399.75425	2402.1322499999997	00_39_43_Fluttershy_Happy__Then everypony can share.
+2402.35025	2404.5908149999996	00_39_46_Fluttershy_Neutral__What do you think mister moody root?
+2407.176625	2408.220615	00_39_50_Mrs. Hoofington_Neutral_Noisy_oh well.
+2409.28875	2411.633714	00_39_52_Fluttershy_Neutral__Wait for it.
+2415.7775	2419.5840510000003	00_39_59_Moody Root_Happy_Very Noisy_Got a ladder? We can just pick 'em from your side of the fence!
+2419.52425	2422.1860699999997	00_40_03_Mr. Hoofington_Surprised Anxious__Um, yes! of course! this way!
+2435.66525	2438.135036	00_40_19_Twilight_Anxious_Very Noisy_A prism curse? an erasure spell?
+2438.5285	2441.901393	00_40_22_Twilight_Anxious_Noisy_None of these are big enough to make a whole town Lose its color on their own!
+2443.788625	2444.8888300000003	00_40_27_Twilight_Neutral__Unless.
+2457.978875	2458.886344	00_40_41_Twilight_Neutral_Very Noisy_mayor skies!
+2459.77775	2460.958262	00_40_43_Twilight_Confused__what is all this?
+2461.046625	2469.3423359999997	00_40_44_Mayor Sunny Skies_Happy_Noisy_princess twilight! Welcome to our town's rainbow room. Anything you want to know about each year's festival From the very beginning.
+2469.61625	2471.77563	00_40_53_Twilight_Happy Surprised_Noisy_The pictures! they're in color!
+2471.912125	2473.2532519999995	00_40_55_Mayor Sunny Skies_Sad_Noisy_Sure are.
+2474.45425	2476.41425	00_40_58_Mayor Sunny Skies_Sad_Very Noisy_Those are from happier times.
+2476.77875	2478.7502449999997	00_41_00_Mayor Sunny Skies_Sad__Back when there still was a festival.
+2480.96275	2484.560503	00_41_04_Mayor Sunny Skies_Sad__Seems even though we faded, The memory never did.
+2485.484	2488.278683	00_41_09_Mayor Sunny Skies_Neutral__I come here sometimes for, inspiration.
+2490.5835	2494.2695900000003	00_41_14_Mayor Sunny Skies_Sad_Very Noisy_I need plenty for this speech i'm writing, Biggest one of my life.
+2495.466125	2496.863467	00_41_19_Mayor Sunny Skies_Surprised_Very Noisy_didn't see you there!
+2497.168625	2500.220291	00_41_20_Petunia Petals_Neutral_Very Noisy_Sunny! Heh. i didn't know you were here.
+2501.0395	2505.440322	00_41_24_Mayor Sunny Skies_Anxious_Very Noisy_Aha ha, j-just leavin', ha ha. Eh, i g-gotta finish this, eh, well, Eh, s-s-see you later!
+2508.813125	2511.199165	00_41_32_Twilight_Sad_Noisy_The festival was really something, wasn't it?
+2511.479375	2513.201224	00_41_35_Petunia Petals_Sad__it Used to be wonderful.
+2513.5915	2516.169354	00_41_37_Petunia Petals_Sad__It brought the whole town together for a long time.
+2516.916125	2518.2010370000003	00_41_40_Petunia Petals_Sad_Noisy_And these pictures.
+2519.0845	2520.883377	00_41_42_Petunia Petals_Sad__Are from the last festival.
+2521.341125	2522.561792	00_41_45_Petunia Petals_Sad__you can see.
+2522.96125	2524.625654	00_41_46_Petunia Petals_Sad_Very Noisy_it didn't go well.
+2524.689875	2528.793561	00_41_48_Twilight_Neutral_Very Noisy_The mayor's magic and the generator Caused the colors to go.
+2528.98625	2536.968764	00_41_52_Petunia Petals_Neutral_Very Noisy_that's what sunny thinks. He blames himself for it but, I'm still not convinced it was anything Other than an accident.
+2537.43425	2542.445773	00_42_01_Twilight_Neutral_Very Noisy_There's something strange about this. i just can't put my hoof on it.
+2544.23225	2546.98525	00_42_07_Twilight_Sad_Very Noisy_If only the generator hadn't been destroyed.
+2547.02725	2548.906116	00_42_10_Petunia_Neutral_Very Noisy_not all of it was.
+2553.306875	2556.4870310000006	00_42_17_Petunia Petals_Sad_Very Noisy_i don't keep it out Because i know it hurts the mayor to see it.
+2558.254125	2559.683589	00_42_21_Twilight_Neutral__Mind if i borrow this?
+2571.6805	2576.290121	00_42_31_Mayor Sunny Skies_Happy__Great job! It's even better than it was before, don'cha know!
+2582.473	2583.630194	00_42_42_Mayor Sunny Skies_Happy_Very Noisy_Sure is!
+2583.678375	2585.3487600000003	00_42_43_Mayor Sunny Skies_Happy__bigger and better than ever!
+2585.509375	2586.328507	00_42_45_Mayor Sunny Skies_Anxious__I hope.
+2586.8425	2588.071197	00_42_46_Mayor Sunny Skies_Happy__tell all your friends!
+2601.908125	2602.735287	00_43_01_Twilight_Anxious Tired_Noisy_Mister mayor.
+2603.619	2605.105284	00_43_03_Twilight_Anxious__i hope you don't mind but.
+2605.10125	2606.298828	00_43_04_Mayor Sunny Skies_Annoyed__where'd you find that?
+2606.441375	2608.8546	00_43_06_Petunia Petals_Neutral__I gave it to her sunny, she has an idea.
+2609.14375	2612.436336	00_43_08_Mayor Sunny Skies_Neutral__Best idea would just be to throw that thing in the trash heap.
+2612.645125	2619.9289679999997	00_43_12_Twilight_Neutral_Very Noisy_My theory is that the generator magnifies Whatever magic it uses, makes it stronger. So if we could rebuild it.
+2621.18175	2626.891576	00_43_20_Twilight_Happy_Very Noisy_And use one of the reversal spells i just read about. It could work to bring color back to the town!
+2629.686	2633.773872	00_43_29_Mayor Sunny Skies_Annoyed_Very Noisy_Even if we could get it working again, Which is quite a tall order.
+2633.982	2638.070296	00_43_33_Applejack_Neutral_Noisy_Not for a gifted repair pony, Who i just happen to know.
+2638.752875	2642.912777	00_43_38_Torque Wrench_Neutral_Very Noisy_Let me take a look see. Yeah, i could give her a go.
+2644.021	2645.9483680000003	00_43_43_Mayor Sunny Skies_Anxious_Very Noisy_i don't wanna get my hopes up but.
+2645.932375	2647.579026	00_43_45_Mayor Sunny Skies_Happy_Very Noisy_Yahoo!
+2647.621	2649.706	00_43_47_Torque Wrench_Neutral_Very Noisy_Don't worry, i'll get to work.
+2651.375	2656.6613620000003	00_43_50_Petunia Petals_Neutral__Um, how's your speech coming sunny? I'd be happy to help you with it if you'd like.
+2656.846125	2666.354471	00_43_56_Mayor Sunny Skies_Anxious__Ah oh no, y-you couldn't. Uh, thanks but uh, I have to do a little mayor-type business don't you know But i'll check back in a little bit to see How everything's goin'.
+2668.9725	2670.9882049999997	00_44_08_Petunia Petals_Confused__he's acting so peculiar.
+2671.5985	2676.32055	00_44_11_Applejack_Confused__From what i've seen of the mayor, How can you tell exactly when peculiar kicks in?
+2687.744	2692.7513190000004	00_44_27_Moody Root_Happy__If i had known your pie was this good, I'd have given you those apricots ages ago!
+2692.92	2695.666499	00_44_32_Mrs. Hoofington_Happy__Mr. hoofington did all the baking.
+2696.469625	2699.1036940000004	00_44_36_Mr. Hoofington_Happy_Very Noisy_nspired by you, snookums.
+2701.191625	2704.428043	00_44_40_Moody Root_Happy__Say the whole town should know about this here pie!
+2704.469	2707.278851	00_44_44_Pinkie_Smug__Oh don't worry! they will.
+2709.358875	2712.1053739999998	00_44_48_Pinkie_Happy__give it away at the rainbow festival!
+2712.522875	2715.91986	00_44_52_Moody Root_Confused__Wait what? There's still a rainbow festival?
+2727.0665	2733.555304	00_45_06_Torque Wrench_Happy__well! here it is! Had to hoof-build some of the parts myself But it's as good as new.
+2734.278125	2739.04836	00_45_13_Applejack_Happy__Hoo-wee! this looks amazin' torque! Nopony else could have pulled this off.
+2739.3695	2740.7969789999997	00_45_18_Twilight_Happy__Thank you so much for your help.
+2741.007875	2745.280206	00_45_20_Torque Wrench_Happy__It was a real challenge! But turns out, that was part of the fun!
+2752.74875	2755.103087	00_45_32_Applejack_Surprised__Whoa! did, did y'all see that?
+2759.107	2761.726984	00_45_38_Twilight_Neutral_Very Noisy_now we need to test it. should we call the mayor?
+2761.676625	2765.210132	00_45_41_Twilight_Neutral__Might be best to make sure it works first, I'd hate to disappoint him.
+2767.449	2769.7255590000004	00_45_47_Applejack_Anxious_Very Noisy_Uh, twilight, i think i saw.
+2769.6935	2771.84372	00_45_49_Twilight_Neutral_Very Noisy_In a moment applejack, this is important.
+2771.841625	2772.24316	00_45_51_Applejack_Anxious_Very Noisy_yeah but!
+2772.24325	2773.311333	00_45_51_Twilight_Neutral_Very Noisy_turn on the generator.
+2773.977875	2774.519947	00_45_53_Applejack_Neutral_Very Noisy_okay.
+2789.497125	2791.368278	00_46_09_Applejack_Happy_Very Noisy_Huh! well look at that!
+2791.431	2793.2250000000004	00_46_11_Petunia Petals_Happy_Very Noisy_Isn't it beautiful?
+2793.83375	2798.1221429999996	00_46_13_Petunia Petals_Happy_Very Noisy_That's what the generator's always done! For years and years!
+2798.271	2800.989066	00_46_17_Twilight_Happy_Very Noisy_Now we just add magic, and!
+2822.713	2825.474665	00_46_42_Twilight_Sad__I'm sorry. i thought for sure it would work.
+2830.21275	2833.489275	00_46_49_Petunia Petals_Sad__Let's not tell the mayor, it would break his heart.
+2833.807	2838.08286	00_46_53_Twilight_Sad__No, we have to tell him we failed. We can't bring the color back.
+2841.022	2845.10169	00_47_00_Applejack_Neutral__Hmm. twilight! I really think you should see this!
+2853.744	2856.8586320000004	00_47_13_Petunia Petals_Happy_Very Noisy_Everything you need for the rainbow festival bake sale!
+2860.183375	2862.183019	00_47_19_Fluttershy_Happy_Noisy_Courtesy of the hoofingtons.
+2862.3035	2864.319205	00_47_21_Mr. Hoofington_Happy__and Mister moody root!
+2865.363125	2867.423983	00_47_24_Twilight_Happy_Noisy_Ooh! everything looks delicious!
+2867.7885	2872.622981	00_47_27_Petunia Petals_Happy__Mister moody root! Why i haven't seen you in the library for ages!
+2872.7755	2877.0478310000003	00_47_32_Moody Root_Happy__High time i came back! Eh you got any of them there, cookbooks?
+2886.6365	2888.6602350000003	00_47_46_Torque Wrench_Happy_Noisy_they're pretty good!
+2888.65225	2891.752099	00_47_48_Rainbow_Happy_Very Noisy_They've been practicing their tails off for the big show!
+2892.555125	2893.815945	00_47_52_Torque Wrench_Confused__What big show?
+2894.000625	2895.149014	00_47_53_Rainbow_Happy_Noisy_The rainbow festival!
+2896.0725	2898.4977700000004	00_47_55_Rainbow_Happy_Noisy_They're the official entertainment.
+2907.810625	2909.580183	00_48_07_Rainbow_Neutral_Noisy_landing still needs a little work.
+2911.343	2914.141601	00_48_10_Rarity_Happy_Very Noisy_Wonderful! you can help us set up our cart.
+2915.08125	2918.76734	00_48_14_Rarity_Happy_Noisy_Kerfuffle's official rainbow festival accessories!
+2918.851625	2919.871523	00_48_18_Kerfuffle_Happy__Ta-da!
+2920.891375	2924.095623	00_48_20_Rainbow_Happy__Ha! whoa-ho-ho! Nice stuff!
+2924.481	2927.9865250000003	00_48_24_Kerfuffle_Happy_Very Noisy_And i designed color-matched accessories for each of you!
+2928.588875	2933.206526	00_48_28_Pinkie_Neutral_Noisy_Um, i can't help but notice that the color-matched Accessories, don't have much color.
+2935.406875	2937.912452	00_48_34_Rarity_Neutral_Very Noisy_The town doesn't have any color remember?
+2938.24175	2939.9550240000003	00_48_37_Pinkie_Neutral__Oh, right!
+2939.996	2944.248688	00_48_39_Kerfuffle_Happy__Oh but don't worry, I know where the colors are supposed to be!
+2945.2445	2949.2277259999996	00_48_44_Kerfuffle_Happy_Very Noisy_An orange scarf for applejack, Red leggings for fluttershy.
+2952.8175	2956.832849	00_48_52_Kerfuffle_Happy_Noisy_The pink flower lei is for, Well, you know who!
+2957.08175	2958.4148459999997	00_48_56_Pinkie_Happy__No, who?
+2963.000375	2966.549943	00_49_02_Rarity_Happy_Noisy_And look at my purple kerchief, Isn't it divine?
+2966.63025	2969.5373630000004	00_49_06_Kerfuffle_Happy_Noisy_The blue goggles are for rainbow dash.
+2971.890375	2975.39979	00_49_11_Kerfuffle_Happy_Noisy_And i think i have some That might match for you two. whoa!
+2978.451	2986.6989580000004	00_49_18_Kerfuffle_Happy_Very Noisy_And something very special for princess twilight Wing bling! In every shade of the rainbow don'cha know!
+2990.256625	2995.878114	00_49_29_Twilight_Happy_Noisy_Kerfuffle, this is amazing! everypony, You've done great work.
+2998.568375	3003.1298119999997	00_49_38_Twilight_Sad__i just wish i could have done my part. I hate to admit it but, i'm stuck.
+3003.62775	3006.069082	00_49_43_Twilight_Sad_Noisy_I don't know how to make the town's color come back.
+3007.83575	3011.6101780000004	00_49_47_Applejack_Happy_Noisy_That's what i've been tryin' to tell ya! It is comin' back!
+3020.827	3022.913	00_50_00_Fluttershy_Confused_Very Noisy_What's happening?
+3022.954	3024.873	00_50_02_Rarity_Happy_Very Noisy_Something wonderful!
+3025.174125	3030.787583	00_50_04_Twilight_Confused_Very Noisy_But, how? It wasn't the generator. which means something.
+3030.72325	3035.822743	00_50_10_Twilight_Happy_Noisy_Something else must have drained the town's color In the first place! I have to get back to the library!
+3045.301	3052.144342	00_50_20_Twilight_Happy_Noisy_I thought so! Look, in the second photo, when the generator goes off, this pony is walking away.
+3052.132	3056.505011	00_50_27_Twilight_Happy_Noisy_But on the third photo, with all the colors gone, He's back where he was!
+3059.7895	3061.684745	00_50_34_Petunia Petals_Happy_Noisy_We have to tell the mayor!
+3063.7005	3066.8806560000003	00_50_38_Petunia Petals_Happy_Very Noisy_Sunny! Have you seen what's happenin' outside?
+3067.089375	3069.8920879999996	00_50_42_Mayor Sunny Skies_Neutral_Very Noisy_No i've been in here for a while working on my speech.
+3070.43025	3072.341556	00_50_45_Twilight_Neutral_Noisy_Maybe we should just show him.
+3073.612	3078.428816	00_50_48_Mr. Hoofington_Happy_Very Noisy_Who wants apricot pies? Best pies in hope hollow!
+3078.43675	3081.827903	00_50_53_Mrs. Hoofington_Happy_Very Noisy_Pies for sale! yummy-licious!
+3086.869	3088.852582	00_51_01_Mrs. Hoofington_Happy_Very Noisy_How lovely to see you!
+3091.607125	3098.866876	00_51_06_Pinkie_Happy_Very Noisy_What's better than one pie? Lots of pies! Official rainbow festival goodness right here, now!
+3101.501	3105.122844	00_51_16_Rarity_Happy_Very Noisy_Over here darlings, Just look what kerfuffle has come up with!
+3119.9555	3124.324199	00_51_34_Mayor Sunny Skies_Happy Surprised__But, colors! So you were able to reverse the generator?
+3124.32425	3128.074586	00_51_39_Petunia Petals_Neutral__The generator had nothing to do with it. and never did.
+3128.419875	3130.876964	00_51_43_Mayor Sunny Skies_Confused__so, None of it was my fault?
+3130.919	3138.329793	00_51_45_Petunia Petals_Happy__No you big doofus! How many times have i tried to tell you that? All those years you blamed yourself for nothing!
+3138.402	3147.589118	00_51_53_Twilight_Happy_Very Noisy_These photos from the library explain everything. Once i realised they were out of order, It proved that the town's colors got dim Before you turned on the generator!
+3147.88625	3150.562927	00_52_02_Mayor Sunny Skies_Happy_Very Noisy_Boy, howdy, am i glad to hear that!
+3150.604875	3153.107875	00_52_05_Mayor Sunny Skies_Confused_Very Noisy_But then, what did cause it?
+3153.149	3158.880349	00_52_08_Twilight_Neutral_Very Noisy_It's called hopeless magic. Everypony was already giving up on each other, losing hope!
+3159.25775	3166.645992	00_52_14_Twilight_Neutral_Very Noisy_Then when the generator blew up, It must have been the last straw. It took all the hope out of the town for good, Along with the color.
+3166.943125	3172.7332579999998	00_52_21_Twilight_Happy_Very Noisy_but now, There's a different kind of magic, Of everypony coming together again!
+3172.87775	3174.4208949999997	00_52_27_Twilight_Happy_Very Noisy_Just the way you wanted it mayor.
+3174.909625	3178.5080029999995	00_52_29_Torque Wrench_Happy_Very Noisy_What do you know? There is still a rainbow festival!
+3178.75625	3182.755538	00_52_33_Twilight_Happy_Very Noisy_And we better get it started, This town's been waiting long enough.
+3182.79575	3187.333095	00_52_37_Torque Wrench_Happy_Very Noisy_The generator's working again mister mayor, Just the way your grandpa built her.
+3188.934875	3191.854875	00_52_43_Mayor Sunny Skies_Anxious_Noisy_I just hope my speech lives up to the occasion.
+3192.440625	3194.0547950000005	00_52_47_Twilight_Happy_Very Noisy_Attention please!
+3194.816	3198.862	00_52_49_Twilight_Happy_Very Noisy_Welcome to the brand new hope hollow annual rainbow festival!
+3198.903	3201.523355	00_52_53_Twilight_Happy__And here's the pony who made it all possible.
+3201.603625	3203.532963	00_52_56_Twilight_Happy_Very Noisy_Mayor sunny skies!
+3206.452875	3210.943239	00_53_01_Mayor Sunny Skies_Happy_Very Noisy_I am as proud as a two-tailed peacock To see you all here today.
+3211.19225	3215.087138	00_53_06_Mayor Sunny Skies_Happy_Very Noisy_To once again celebrate our little town At the end of the rainbow.
+3219.256875	3222.301875	00_53_14_Mayor Sunny Skies_Happy_Very Noisy_And i can't give enough thanks to rainbow dash.
+3223.60775	3231.8472460000003	00_53_18_Mayor Sunny Skies_Happy_Very Noisy_Princess twilight, Pinkie pie, Fluttershy, Rarity and applejack.
+3232.394875	3238.119121	00_53_27_Mayor Sunny Skies_Happy_Very Noisy_My grandpa started this festival to celebrate us, The ponies of hope hollow.
+3238.560875	3244.278732	00_53_33_Mayor Sunny Skies_Happy_Very Noisy_It's you who brought friendship back to our town, And all the bright colors that come with it.
+3246.696	3251.048639	00_53_41_Mayor Sunny Skies_Happy_Very Noisy_We just have to always remember To reach a hoof out to our neighbors.
+3251.205875	3258.966813	00_53_46_Mayor Sunny Skies_Happy_Very Noisy_To respect, and listen and talk to each other. You never know what just sayin' hello To somepony can do.
+3259.713875	3262.765333	00_53_54_Mayor Sunny Skies_Happy_Very Noisy_So, without further ado.
+3296.876	3299.838	00_54_31_Kerfuffle_Happy_Very Noisy_It's exactly as i imagined it!
+3306.803	3309.639	00_54_41_Petunia Petals_Happy__That was a beautiful speech sunny.
+3309.680875	3313.016875	00_54_44_Mayor Sunny Skies_Neutral__What? oh no uh, that wasn't my speech.
+3313.059	3316.104	00_54_47_Petunia Petals_Confused__But uh, then what have you been writing all day?
+3316.314125	3322.048044	00_54_51_Mayor Sunny Skies_Neutral__Well eh, another speech. I mean it's for later but, Aw flapjacks.
+3322.234875	3324.987875	00_54_57_Mayor Sunny Skies_Neutral_Very Noisy_I guess now is as a good a time as any.
+3326.135625	3330.319619	00_55_01_Mayor Sunny Skies_Neutral_Very Noisy_petunia, You've never given up on me, or the town.
+3330.424	3335.5797079999998	00_55_05_Mayor Sunny Skies_Neutral_Very Noisy_You always had hope when we had none and, I can't imagine a day without you.
+3336.75225	3339.675424	00_55_11_Mayor Sunny Skies_Happy__You're the pony who brings color into my life.
+3339.918875	3343.666585	00_55_14_Mayor Sunny Skies_Happy_Very Noisy_Petunia petals. Will you marry me?
+3344.215	3347.015511	00_55_19_Petunia Petals_Happy_Very Noisy_Of course you silly goose!
+3356.311	3359.23	00_55_31_Rainbow_Happy Shouting_Very Noisy_Attention, everypony!
+3359.272	3365.140594	00_55_34_Rainbow_Happy_Very Noisy_Introducing hope hollow's very own. Junior wonderbolts!
+3367.989	3370.521364	00_55_42_Barley Barrel_Happy_Very Noisy_Did you hear what she called us?
+3370.45	3372.702	00_55_45_Pickle Barrel_Happy_Very Noisy_Did you hear what she called us?
+3385.980375	3388.3092770000003	00_56_00_Rainbow_Happy_Very Noisy_Okay guys, showtime!
+3421.39575	3425.684143	00_56_36_Rainbow_Happy_Very Noisy_Now this is something i'm proud To be a guest of honor for!
+3427.464875	3430.679198	00_56_42_Fluttershy_Happy_Very Noisy_And it looks like there's a butterfly garden after all!
+3432.011	3436.204443	00_56_46_Pinkie_Happy_Noisy_Only one more thing Could make this rainbow festival better!
+3436.099	3439.441982	00_56_51_Rarity_Tired Anxious__Oh not more karaoke darling!
+3439.755125	3443.207157	00_56_54_Pinkie_Happy__What? no! A trout dj!
+3457.566125	3464.496617	00_57_12_Twilight_Happy Singing_Very Noisy_step out of the shadows and into the light where it's bright and you might see all the colors you are.
+3464.4725	3471.451177	00_57_19_Rainbow_Happy Singing_Very Noisy_or any color you wanna be that your mind can see and wear them bright like a shining star.
+3471.45125	3478.229159	00_57_26_Rarity_Happy Singing_Noisy_why just be black and white, no need to hide all those colors #inside#.
+3478.245125	3483.3446179999996	00_57_33_Fluttershy_Happy Singing_Noisy_cause when they shine out bright, it just feels #right#.
+3498.868	3505.694093	00_57_53_Applejack_Happy Singing_Noisy_make up any colors that you can devise, mix 'em up, watch the joy as it multiplies.
+3505.662	3512.7450759999997	00_58_00_Kerfuffle_Happy Singing_Noisy_make a rainbow and you will see how together we are like one when we harmonize.
+3512.729	3519.450695	00_58_07_Rarity_Happy Singing_Noisy_why just be black and white, no need to hide all those colors #inside#.
+3519.426625	3524.759009	00_58_14_Fluttershy_Happy Singing_Very Noisy_cause when we shine so bright, it just feels #right#.
+3538.603875	3542.193597	00_58_33_Fluttershy_Happy Singing_Noisy_hello my friend, is a big bright yellow.
+3542.177625	3545.526426	00_58_37_Twilight_Happy Singing_Noisy_violet's what you get when you're feeling mellow.
+3545.50225	3549.051818	00_58_40_Moody Root_Happy Singing_Noisy_red is the part, where your heart starts to glow.
+3549.059875	3552.44883	00_58_43_Kerfuffle_Happy Singing_Noisy_in the #mood#, in the groove indigo.
+3552.42475	3555.869919	00_58_47_Rainbow_Happy Singing_Noisy_blue is the sky spinning high as can be.
+3555.877875	3559.202584	00_58_50_Applejack_Happy Singing_Noisy_orange can amaze bringing days that are sunny.
+3559.266875	3562.607646	00_58_54_Moody Root_Happy Singing_Noisy_green is serene, take a breath, feel new.
+3562.591625	3564.767944	00_58_57_Pinkie_Happy Singing_Noisy_feel all the living #colors#.

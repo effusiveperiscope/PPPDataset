@@ -1,0 +1,1159 @@
+76.844125	79.243831	00_01_25_Rachel Platten_Singing_Noisy_hey! hey! hey!
+79.867375	82.336682	00_01_28_Rachel Platten_Singing_Noisy_hey! hey! hey!
+83.002375	85.87493900000001	00_01_31_Rachel Platten_Singing_Noisy_see the ponies trottin' down the street.
+85.89425	88.954423	00_01_34_Rachel Platten_Singing_Noisy_equestria is where they wanna meet.
+89.31575	95.359208	00_01_37_Rachel Platten_Singing_Noisy_they all know where they wanna go and they're trottin' in time and they're trottin', yeah, they got the beat.
+95.389625	98.840393	00_01_43_Rachel Platten_Singing_Noisy_they got the beat, they got the beat.
+99.43525	101.538927	00_01_47_Rachel Platten_Singing_Noisy_yeah, they got the beat.
+101.5365	107.675299	00_01_49_Rachel Platten_Singing_Noisy_go-go music really makes us dance do the pony puts us in a trance.
+107.68525	111.788035	00_01_56_Rachel Platten_Singing_Noisy_do the watusi just give us a chance that's when we fall in line.
+112.231875	113.772726	00_02_00_Rachel Platten_Singing_Noisy_'cause we got the beat.
+113.776625	117.012104	00_02_02_Rachel Platten_Singing_Noisy_we got the beat, we got the beat.
+117.93525	119.839187	00_02_06_Rachel Platten_Singing_Noisy_yeah, we got it.
+120.74925	122.53307	00_02_09_Spike_Happy_Noisy_excuse me! dragon on the move!
+122.5845	124.81119900000003	00_02_10_Spike_Happy_Noisy_Important princess documents coming through!
+124.81825	128.84722100000002	00_02_13_S04e26 Unnamed Earth Mare #1_Happy_Noisy_Wow! everypony from manehattan to saddle arabia is here!
+128.852875	131.75311900000003	00_02_17_Apple Cobbler_Happy_Noisy_I know, filly. we almost couldn't book a stable!
+133.660625	136.94838900000002	00_02_22_Clear Skies_Anxious_Noisy_Princess twilight must have her hooves full with this giant festival!
+136.894625	138.103317	00_02_25_Female Pony 2_Confused_Noisy_Are you kidding.
+138.00425	140.304762	00_02_26_Female Pony 2_Happy_Noisy_She's smart and organized and cool under pressure.
+140.303125	142.249948	00_02_28_Female Pony 2_Happy_Noisy_There's nothing she can't handle!
+152.5155	154.887487	00_02_40_Twilight_Muffled_Noisy_My goodness! i can't handle this!
+156.209	157.502	00_02_44_Twilight_Anxious__Nothing is working!
+157.885875	159.602032	00_02_46_Twilight_Anxious_Noisy_I just have to get it together.
+159.861875	162.273548	00_02_48_Twilight_Happy_Noisy_Just go in there. and ask!
+162.70825	164.75225	00_02_51_Twilight_Happy_Noisy_This is your friendship festival.
+165.3005	168.370282	00_02_53_Twilight_Anxious_Noisy_Every pony's happiness rests in your hooves.
+173.062875	174.18887499999997	00_03_01_Spike_Neutral_Noisy_okay, twilight.
+174.53975	176.052921	00_03_02_Spike_Neutral_Noisy_Got all your charts and graphs!
+175.992	177.662025	00_03_04_Twilight_Anxious_Noisy_oh, thank goodness you're here, spike.
+177.817625	179.850564	00_03_06_Twilight_Anxious__I'm just so nervous about this meeting.
+180.14525	181.31395899999998	00_03_08_Spike_Confused__What you talkin' about.
+183.291625	188.726123	00_03_11_Twilight_Anxious_Noisy_I'm about to ask the three most royal princesses of equestria for a huge favor.
+189.078375	190.70537499999998	00_03_17_Twilight_Anxious_Noisy_What if they reject me.
+190.86475	194.650753	00_03_19_Spike_Neutral_Noisy_It'll be fine! just remember the most important thing.
+195.44225	196.481786	00_03_23_Twilight_Happy_Noisy_Smile.
+199.411625	200.134379	00_03_27_Spike_Neutral__No.
+200.603	202.38989500000002	00_03_28_Spike_Neutral__You're a princess, too!
+203.623625	204.67387399999998	00_03_31_Twilight_Anxious__Right.
+215.878625	217.507129	00_03_44_Twilight_Neutral_Noisy_good morning, princesses!
+218.05275	219.636659	00_03_46_Twilight_Neutral_Noisy_Thank you all for seeing me.
+219.749	220.95154	00_03_48_Twilight_Neutral_Noisy_I have an idea that i.
+220.902875	225.93601499999997	00_03_49_Twilight_Happy__Think will make our friendship festival the most wonderful celebration equestria has ever seen.
+225.947	228.78112	00_03_54_Celestia_Happy_Noisy_Yes, twilight, we are very excited.
+228.831125	231.78365399999998	00_03_57_Cadance_Neutral_Noisy_Ponies have been arriving from all over all morning.
+231.88625	233.29638999999997	00_04_00_Luna_Neutral_Noisy_I'd like to think it's to see us.
+233.266875	236.62076299999998	00_04_01_Luna_Neutral_Noisy_But songbird serenade might be the bigger attraction.
+236.630875	242.94959500000002	00_04_04_Twilight_Happy__Yes, she is the mane event. And to make it extra special, i could use your help. spike.
+245.840875	251.180032	00_04_14_Twilight_Neutral_Noisy_Songbird serenade's performance is not scheduled to start until after you begin the sunset.
+251.188125	256.01981500000005	00_04_19_Twilight_Happy_Noisy_And based on my precise calculation to get the very best lighting for the stage,.
+256.031125	261.62708999999995	00_04_24_Twilight_Happy_Noisy_Princess celestia, i was hoping you could make sure the sun stays about twenty eight point one degrees to the south.
+261.61675	269.315623	00_04_29_Twilight_Happy_Noisy_And princess luna, if you could raise the moon sixty two degrees to the north at the same time, it would reflect the sunlight on the other side.
+269.317375	272.62743700000004	00_04_37_Twilight_Happy_Noisy_And really frame the entire stage perfectly!
+273.957125	275.31651800000003	00_04_42_Twilight_Happy_Noisy_but wait, there's more!
+275.337375	279.57856000000004	00_04_43_Twilight_Neutral_Noisy_Cadance, if you could use your crystal magic to create an aurora above the stage.
+279.715875	281.839543	00_04_47_Twilight_Happy_Noisy_The sun and the moon will shine through it.
+281.842125	283.67976600000003	00_04_50_Twilight_Happy_Noisy_And create a truly amazing light show!
+284.95975	288.09556399999997	00_04_53_Spike_Shouting_Noisy_presenting songbird serenade!
+288.09475	289.309592	00_04_56_Spike_Happy_Noisy_yeah, yeah, yeah.
+291.8085	293.217102	00_05_00_Spike_Muffled_Noisy_Tada!
+296.074125	298.962067	00_05_04_Luna_Confused_Noisy_So, you're saying you want us to move the sun.
+298.981625	301.595843	00_05_07_Luna_Confused_Noisy_And the moon for the party.
+301.601125	303.312669	00_05_09_Twilight_Happy__Well, i'd do it myself except.
+303.400375	304.512187	00_05_11_Twilight_Anxious__I don't have your magic.
+304.84025	305.736773	00_05_13_Celestia_Anxious_Noisy_twilight...
+306.214375	310.304858	00_05_14_Celestia_Neutral_Noisy_Each of us uses our powers to serve equestria in our own way.
+310.614875	313.524347	00_05_18_Celestia_Neutral_Noisy_You are the princess of friendship.
+313.794625	317.034718	00_05_21_Celestia_Neutral_Noisy_You already have all the magic you need.
+320.18725	321.217559	00_05_28_Twilight_Anxious__That'd be a no.
+327.140625	329.734852	00_05_35_Rainbow_Happy_Noisy_Skies cleared and ready for the festival!
+350.7455	352.878394	00_05_58_Pinkie_Happy_Noisy_Heads up, fluttershy! out of control.
+355.458875	359.037279	00_06_03_Fluttershy_Smug_Noisy_I don't think it's the balloon that's out of control, pinkie pie.
+359.7615	360.719534	00_06_07_Applejack_Happy_Noisy_hey, y'all!
+361.7525	365.451029	00_06_09_Applejack_Shouting_Noisy_Anypony up for some free samples of my family's apple cider!
+375.4235	379.15987499999994	00_06_23_Applejack_Sarcastic_Noisy_Wow, rarity, that's a fine job you're doing there.
+379.79225	382.688175	00_06_27_Applejack_Annoyed_Noisy_'course it might not get done till after the concert.
+382.666875	386.34830999999997	00_06_30_Rarity_Neutral_Noisy_Applejack, darling, anypony can do fine.
+386.341	389.75793699999997	00_06_34_Rarity_Smug_Noisy_Twilight asked me. so clearly, she's going for fabulous.
+389.7695	391.77149999999995	00_06_37_Rarity_Neutral_Noisy_And fabulous takes time.
+391.728	395.71699	00_06_39_Rainbow_Annoyed_Noisy_Fabulous takes forever. but awesome...
+400.119625	403.15826899999996	00_06_48_Rainbow_Happy_Noisy_Can get done in four seconds flat.
+403.2385	405.743616	00_06_51_Rainbow_Happy_Noisy_Faster if i do my sonic rainboom.
+407.58275	409.57878299999993	00_06_55_Rarity_Neutral_Noisy_don't you dare, rainbow dash!
+409.97375	411.997463	00_06_58_Rarity_Happy_Noisy_It looks wretched enough already.
+411.998625	414.169964	00_07_00_Rainbow_Annoyed_Noisy_Oh, come on, it's fine.
+414.220125	416.323802	00_07_02_Rarity_Annoyed_Noisy_If you were raised in a barn!
+417.712375	418.88556	00_07_05_Rarity_Anxious_Noisy_no offense, applejack.
+418.91125	422.426604	00_07_07_Applejack_Neutral_Noisy_None taken. 'specially since i wasn't raised in a barn.
+422.76425	426.20586199999997	00_07_10_Applejack_Neutral_Noisy_My family just happens to have a barn, where i was born.
+426.71875	429.78507499999995	00_07_14_Applejack_Neutral_Noisy_And spent most of my formative years.
+430.8155	434.038677	00_07_18_Twilight_Anxious_Noisy_okay, just two hundred and eighteen things left to do, and we're ready.
+435.622875	436.961386	00_07_23_Rarity_Neutral_Noisy_Hello, spike.
+436.917875	438.73797899999994	00_07_24_Spike_Anxious_Noisy_Uh, hi, rarity.
+440.07025	441.92788299999995	00_07_28_Applejack_Confused_Noisy_How'd it go with the other princesses.
+442.100375	443.287538	00_07_30_Applejack_Confused_Noisy_They like your idea.
+443.326875	445.03073	00_07_31_Pinkie_Happy_Noisy_i bet they loved it!
+445.463125	446.97666599999997	00_07_33_Twilight_Neutral_Noisy_huh, not exactly.
+447.36075	450.35941199999996	00_07_35_Twilight_Anxious_Noisy_They think i can make today perfect without their magic.
+450.3585	453.02531200000004	00_07_38_Rarity_Neutral_Noisy_And they are absolutely right, darling.
+453.031875	455.167195	00_07_41_Rarity_Neutral_Noisy_This festival is your brilliant idea,.
+455.1835	457.575957	00_07_43_Rarity_Neutral_Noisy_And we know you're up to the task.
+457.549	458.342493	00_07_45_Twilight_Happy_Noisy_But what if i'm not.
+458.497	460.898071	00_07_46_Twilight_Happy_Noisy_What if songbird serenade hates the stage.
+460.925	462.610927	00_07_48_Twilight_Happy_Noisy_Or nopony makes a new friend.
+462.565625	465.084501	00_07_50_Twilight_Happy_Noisy_And if i fail at the festival, then who am i.
+465.051875	467.05297299999995	00_07_53_Pinkie_Annoyed_Noisy_Twilight, look at me.
+467.26575	470.77495400000004	00_07_55_Pinkie_Annoyed_Noisy_This will be the biggest celebration equestria has ever seen!
+470.685125	473.154792	00_07_58_Pinkie_Annoyed_Noisy_As the princess of friendship, you cannot fail!
+473.15025	475.506122	00_08_01_Pinkie_Happy_Noisy_This day will define who you are!
+475.404875	477.328162	00_08_03_Pinkie_Happy_Noisy_The pressure is intense!
+477.269	479.735591	00_08_05_Pinkie_Happy_Noisy_It's almost too much for any single pony to handle!
+482.6595	485.22450999999995	00_08_10_Pinkie_Neutral_Noisy_But you have us! so stop worrying.
+491.878125	494.572307	00_08_19_Applejack_Singing_Noisy_it's time to show 'em what you've got.
+496.0845	498.726398	00_08_24_Rarity_Singing_Noisy_it's time to go and get things done.
+500.185625	503.731625	00_08_28_Fluttershy_Singing_Noisy_but you don't have to do it on your own.
+503.734375	506.76994399999995	00_08_31_Pinkie_Singing_Noisy_'cause you've got friends right here to make it fun.
+515.66125	520.18231	00_08_43_Rainbow_Singing_Noisy_sometimes the pressure gets you down and the clouds are dark and gray.
+520.35975	523.875105	00_08_48_Rainbow_Singing_Noisy_just kick them off and let the sun shine through.
+524.29325	528.525209	00_08_52_Rainbow_Singing_Noisy_and scary as it seems more help is on the way.
+528.660625	532.046807	00_08_56_Rainbow_Singing_Noisy_'cause friends have friends that want to help out too.
+532.37475	535.4197499999999	00_09_00_Rainbow_Singing_Noisy_we got this you got this.
+536.0715	539.3665	00_09_04_Rainbow_Singing_Noisy_we got this together.
+559.063875	560.287944	00_09_27_Fluttershy_Singing_Noisy_you got this.
+563.08	566.1670000000001	00_09_31_Fluttershy_Singing_Noisy_we got this together.
+568.355125	571.876631	00_09_36_Applejack_Singing_Noisy_with friends and family you are never alone.
+572.169	575.047	00_09_40_Applejack_Singing_Noisy_if you need help we've got your back.
+576.8125	580.121793	00_09_44_Applejack_Singing_Noisy_you can be honest let your problems be known.
+584.029125	585.240892	00_09_51_Applejack_Singing_Noisy_we got this.
+586.13125	587.1732499999999	00_09_54_Big Macintosh_Neutral_Noisy_Eyup!
+593.345	595.4886590000001	00_10_01_Rarity_Singing_Noisy_pay attention to the details.
+595.490125	599.5221730000001	00_10_03_Rarity_Singing_Noisy_every gem even spaced make the colors perfect.
+599.305625	601.424679	00_10_07_Spike_Singing_Noisy_taking one or two to taste.
+601.443375	605.4600439999999	00_10_09_Rarity_Singing_Noisy_inside and out beautiful throughout.
+605.525375	609.382116	00_10_13_Rarity_Singing_Noisy_generosity is what we're all about.
+609.009125	609.910261	00_10_16_Spike_Muffled_Noisy_we got this.
+610.973	612.2239999999999	00_10_18_Rarity_Singing_Noisy_you got this.
+617.649125	621.850327	00_10_25_Twilight_Singing_Noisy_today needs to be perfect it all comes down to me.
+621.861375	626.5282409999999	00_10_29_Twilight_Singing_Noisy_i don't know if i'm ready for all the things they need me to be.
+626.53775	629.4779769999999	00_10_34_Twilight_Singing_Noisy_i am the princess of friendship.
+629.647	633.8359000000002	00_10_37_Twilight_Singing_Noisy_but that is more than just a crown.
+634.014625	638.043597	00_10_41_Twilight_Singing_Noisy_it's a promise to bring ponies together.
+637.94825	644.6990840000001	00_10_45_Twilight_Singing_Noisy_and never let anypony down.
+645.2015	647.265194	00_10_53_Pinkie_Singing_Noisy_we've got an awful lot to bake.
+647.249625	649.1318620000001	00_10_55_Pinkie_Singing_Noisy_each pony needs a piece of cake.
+649.343875	653.3390160000001	00_10_57_Pinkie_Singing_Noisy_oh, wait! there's something better we can do.
+653.466625	655.5303200000001	00_11_01_Pinkie_Singing_Noisy_we're gonna need some more supplies.
+655.528125	657.653331	00_11_03_Pinkie_Singing_Noisy_to make a really big surprise.
+657.5965	661.560886	00_11_05_Pinkie_Singing_Noisy_she'll be so shocked she's sure to love it too.
+662.747625	663.9996249999999	00_11_10_Pinkie_Singing_Noisy_you got this.
+664.528	668.126394	00_11_12_Pinkie_Singing_Noisy_we got this together.
+681.905125	682.99387	00_11_29_Rainbow_Singing_Noisy_the weather.
+682.95475	684.0311929999999	00_11_30_Applejack_Singing_Noisy_the banquet.
+683.993375	685.16516	00_11_31_Rarity_Singing_Noisy_the style.
+685.055125	686.177701	00_11_32_Fluttershy_Singing_Noisy_and music.
+711.0845	712.0025	00_11_58_Twilight_Annoyed_Noisy_Pinkie!
+713.61475	714.7407499999999	00_12_01_Pinkie_Neutral_Noisy_Oopsie!
+714.925375	718.477636	00_12_02_Pinkie_Neutral_Noisy_Guess my easy bake confetti cake cannon needs a little bit more finetuning.
+721.76425	723.327761	00_12_09_Code Red_Happy_Noisy_songbird serenade!
+723.388	724.5167270000001	00_12_11_Code Red_Happy_Noisy_Is it really her.
+725.023875	726.065875	00_12_12_Code Red_Happy_Noisy_It is, it is!
+727.9495	730.7025	00_12_15_Songbird Serenade_Neutral_Noisy_Hiya! i'm looking for the pony in charge.
+732.732375	734.6730480000001	00_12_20_Songbird Serenade_Neutral_Noisy_I need to set up for my sound check.
+734.9825	738.8054099999999	00_12_22_Twilight_Anxious_Noisy_Ms. songbird serenade. Um, i was just going to check on you.
+739.009875	741.9777819999999	00_12_26_Twilight_Anxious_Noisy_I'm princess twilight. and sorry about the mess.
+741.983875	743.924547	00_12_29_Twilight_Anxious_Noisy_I'm usually not so...
+746.51725	748.470225	00_12_34_Songbird Serenade_Neutral_Noisy_caked in cake.
+750.011875	751.746486	00_12_37_Vinny_Muffled_Noisy_you have visual on buttercream.
+751.748	753.3964950000001	00_12_39_Whinnyfield_Muffled_Noisy_Visual confirmed. go for cleanup.
+767.059	768.230784	00_12_54_Twilight_Happy_Noisy_storm clouds.
+768.4005	771.851268	00_12_56_Twilight_Annoyed_Noisy_I ordered perfect weather! rainbow dash!
+771.953125	773.038125	00_12_59_Rainbow_Anxious_Noisy_Uh...
+773.24725	776.375086	00_13_01_Rainbow_Anxious_Noisy_I don't think those are storm clouds.
+793.5155	796.50186	00_13_21_Pinkie_Happy_Noisy_Ooh. i bet those are the clowns i ordered!
+807.883125	811.3451249999999	00_13_35_Pinkie_Confused_Noisy_You are definitely not the clowns i ordered.
+817.621625	820.142375	00_13_45_Party Favor_Happy_Noisy_Brian, no!
+840.187875	843.231875	00_14_07_Grubber_Muffled__ponies of equestria!
+843.402625	846.488625	00_14_11_Grubber_Muffled__We come on behalf of the fearsome,.
+846.634875	850.180985	00_14_14_Grubber_Muffled__the powerful, the almighty,.
+850.8955	855.062872	00_14_18_Grubber_Happy_Noisy_storm king!
+861.516875	862.793229	00_14_29_Grubber_Happy_Noisy_and now,.
+863.089375	866.094188	00_14_30_Grubber_Happy_Noisy_to deliver the evil, evil message,.
+866.093875	871.6021870000001	00_14_33_Grubber_Happy_Noisy_put your hooves together for commander tempest!
+877.48525	880.0748639999999	00_14_45_Twilight_Confused_Noisy_Is that a unicorn.
+880.261125	883.272089	00_14_47_Spike_Confused_Noisy_I think so, but what happened to her horn.
+885.59625	887.435429	00_14_53_Celestia_Annoyed_Noisy_Tempest, is it?
+887.684375	889.357475	00_14_55_Celestia_Annoyed_Noisy_How may we help you?
+890.321	896.4321199999999	00_14_57_Tempest Shadow_Sarcastic_Noisy_Ah, i'm so glad you asked. How about we start with your complete and total surrender?
+899.107	901.238357	00_15_06_Twilight_Neutral_Noisy_Hi, there, princess of friendship.
+901.34225	903.23679	00_15_08_Twilight_Confused__Not exactly sure what's going on,.
+903.236625	905.020444	00_15_10_Twilight_Neutral__But i know we can talk things out.
+905.3505	909.428681	00_15_12_Tempest Shadow_Neutral_Noisy_Oh, goodie. all four princesses.
+909.720875	912.574987	00_15_17_Tempest Shadow_Neutral_Noisy_Here's the deal, ladies. i need your magic.
+912.578875	916.6016950000001	00_15_20_Tempest Shadow_Neutral_Noisy_Give it up nicely, please, or we make it difficult.
+916.6045	918.151502	00_15_24_Tempest Shadow_Happy_Noisy_For everyone.
+918.321625	920.8246250000001	00_15_25_Luna_Annoyed_Noisy_And why should we cower before you?
+920.908875	923.794084	00_15_28_Luna_Annoyed_Noisy_There's one of you, and hundreds of us.
+925.637	929.8259009999999	00_15_33_Tempest Shadow_Neutral_Noisy_i was hoping you'd choose difficult.
+955.251125	956.358324	00_16_02_Celestia_Happy_Noisy_Cadance!
+956.911875	958.661863	00_16_04_Cadance_Fear_Noisy_I can't stop it!
+960.280375	963.40206	00_16_07_Celestia_Fear_Noisy_Luna, quick! go south! beyond the badlands!
+965.25575	968.202128	00_16_12_Celestia_Fear_Noisy_Seek help from the queen of the hippo...
+980.7925	981.7095	00_16_28_Twilight_Happy_Noisy_Luna!
+993.27775	994.6709739999999	00_16_40_Tempest Shadow_Neutral_Noisy_Easy as pie.
+994.67775	995.8126289999999	00_16_42_Grubber_Whispering_Noisy_Oh, i love pie.
+997.239625	1000.11219	00_16_44_Grubber_Neutral_Noisy_Oh, you totally got the last princess.
+1001.3315	1003.8226960000001	00_16_48_Tempest Shadow_Annoyed_Noisy_That's not the princess.
+1004.618125	1007.7029019999999	00_16_52_Tempest Shadow_Angry_Noisy_Grubber! get her now!
+1007.348375	1009.3813150000001	00_16_54_Grubber_Happy_Noisy_Guys, we gotta get the princess!
+1009.961375	1011.3281880000001	00_16_57_Applejack_Happy_Noisy_Over here, y'all!
+1011.938125	1012.894621	00_16_59_Twilight_Happy_Noisy_Come on!
+1053.44075	1055.3691210000002	00_17_40_Grubber_Confused_Noisy_which one of you guys are going down there.
+1057.545125	1061.847821	00_17_45_Grubber_Neutral_Noisy_I would, but i just had a hearty meal and i will sink and i will side cramp.
+1062.22625	1065.204783	00_17_49_Grubber_Neutral_Noisy_I'm very big-boned. i sink quick.
+1094.56425	1096.02425	00_18_22_Applejack_Happy_Noisy_Everypony okay.
+1096.227375	1098.5555669999999	00_18_23_Rarity_Confused_Noisy_I think my bottom's on backward.
+1098.94325	1103.018355	00_18_26_Pinkie_Sad_Noisy_We just got our cupcakes handed to us by the worst party crasher ever!
+1102.9515	1104.713791	00_18_30_Rainbow_Happy_Noisy_We gotta go back there and fight!
+1104.70475	1106.6577250000003	00_18_32_Spike_Anxious_Noisy_You saw the size of those goons!
+1106.785875	1108.935686	00_18_34_Spike_Annoyed_Noisy_Do you seriously wanna go back?
+1108.898375	1111.561803	00_18_36_Applejack_Anxious_Noisy_So, now what we can't hide here forever.
+1111.77725	1119.878251	00_18_39_Applejack_Whispering_Noisy_And let's be honest, we can't go back. Look at what they did to the princesses. We've got to keep them from twilight.
+1119.907875	1121.1168750000002	00_18_47_Twilight_Sad_Noisy_The queen...
+1122.768875	1124.478875	00_18_50_Pinkie_Happy_Noisy_Yeah, the queen!
+1125.095875	1126.721875	00_18_52_Pinkie_Confused_Noisy_Uh, what queen.
+1126.995	1131.5829999999999	00_18_54_Twilight_Confused_Noisy_Celestia told luna to find the queen of the hippos.
+1132.16575	1135.201319	00_18_59_Twilight_Neutral_Noisy_Luna can't, so i have to.
+1135.267	1137.681307	00_19_02_Rainbow_Sarcastic_Noisy_Uh, hippos seriously?
+1137.666625	1140.3608080000001	00_19_05_Pinkie_Happy_Noisy_I've heard they're surprisingly graceful for their size.
+1140.59275	1141.936766	00_19_07_Pinkie_Neutral_Noisy_But they're always hungry.
+1142.064375	1142.5902939999999	00_19_09_Spike_Confused_Noisy_Hungry.
+1142.71675	1143.6955020000003	00_19_10_Applejack_Confused_Noisy_hippos.
+1146.06075	1149.173208	00_19_13_Twilight_Happy_Noisy_They're somewhere south, past the badlands.
+1148.924875	1153.396726	00_19_16_Fluttershy_Anxious_Noisy_But that means we'll have to leave equestria. ooh!
+1153.375375	1154.876375	00_19_20_Rarity_Anxious_Noisy_I'm not even packed!
+1155.086125	1158.715275	00_19_22_Twilight_Neutral_Noisy_I understand you're scared, and nopony else has to go.
+1159.186625	1163.45549	00_19_26_Twilight_Neutral_Noisy_But i have to find this queen. she might be our only hope.
+1169.8715	1172.754731	00_19_37_Rainbow_Neutral_Noisy_Well, you're not getting all the glory.
+1172.75125	1174.181632	00_19_40_Rainbow_Neutral_Noisy_We're in this together.
+1175.28275	1176.3253610000002	00_19_42_Applejack_Neutral_Noisy_we got yer back!
+1176.353875	1177.541038	00_19_43_Pinkie_Happy_Noisy_Indeedy!
+1177.681125	1180.3296940000002	00_19_45_Rarity_Happy_Noisy_I am ready to save equestria!
+1180.761875	1181.721875	00_19_48_Fluttershy_Happy_Noisy_Yay.
+1182.022875	1183.740123	00_19_49_Spike_Happy_Noisy_We're all behind you, twilight.
+1183.748125	1185.64574	00_19_51_Pinkie_Happy_Noisy_Let's go find this hippo!
+1185.838	1187.459907	00_19_53_Spike_Confused_Noisy_Uh, south.
+1190.958625	1194.3970909999998	00_19_58_Pinkie_Neutral_Noisy_boingy, boingy, boingy, boingy, boingy.
+1194.393375	1196.3678790000001	00_20_01_Pinkie_Confused_Noisy_anypony up for a game of i spy.
+1197.5045	1199.196053	00_20_04_Pinkie_Happy_Noisy_no really, come on!
+1199.151125	1203.1141250000003	00_20_06_Pinkie_Neutral_Noisy_I spy with my little eye something that is orange.
+1203.691875	1206.8381630000001	00_20_11_Pinkie_Happy_Noisy_No takers it's you, applejack!
+1224.600625	1228.6634270000002	00_20_31_Tempest Shadow_Neutral_Noisy_All this power, wasted on parties.
+1231.497	1234.2896010000002	00_20_38_Tempest Shadow_Neutral_Noisy_When there are far greater uses.
+1241.009375	1242.557429	00_20_48_Tempest Shadow_Annoyed_Noisy_Well, answer it!
+1249.354125	1251.082584	00_20_56_The Storm King_Muffled_Noisy_Where am i supposed to be looking.
+1251.65575	1253.854769	00_20_58_The Storm King_Muffled_Noisy_I never understand how this spell works.
+1253.988125	1254.950772	00_21_01_The Storm King_Muffled_Noisy_Tempest!
+1254.946375	1256.724043	00_21_02_Tempest Shadow_Neutral_Noisy_Over here, your excellency.
+1256.72225	1257.2020360000001	00_21_03_The Storm King_Muffled_Noisy_- Where.
+1257.246375	1257.9260719999997	00_21_04_Tempest Shadow_Neutral_Noisy_Over here.
+1258.201625	1261.166456	00_21_05_Tempest Shadow_Neutral_Noisy_No, no, right. look right.
+1261.1565	1261.891556	00_21_08_The Storm King_Muffled_Noisy_My right.
+1262.0455	1262.556041	00_21_09_Tempest Shadow_Neutral_Noisy_Yep.
+1263.035875	1264.370875	00_21_10_The Storm King_Neutral_Noisy_Oh, there you are.
+1264.579625	1268.790054	00_21_11_The Storm King_Neutral_Noisy_Here's the deal. i'm in the middle of a big rebrand here. The storm king is tracking well.
+1268.769125	1270.651362	00_21_16_The Storm King_Neutral_Noisy_As intensely intimidating.
+1270.606	1272.3221580000002	00_21_17_The Storm King_Neutral_Noisy_But you know what i need to back it up.
+1272.301625	1273.552625	00_21_19_The Storm King_Neutral_Noisy_You know what i need to back it up with.
+1273.66775	1275.786804	00_21_20_The Storm King_Shouting_Noisy_A storm! that would be great!
+1275.742875	1278.9968079999999	00_21_22_The Storm King_Neutral_Noisy_You promised me magic that could control the elements.
+1279.07175	1280.981667	00_21_26_The Storm King_Confused_Noisy_And right now, i'm holding a what.
+1280.952	1282.877295	00_21_28_The Storm King_Annoyed_Noisy_A branch, a twig. blegh.
+1282.846875	1289.7637889999999	00_21_30_Tempest Shadow_Neutral_Noisy_Uh, that would be the staff of sacanas, your excellency and it will channel the magic of the four rulers of this land.
+1289.77275	1292.7191280000002	00_21_37_Tempest Shadow_Neutral_Noisy_You'll soon have the power of one hundred and  armies.
+1292.72675	1298.687168	00_21_39_The Storm King_Confused_Noisy_So, that would be a yes on you locking down the four pegacornicuses or whatever you call them.
+1298.689	1299.8560000000002	00_21_45_Tempest Shadow_Neutral_Noisy_Give me three days.
+1299.985875	1301.941925	00_21_47_Tempest Shadow_Neutral_Noisy_I'll have everything ready for your arrival.
+1302.496375	1307.161986	00_21_49_The Storm King_Muffled_Noisy_Remember, tempest, only i have the power to make you whole.
+1307.34325	1310.72125	00_21_54_The Storm King_Neutral_Noisy_Make this twig work, and you'll get your reward.
+1310.98625	1311.995031	00_21_58_The Storm King_Neutral_Noisy_Fail me,.
+1312.22375	1315.6857500000003	00_21_59_The Storm King_Neutral_Noisy_And your horn won't be the only thing that's broken.
+1316.521	1317.825285	00_22_03_Tempest Shadow_Neutral_Noisy_It won't be a problem.
+1319.247625	1320.3578989999999	00_22_06_The Storm King_Happy_Noisy_Great!
+1320.361625	1327.4507700000001	00_22_07_The Storm King_Muffled_Noisy_I'm ready to power up, crash and bash, and be the biggest, baddest bugaloo!
+1329.4295	1332.2235	00_22_16_Grubber_Neutral__Sorry. bad spell service. you want me to call him back.
+1332.545875	1334.088875	00_22_19_Tempest Shadow_Confused_Noisy_Do you have the princess.
+1334.217	1335.951611	00_22_21_Grubber_Anxious_Noisy_Well, uh, funny story.
+1336.610125	1338.8264929999998	00_22_23_Grubber_Neutral_Noisy_It kind of seems like she...
+1339.119625	1341.211	00_22_26_Grubber_Neutral_Noisy_She might have, like, you know, gotten away.
+1341.82175	1342.655224	00_22_29_Grubber_Neutral_Noisy_A little bit.
+1344.13925	1347.3039919999999	00_22_31_Grubber_Neutral_Noisy_I know you're disappointed, but i got one word for you.
+1348.4165	1349.4867920000002	00_22_35_Grubber_Neutral_Noisy_Spongecake.
+1351.697875	1355.345479	00_22_38_Tempest Shadow_Annoyed_Noisy_I need all four for the staff to work.
+1355.20825	1356.5399639999998	00_22_42_Grubber_Annoyed_Noisy_Hey, i know.
+1356.722	1359.892	00_22_43_Grubber_Neutral_Noisy_I want the storm king to fix that crazy horn as badly as you do.
+1360.005875	1363.342875	00_22_47_Grubber_Neutral_Noisy_It looks like a crackly, chipped tooth on the top of your head.
+1363.49125	1365.1182500000002	00_22_50_Grubber_Neutral_Noisy_And you know you don't look good in hats.
+1366.168125	1368.886912	00_22_53_Tempest Shadow_Annoyed_Noisy_That princess is not gonna keep me?
+1368.892625	1370.697973	00_22_56_Tempest Shadow_Annoyed_Noisy_From getting my horn back.
+1370.7535	1372.9635	00_22_57_Tempest Shadow_Annoyed_Noisy_Prepare my ship!
+1375.18225	1378.220895	00_23_02_Tempest Shadow_Neutral_Noisy_Please. how far can one little pony get on her own.
+1399.015625	1402.718588	00_23_26_Pinkie_Exhausted_Noisy_guys, sand's in my everything.
+1403.7475	1407.59809	00_23_30_Pinkie_Exhausted_Noisy_Saving equestria.
+1410.07725	1414.3584170000001	00_23_37_Pinkie_Exhausted_Noisy_Oh, look! maybe this guy knows which way to go!
+1415.847625	1418.1481370000001	00_23_42_Pinkie_Exhausted_Noisy_What's that, friend we're lost.
+1430.655125	1432.795709	00_23_57_Spike_Exhausted_Noisy_We could be going in circles.
+1433.282625	1435.441662	00_24_00_Spike_Exhausted_Noisy_Endless sand.
+1436.261375	1439.433571	00_24_03_Spike_Exhausted_Noisy_Nothing for miles but sand...
+1440.27525	1441.5054699999998	00_24_07_Spike_Exhausted_Noisy_And this rock...
+1442.24075	1443.920001	00_24_09_Spike_Exhausted_Noisy_And this cactus...
+1445.313625	1446.8832869999999	00_24_12_Spike_Exhausted_Noisy_And this road.
+1450.7245	1452.084104	00_24_17_Spike_Exhausted_Noisy_This road.
+1452.6455	1454.7725	00_24_19_Twilight_Exhausted__hmm, a road.
+1455.92175	1458.6220839999999	00_24_22_Twilight_Happy_Noisy_Where there's a road, there's a...
+1461.16775	1462.78549	00_24_28_Spike_Neutral_Noisy_whoa!
+1462.730375	1464.1266750000002	00_24_29_Rainbow_Exhausted_Noisy_cool!
+1464.01675	1466.10175	00_24_31_Rarity_Exhausted_Noisy_what is that.
+1466.803125	1471.1888609999999	00_24_33_Pinkie_Happy_Noisy_Ooh! a city! we are doing it, you guys!
+1471.19475	1472.57075	00_24_38_Rarity_Happy_Noisy_You know what they say,.
+1472.708625	1475.5036249999998	00_24_39_Rarity_Happy_Noisy_Where there's a city, there's a spa!
+1475.93175	1477.038949	00_24_42_Rainbow_Neutral_Noisy_Who says that.
+1477.021	1480.441013	00_24_44_Applejack_Neutral_Noisy_In case you forgot, we're on a mission to save equestria.
+1480.418625	1481.8366250000001	00_24_47_Rarity_Neutral_Noisy_I can multitask.
+1488.244875	1491.381937	00_24_55_Pig Creature 1_Neutral_Noisy_Don't worry, little one, we'll let you go.
+1491.39025	1492.9034219999999	00_24_58_Pig Creature 2_Happy_Noisy_To the highest bidder!
+1494.029875	1495.032505	00_25_01_Pig Creature 1_Happy_Noisy_Nice!
+1498.82825	1502.192902	00_25_05_Vendor 2_Neutral_Noisy_Ooh. hey. you with the horn.
+1502.735875	1504.487875	00_25_09_Vendor 2_Confused_Noisy_You selling.
+1509.509375	1510.426375	00_25_16_Twilight_Anxious_Noisy_hi, there.
+1511.530375	1512.823375	00_25_18_Twilight_Neutral_Noisy_Oh, i'm sorry.
+1512.83725	1514.58925	00_25_19_Twilight_Neutral_Noisy_Here, let me help you with that.
+1518.468	1522.023337	00_25_25_Pushkin_Happy_Noisy_hey, no magic around my merchandise!
+1522.308	1523.226	00_25_29_Capper_Neutral_Noisy_Hmm.
+1523.55225	1525.2202499999999	00_25_30_Capper_Whispering_Noisy_Very interesting.
+1526.015375	1528.2673750000001	00_25_33_Twilight_Neutral_Noisy_Okay, we just gotta stick together.
+1528.419375	1531.339375	00_25_35_Twilight_Neutral_Noisy_Be careful who you talk to, and try to blend in.
+1531.44125	1535.894648	00_25_38_Pinkie_Shouting_Noisy_can i have your attention, please!
+1536.681125	1542.254023	00_25_43_Pinkie_Shouting_Noisy_Can anypony take us to the queen of the hippos!
+1542.17375	1544.591133	00_25_49_Mori_Neutral_Noisy_You want something, you gotta give somethin'.
+1544.66	1547.870875	00_25_51_Pinkie_Confused_Noisy_Well, how about a big warm hug from a grateful pony friend.
+1548.66325	1551.129842	00_25_55_Pinkie_Confused_Noisy_How about this comb that i've never used.
+1551.58625	1553.3455960000001	00_25_58_Pinkie_Confused_Noisy_A picture of my sister maud.
+1553.36525	1555.5119849999999	00_26_00_Pinkie_Confused_Noisy_This breath mint.
+1555.656875	1558.3572089999998	00_26_02_Pinkie_Neutral_Noisy_Seriously, buddy. help me help you.
+1560.710125	1563.041392	00_26_07_Twilight_Annoyed_Noisy_Pinkie, you can't just take off.
+1563.117875	1565.32612	00_26_10_Twilight_Annoyed_Noisy_And you don't need to announce to every...
+1565.047875	1568.246449	00_26_12_Pinkie_Neutral_Noisy_Relax, twilight, i've totally got this.
+1568.22425	1569.95271	00_26_15_Louise_Confused_Noisy_How much for the giant gecko.
+1570.049125	1571.41467	00_26_17_Spike_Annoyed_Noisy_Who you callin' a gecko?
+1571.383875	1573.856618	00_26_18_Twilight_Annoyed_Noisy_Uh, spike isn't for sale.
+1573.845	1575.73954	00_26_20_Vera_Happy_Noisy_I want that fancy purple hair!
+1575.715625	1577.567107	00_26_22_Vera_Happy_Noisy_I'll give you two storm bucks for it.
+1577.568375	1580.61317	00_26_24_Rarity_Happy_Noisy_Two storm bucks it's worth more than that.
+1593.311875	1595.8148750000003	00_26_40_Capper_Happy_Noisy_Back up, everyone! back it up.
+1596.233875	1598.1899259999998	00_26_43_Capper_Happy_Noisy_Y'all in some serious danger!
+1598.382625	1600.3940349999998	00_26_45_Capper_Confused_Noisy_Now, you didn't touch any of them, did you.
+1600.395	1603.095334	00_26_47_Capper_Confused_Noisy_Just look at all those colors. you think that's natural.
+1603.733	1607.817332	00_26_50_Capper_Whispering_Noisy_They're infected with pastelus coloritis.
+1608.77775	1610.746102	00_26_55_Applejack_Annoyed_Noisy_Now you listen here, fella, there ain't...
+1610.7165	1615.23756	00_26_57_Capper_Neutral_Noisy_Don't worry, don't worry. As long as you're not covered in purple splotches,.
+1615.24025	1616.808781	00_27_02_Capper_Neutral_Noisy_You'll be fine.
+1616.816	1617.6340969999999	00_27_03_Capper_Neutral_Noisy_Uh-oh.
+1619.268625	1620.686625	00_27_06_Mori_Happy_Noisy_What do i do.
+1620.96925	1624.100161	00_27_07_Capper_Neutral_Noisy_Enjoy your last moments. and don't touch anyone.
+1624.273	1626.5120009999998	00_27_11_Capper_Whispering_Noisy_Because parts will fall off.
+1627.984125	1629.448087	00_27_14_Mori_Happy_Noisy_Me parts!
+1630.947125	1632.5741249999999	00_27_17_Capper_Whispering_Noisy_Well, all right.
+1633.4065	1636.5374110000002	00_27_20_Rainbow_Happy_Noisy_You are awesome!
+1636.533	1637.9600549999998	00_27_23_Rarity_Happy_Noisy_And quite charming.
+1640.697375	1644.830915	00_27_27_Capper_Neutral_Noisy_Capper's the name. charming's my game.
+1644.987375	1647.8476369999998	00_27_31_Capper_Confused_Noisy_So, to the hippos then.
+1650.8205	1652.812314	00_27_37_Twilight_Whispering_Noisy_I don't know if we should trust him.
+1652.838875	1655.256258	00_27_39_Pinkie_Neutral_Noisy_We could definitely use a friend out here.
+1656.13375	1658.760271	00_27_43_Capper_Neutral_Noisy_You know what little cotton candy hair is right.
+1658.762125	1661.8315249999998	00_27_45_Capper_Neutral_Noisy_And if i do say so myself...
+1662.255375	1665.258375	00_27_49_Capper_Singing_Noisy_this town is not a nice place.
+1665.369	1668.518364	00_27_52_Capper_Singing_Noisy_for little fillies all alone.
+1668.726625	1671.5074020000002	00_27_55_Capper_Singing_Noisy_there are lots of twists and corners.
+1671.858625	1674.6881309999999	00_27_58_Capper_Singing_Noisy_that could lead to the unknown.
+1674.967375	1680.6755979999998	00_28_01_Capper_Singing_Noisy_let me guide your way and i'll be sure to help you through.
+1681.0685	1683.8605220000002	00_28_07_Capper_Singing_Noisy_you could really use a friend out here.
+1684.345	1688.084778	00_28_11_Capper_Singing_Noisy_and luckily for you.
+1688.157	1690.869636	00_28_15_Capper_Singing_Noisy_i'm the friend that you need.
+1690.882	1693.586849	00_28_17_Capper_Singing_Noisy_when you're lost and don't know what to do.
+1693.683	1699.313079	00_28_20_Capper_Singing_Noisy_i'm your pal, your amigo useful and resourceful, too.
+1699.3195	1705.267616	00_28_26_Capper_Singing_Noisy_and my help, you'll concede, is a plus guaranteed.
+1705.21075	1708.882958	00_28_32_Capper_Singing_Noisy_you can call and i'll come running, just follow my lead.
+1709.195625	1712.111247	00_28_36_Capper_Singing_Noisy_'cause i'm the friend you need.
+1716.526375	1722.5360019999998	00_28_43_Capper_Singing_Noisy_you need a bud to spot the danger, a pal to stop the creep, a chum and not a stranger to assist.
+1722.523375	1725.5620190000002	00_28_49_Capper_Singing_Noisy_you need a bro who is cunning that can help you take the leap.
+1725.587375	1728.18314	00_28_52_Capper_Singing_Noisy_a friend who knows what's lying in the mist.
+1728.36825	1730.95425	00_28_55_Capper_Singing_Noisy_don't fear these darkened alleys.
+1731.221625	1733.65131	00_28_58_Capper_Singing_Noisy_they're scary, yes, i know.
+1733.98225	1739.530544	00_29_00_Capper_Singing_Noisy_why you could use a friend to protect you wherever you go.
+1739.568125	1744.7350509999999	00_29_06_Capper_Singing_Noisy_and such a dazzling beauty covered in dirt and muck.
+1745.051375	1748.046961	00_29_11_Capper_Singing_Noisy_but now your fate is changing.
+1748.18325	1750.2272500000001	00_29_14_Capper_Singing_Noisy_now you are in luck.
+1750.236125	1753.157898	00_29_17_Capper_Singing_Noisy_'cause i'm the friend that you need.
+1753.094	1756.0396620000001	00_29_19_Capper_Singing_Noisy_when you're lost and don't know what to do.
+1756.018375	1759.026263	00_29_22_Capper_Singing_Noisy_i'm your pal, your amigo.
+1759.2925	1761.5865000000001	00_29_26_Capper_Singing_Noisy_looking out for friends like you.
+1761.57325	1767.3245299999999	00_29_28_Capper_Singing_Noisy_and my help, you'll concede, is a plus guaranteed.
+1767.330625	1770.9413220000001	00_29_34_Capper_Singing_Noisy_just call and i'll come running, we'll say it's agreed.
+1771.79625	1774.88325	00_29_38_Capper_Whispering_Noisy_Here. tell verko, my place, twenty  minutes.
+1774.932625	1779.2286249999997	00_29_41_Capper_Whispering_Noisy_I've got something that will magically erase all my debt.
+1779.841125	1785.592406	00_29_46_Capper_Singing_Noisy_'cause i'm the friend you need.
+1790.430625	1792.737288	00_29_57_Capper_Neutral_Noisy_Welcome, my little ponies,.
+1795.363375	1798.451228	00_30_02_Rarity_Confused_Noisy_ooh, sort of a rocohobo.
+1798.452125	1800.420478	00_30_05_Rarity_Happy_Noisy_Bohemian hodgepodge.
+1800.378	1802.6662099999999	00_30_07_Capper_Neutral_Noisy_apologies for the state of my litter box.
+1802.64875	1804.3710580000002	00_30_09_Capper_Neutral_Noisy_I wasn't expecting guests.
+1805.8755	1808.8819700000001	00_30_12_Pinkie_Happy_Noisy_Ooh, so many fun breakables!
+1809.776	1811.049278	00_30_16_Rainbow_Neutral_Noisy_Whoa!
+1813.90175	1816.4729109999998	00_30_20_Capper_Confused_Noisy_y'all sure y'all want the hippos.
+1816.2485	1818.475199	00_30_22_Pinkie_Happy_Noisy_yessiree! the queen of the hippos.
+1818.641375	1822.350489	00_30_25_Capper_Confused_Noisy_not like the queen of the lions, or tigers, or bears.
+1822.30775	1823.156602	00_30_29_Fluttershy_Anxious_Noisy_oh, my!
+1835.838375	1838.255758	00_30_42_Toothy Klugetowner_Fear_Noisy_Please, please, i don't know anything!
+1840.299125	1842.359744	00_30_47_Grubber_Confused_Noisy_You really think the ponies got this far.
+1846.6025	1847.7705	00_30_53_Tempest Shadow_Neutral_Noisy_Oh, they're here.
+1849.321	1850.363	00_30_56_Tempest Shadow_Neutral_Noisy_Attention.
+1851.30225	1854.259156	00_30_57_Tempest Shadow_Neutral_Noisy_A little purple pony passed this way.
+1854.68725	1856.126608	00_31_01_Tempest Shadow_Neutral_Noisy_Tell me where she is.
+1856.133625	1858.471044	00_31_02_Grubber_Neutral_Noisy_Or somethin' real bad's gonna happen.
+1861.52875	1863.829262	00_31_08_Mori_Annoyed_Noisy_You think we're gonna fall for this again?
+1863.966125	1868.7086239999999	00_31_10_Tempest Shadow_Annoyed_Noisy_I don't know what kind of scam you're workin' with capper and the rest of your friends, but...
+1868.71175	1870.347943	00_31_15_Tempest Shadow_Confused_Noisy_Friends.
+1870.357875	1874.780518	00_31_17_Mori_Annoyed_Noisy_Poison or no poison, you're gonna pay.
+1880.54	1883.254036	00_31_27_Grubber_Happy__Oh! fishman just got dropped!
+1884.404875	1885.2202049999999	00_31_31_Tempest Shadow_Neutral_Noisy_now...
+1886.023375	1888.05939	00_31_32_Tempest Shadow_Neutral_Noisy_About this capper...
+1896.991625	1900.0161930000002	00_31_43_Capper_Happy_Noisy_Stop playin' me. a sonic rainboom.
+1900.036625	1902.872625	00_31_46_Capper_Neutral_Noisy_That's not a real thing. is that a real thing.
+1902.874875	1904.167875	00_31_49_Rainbow_Happy_Noisy_I'll show ya!
+1904.236375	1909.1449539999999	00_31_50_Capper_Happy_Noisy_No, no, no. i don't need you sonic rainbooming up in my place. Thank you very much.
+1910.17525	1912.274827	00_31_56_Capper_Neutral_Noisy_Whoa, hey. hold up now.
+1914.450375	1915.0716369999998	00_32_01_Capper_Neutral_Noisy_Whoa.
+1915.350125	1918.213845	00_32_01_Rarity_Neutral_Noisy_Here you go. i do apologize.
+1918.222	1921.767	00_32_04_Rarity_Neutral_Noisy_If we were back home, i could have done something truly fabulous.
+1921.85775	1923.1087499999999	00_32_08_Capper_Neutral_Noisy_Okay.
+1923.304125	1924.466683	00_32_09_Capper_Confused_Noisy_What's the catch.
+1924.43175	1927.328919	00_32_11_Rarity_Neutral_Noisy_Nothing, after all that you've done for us.
+1927.523625	1929.2346830000001	00_32_14_Rarity_Neutral_Noisy_Consider it a thank you.
+1929.616375	1933.182023	00_32_16_Capper_Neutral_Noisy_Oh. don't thank me. really.
+1933.748125	1934.4432	00_32_20_Twilight_Happy_Noisy_guys!
+1935.55775	1937.778298	00_32_22_Twilight_Happy_Noisy_We've been looking for the wrong queen!
+1937.968	1940.102432	00_32_24_Twilight_Happy_Noisy_We don't need the queen of the hippos.
+1940.07275	1942.65875	00_32_26_Twilight_Happy_Noisy_We need the queen of the hippogriffs!
+1942.650875	1944.588465	00_32_29_Twilight_Happy_Noisy_Part pony, part eagle.
+1944.5885	1947.171963	00_32_31_Capper_Happy_Noisy_Oh! oh, the hippogriffs.
+1947.175375	1952.50838	00_32_33_Capper_Neutral_Noisy_Now the trouble with that is, no one knows where they are.
+1952.418	1955.4689469999998	00_32_39_Twilight_Neutral_Noisy_Says here they're on the top of mount aris.
+1955.414875	1957.3094139999998	00_32_41_Pinkie_Confused_Noisy_You mean the mountain right outside the window.
+1959.803125	1962.485005	00_32_46_Capper_Neutral_Noisy_Objects in windows may be less mountainous than they appear.
+1964.2615	1965.7542329999999	00_32_50_Twilight_Happy_Noisy_Let's go, everypony.
+1966.496375	1969.5117559999999	00_32_53_Capper_Happy_Noisy_Wait! you can't... you can't make it by yourselves!
+1969.562875	1971.2667310000002	00_32_56_Capper_Neutral_Noisy_You'd need an airship.
+1971.27025	1974.431916	00_32_57_Capper_Neutral_Noisy_And lucky for you, i can get you a ride.
+1974.415125	1976.709486	00_33_00_Twilight_Neutral_Noisy_I think we can get there on our own.
+1978.094875	1979.718766	00_33_04_Verko_Happy_Noisy_Here's verko!
+1981.951875	1986.872756	00_33_08_Verko_Neutral_Noisy_These ponies better shoot rainbow lasers out their eyes if they're gonna settle your debt.
+1987.08375	1988.595994	00_33_13_Verko_Neutral_Noisy_Brought the big cage.
+1989.1485	1990.7324999999998	00_33_15_Verko_Happy_Noisy_Let's load 'em up!
+1993.5245	1995.529759	00_33_20_Rarity_Happy_Noisy_You were... you were going to sell us.
+1995.137375	1996.495139	00_33_21_Twilight_Happy_Noisy_I knew it!
+1997.17025	1998.554248	00_33_23_Twilight_Happy_Noisy_We gotta get out of here!
+2003.059125	2005.14732	00_33_29_Tempest Shadow_Neutral_Noisy_Silly little ponies.
+2005.244	2006.142061	00_33_31_Twilight_Happy_Noisy_Tempest!
+2010.214	2014.51	00_33_36_Tempest Shadow_Neutral_Noisy_Trusting strangers big mistake. big.
+2014.69525	2015.722484	00_33_41_Grubber_Happy_Noisy_Huge!
+2016.53125	2017.909097	00_33_43_Verko_Happy_Noisy_my goodness!
+2018.15125	2020.894642	00_33_44_Verko_Happy_Noisy_Well, look at you!
+2021.000625	2024.3345229999998	00_33_47_Verko_Neutral_Noisy_With your scary broken horn and scowly eyes.
+2024.49325	2028.694453	00_33_51_Verko_Confused_Noisy_What tricks do you know, my little pony wony.
+2033.34625	2034.51425	00_33_59_Verko_Muffled_Noisy_Not bad.
+2035.3105	2036.465278	00_34_01_Twilight_Shouting_Noisy_Go, go!
+2037.78175	2039.996147	00_34_04_Tempest Shadow_Angry_Noisy_Get her now!
+2040.009125	2041.98468	00_34_06_Grubber_Happy_Noisy_You gonna be scared now, ponies!
+2058.011375	2060.0350879999996	00_34_24_Applejack_Anxious_Noisy_i'm gonna...
+2060.73175	2061.64875	00_34_27_Applejack_Anxious_Noisy_Be...
+2062.6085	2063.94944	00_34_29_Applejack_Happy_Noisy_Sick!
+2077.374	2079.561453	00_34_43_Twilight_Happy_Noisy_We have to get there, to the docks!
+2082.798625	2083.716625	00_34_49_Twilight_Happy_Noisy_Hurry!
+2088.803625	2091.048778	00_34_55_Applejack_Neutral_Noisy_That's it. don't look down now.
+2092.099375	2093.1696669999997	00_34_58_Pinkie_Happy_Noisy_Yay!
+2093.333375	2094.4897830000004	00_34_59_Pinkie_Happy_Noisy_whoa!
+2096.219375	2097.548013	00_35_02_Twilight_Annoyed_Noisy_Pinkie!
+2109.0455	2112.330188	00_35_15_Pinkie_Happy__Best escape plan ever!
+2112.474875	2113.6008749999996	00_35_18_Twilight_Annoyed_Noisy_What?
+2117.912875	2119.39529	00_35_24_Boyle_Confused_Noisy_Did you hear something.
+2121.557875	2124.335479	00_35_27_Boyle_Neutral_Noisy_Yeah, probably just the rats.
+2124.778125	2127.7183519999994	00_35_31_Boyle_Neutral_Noisy_If we find 'em, we'll eat 'em.
+2128.00225	2128.937217	00_35_34_Rarity_Whispering_Noisy_Rats.
+2134.2865	2135.006179	00_35_40_Tempest Shadow_Neutral_Noisy_now...
+2135.968375	2137.1063289999997	00_35_42_Tempest Shadow_Confused__Where are they going.
+2139.612875	2142.260386	00_35_46_Capper_Anxious_Noisy_Okay. no need for violence.
+2142.465375	2144.513766	00_35_48_Capper_Confused_Noisy_Uh, they're headed...
+2151.05725	2155.1833509999997	00_35_57_Capper_Neutral_Noisy_They're headed east. yeah, to black skull island.
+2157.664	2162.1850600000002	00_36_04_Capper_Neutral_Noisy_So, uh, glad i could be of service to his majesty, the storm king.
+2162.196	2163.881402	00_36_08_Capper_Anxious_Noisy_I'll just be on my way.
+2164.629	2166.800339	00_36_10_Tempest Shadow_Neutral_Noisy_when i get my princess.
+2166.993	2171.06503	00_36_13_Tempest Shadow_Neutral_Noisy_Until then, your fate is still up in the air.
+2171.996	2173.6691	00_36_18_Grubber_Happy__oh, you're gonna go in the skiff.
+2173.780625	2174.783254	00_36_20_Grubber_Happy_Noisy_Which is a boat,.
+2175.082125	2177.0873839999995	00_36_21_Grubber_Happy_Noisy_specifically, a air boat!
+2179.710625	2181.0761690000004	00_36_26_Grubber_Muffled_Noisy_we make a great team.
+2181.033375	2184.035113	00_36_27_Grubber_Muffled_Noisy_I love it how you said his fate is up in the air and then i said,.
+2183.977625	2185.7983510000004	00_36_30_Grubber_Happy_Noisy_You're gonna be in the air in the air boat.
+2207.304625	2208.221625	00_36_53_Rainbow_Neutral_Noisy_Ugh.
+2208.47525	2212.5202499999996	00_36_54_Applejack_Whispering_Noisy_What do you think, twilight should we just ask 'em to take us.
+2213.2665	2216.255935	00_36_59_Twilight_Whispering_Noisy_The last time we trusted somepony, he tried to sell us.
+2218.5055	2222.110045	00_37_04_Boyle_Neutral_Noisy_Hey, guys, come check this out.
+2222.441625	2225.172714	00_37_08_Mullet_Neutral_Noisy_Looks like a pack of stowaways.
+2225.13725	2227.1978690000005	00_37_11_Lix Spittle_Confused_Noisy_What are we s'posed to do with them.
+2228.857	2230.788446	00_37_15_Boyle_Neutral_Noisy_i think we tie 'em up.
+2230.930375	2233.169376	00_37_17_Lix Spittle_Happy_Noisy_nah, we clip their wings!
+2233.859625	2234.942219	00_37_20_Mullet_Happy_Noisy_We scar 'em...
+2235.91775	2237.20333	00_37_22_Mullet_Neutral_Noisy_Emotionally!
+2238.527625	2239.5548590000003	00_37_24_Mullet_Neutral_Noisy_wait, wait, wait, wait.
+2240.47425	2243.635917	00_37_26_Mullet_Confused_Noisy_What say the book, captain celaeno.
+2248.892375	2251.6849749999997	00_37_35_Captain Celaeno_Neutral_Noisy_Storm king's rulebook says...
+2252.83825	2255.0902499999997	00_37_39_Captain Celaeno_Neutral__Throw them overboard.
+2265.13425	2267.114904	00_37_51_Captain Celaeno_Shouting_Noisy_All right, that's lunch!
+2267.84725	2268.3024309999996	00_37_54_Twilight_Happy_Noisy_What.
+2276.7255	2278.072591	00_38_02_Rainbow_Neutral_Noisy_Whoa, whoa, whoa!
+2278.1385	2280.8495	00_38_04_Rainbow_Confused_Noisy_So, you were about to toss us overboard,.
+2280.979875	2283.428014	00_38_07_Rainbow_Confused_Noisy_And you stopped for a lunch break.
+2285.1585	2289.79028	00_38_11_Boyle_Neutral_Noisy_Storm king only allows one break a day for meals then it's back to hauling goods.
+2289.9635	2291.8272839999995	00_38_16_Spike_Confused_Noisy_so, you're delivery guys.
+2292.874375	2295.836375	00_38_19_Captain Celaeno_Neutral_Noisy_These uniforms aren't exactly doing us any favors.
+2296.132625	2298.849994	00_38_22_Twilight_Confused_Noisy_Then, can you deliver us to mount aris.
+2299.11275	2301.53175	00_38_25_Captain Celaeno_Neutral__Sorry. we do what the storm king orders,.
+2301.543	2302.8593360000004	00_38_27_Captain Celaeno_Neutral_Noisy_Or we suffer his wrath.
+2304.111125	2306.906125	00_38_30_Twilight_Neutral_Noisy_Right, still going overboard.
+2307.554625	2309.5783380000003	00_38_33_Lix Spittle_Neutral__it's nothing personal. pudding.
+2309.82	2310.6073410000004	00_38_36_Rarity_Confused__There's pudding.
+2313.570375	2316.281375	00_38_39_Rainbow_Confused_Noisy_You weren't always delivery birds, were you.
+2316.293875	2318.253875	00_38_42_Rainbow_Confused_Noisy_What about before the storm king.
+2318.4475	2321.7425000000003	00_38_44_Captain Celaeno_Neutral_Noisy_Yeah, we used to be much more adventurous.
+2323.38325	2325.880597	00_38_49_Pinkie_Happy_Noisy_ooh! i met that guy in the desert!
+2326.202125	2329.914125	00_38_52_Rainbow_Confused_Noisy_Whoa! you used to be pirates.
+2330.040125	2331.667125	00_38_56_Mullet_Neutral_Noisy_Um, we prefer the term,.
+2331.77625	2333.7384509999997	00_38_57_Mullet_Neutral_Noisy_Swashbuckling treasure hunters.
+2334.010375	2335.637375	00_39_00_Rainbow_Confused_Noisy_So, pirates.
+2338.311625	2340.5226249999996	00_39_04_Rainbow_Neutral_Noisy_You birds have a choice to make.
+2340.88675	2345.3917500000002	00_39_07_Rainbow_Neutral_Noisy_You can let some cloven-hoofed storm king tell you how to live your lives.
+2345.5115	2349.3075	00_39_11_Rainbow_Happy_Noisy_Or you can be awesome again!
+2349.40225	2352.1132500000003	00_39_15_Twilight_Annoyed_Noisy_Rainbow dash, this really isn't a good time for a...
+2352.0345	2354.587208	00_39_18_Rainbow_Singing_Noisy_i know the world can get you down.
+2355.116625	2356.051593	00_39_21_Twilight_Neutral_Noisy_...song.
+2356.186375	2359.754922	00_39_22_Rainbow_Singing_Noisy_things don't work out quite the way that you thought.
+2360.37975	2363.529115	00_39_26_Rainbow_Singing_Noisy_feeling like all your best days are done.
+2363.7845	2366.620158	00_39_29_Rainbow_Singing_Noisy_your fears and doubts are all you've got.
+2367.34375	2371.5388009999997	00_39_33_Rainbow_Singing_Noisy_but there's a light shining deep inside.
+2371.517875	2375.017852	00_39_37_Rainbow_Singing_Noisy_beneath those fears and doubts so just squash 'em.
+2375.51575	2382.897073	00_39_41_Rainbow_Singing_Noisy_and let it shine for all the world to see that it is time, yeah, time to be awesome.
+2390.637625	2393.06731	00_39_56_Captain Celaeno_Singing_Noisy_you've no idea how hard it's been.
+2394.92275	2398.7425850000004	00_40_01_Captain Celaeno_Singing_Noisy_this dull routine we've been forced to do.
+2398.7405	2402.2435	00_40_04_Rainbow_Singing_Noisy_don't let them rob you of who you are.
+2402.44575	2405.3183139999996	00_40_08_Rainbow_Singing_Noisy_be awesome, it's all up to you.
+2406.030875	2410.1459619999996	00_40_12_Captain Celaeno_Singing_Noisy_i feel the light stirring deep inside.
+2410.145625	2413.938298	00_40_16_Captain Celaeno_Singing_Noisy_it's like a tale still yet to be told.
+2429.173625	2433.018063	00_40_35_Mullet_Singing_Noisy_we used to soar through the clouds in the skies.
+2433.00775	2437.1535930000005	00_40_39_Lix Spittle_Singing_Noisy_elaborate schemes we would love to devise.
+2437.147	2441.3482019999997	00_40_43_Boyle_Singing_Noisy_we rescued our treasure and stored it away.
+2441.268125	2445.0879590000004	00_40_47_Captain Celaeno_Singing_Noisy_saving those gemstones for a rainy day!
+2448.56175	2452.172447	00_40_54_Rainbow_Singing_Noisy_so take the storm king's orders and toss 'em.
+2456.7265	2460.823134	00_41_02_Captain Celaeno_Singing_Noisy_hey, scallywags, it's time to be awesome.
+2468.32325	2471.995458	00_41_14_Captain Celaeno_Happy_Noisy_Come on, let's show these little ponies how it's done!
+2492.447625	2493.7578089999997	00_41_38_Rainbow_Happy_Noisy_awesome!
+2493.986	2495.517625	00_41_40_Rainbow_Happy_Noisy_I knew you had it in you!
+2495.767625	2498.186625	00_41_41_Rainbow_Happy_Noisy_And now, for the finishing touch!
+2500.778625	2503.036079	00_41_46_Pinkie_Happy_Noisy_Rainboom, rainboom!
+2503.124875	2505.474596	00_41_49_Pinkie_Happy_Noisy_rainboom, rainboom!
+2503.696875	2505.8497610000004	00_41_49_Twilight_Anxious_Noisy_no, no, no... no!
+2514.27925	2515.8231769999998	00_42_00_Rainbow_Happy_Noisy_Ah, yeah!
+2520.1635	2521.761551	00_42_06_Captain Celaeno_Happy_Noisy_Wow!
+2521.879125	2523.564527	00_42_07_Twilight_Anxious_Noisy_Oh!
+2537.6105	2538.382142	00_42_23_Grubber_Happy__Look at that rainbow!
+2538.779375	2540.643153	00_42_24_Grubber_Happy_Noisy_Whoa, that's so cool.
+2541.008625	2543.649065	00_42_26_Tempest Shadow_Neutral_Noisy_Yeah, of them to alert us.
+2543.748125	2544.8331249999997	00_42_29_Tempest Shadow_Neutral_Noisy_Funny though,.
+2544.99875	2547.822106	00_42_30_Tempest Shadow_Whispering_Noisy_They don't seem to be heading to black skull island.
+2548.10175	2550.636004	00_42_34_Capper_Anxious_Noisy_Like, haha funny, or...
+2561.959375	2563.128084	00_42_47_Captain Celaeno_Happy_Noisy_yeah!
+2564.051875	2564.869971	00_42_50_Rainbow_Neutral_Noisy_nice!
+2570.157	2572.506721	00_42_56_Captain Celaeno_Happy_Noisy_storm guards! looks like they found you.
+2572.649375	2573.602796	00_42_58_Twilight_Happy_Noisy_Tempest!
+2573.5985	2576.329589	00_42_59_Captain Celaeno_Shouting_Noisy_Secure the rigging! lock down the cargo!
+2576.278625	2578.726764	00_43_02_Captain Celaeno_Shouting_Noisy_Everyone, prepare to be boarded!
+2578.65	2580.187776	00_43_04_Fluttershy_Fear_Noisy_oh, goodness!
+2581.86325	2583.900178	00_43_07_Rainbow_Confused_Noisy_You think she saw my sonic rainboom.
+2584.55525	2586.43225	00_43_10_Twilight_Angry_Noisy_Are you kidding me!
+2617.039625	2619.124625	00_43_42_Tempest Shadow_Confused_Noisy_Where is the pony princess.
+2619.15175	2623.28075	00_43_45_Captain Celaeno_Neutral_Noisy_Princess princess, princess...
+2623.4575	2626.2935	00_43_49_Captain Celaeno_Neutral_Noisy_Nope. all we're hauling is storm king merchandise.
+2631.1445	2635.3154999999997	00_43_57_Tempest Shadow_Confused_Noisy_You do realize that if you were to shelter fugitives.
+2635.291375	2637.668375	00_44_01_Tempest Shadow_Neutral_Noisy_The storm king would be quite...
+2638.26225	2639.6382500000004	00_44_04_Tempest Shadow_Neutral_Noisy_Explosive.
+2643.5545	2646.746922	00_44_09_Twilight_Whispering_Noisy_We have to get off this ship before they tell tempest we're here!
+2646.86225	2649.11425	00_44_12_Rainbow_Whispering_Noisy_We helped them get their mojo back.
+2649.1045	2650.6895	00_44_14_Rainbow_Whispering_Noisy_They're not gonna give us up!
+2669.467	2671.4280000000003	00_44_35_Twilight_Whispering_Noisy_I've got this.
+2671.97225	2675.2262499999997	00_44_37_Tempest Shadow_Neutral_Noisy_Now, i'm gonna to count to three,.
+2675.4175	2677.7945	00_44_41_Tempest Shadow_Whispering_Noisy_And if you don't tell me where they are,.
+2677.783875	2680.119875	00_44_43_Tempest Shadow_Whispering_Noisy_Your ship is going down.
+2681.144875	2682.145875	00_44_47_Tempest Shadow_Neutral_Noisy_One...
+2685.0255	2685.8128410000004	00_44_50_Twilight_Whispering_Noisy_Hold this.
+2685.868	2687.227394	00_44_51_Rainbow_Whispering_Noisy_what are you doing.
+2688.034375	2688.993375	00_44_53_Tempest Shadow_Neutral_Noisy_Two...
+2692.02125	2694.02325	00_44_57_Grubber_Happy_Noisy_Oh, this is intense.
+2696.142875	2697.207015	00_45_01_Tempest Shadow_Happy_Noisy_Three!
+2699.3705	2700.853264	00_45_05_Tempest Shadow_Whispering_Noisy_What.
+2705.879375	2709.348596	00_45_11_Rarity_Shouting_Noisy_oh, for celestia's sake!
+2715.2705	2716.9189960000003	00_45_21_Pinkie_Happy_Noisy_Whee!
+2718.56975	2719.879935	00_45_24_Fluttershy_Fear_Noisy_I can't look!
+2738.1725	2739.7963910000003	00_45_43_Applejack_Confused_Noisy_What in the hay is she up to.
+2760.43775	2762.529124	00_46_06_Rarity_Neutral_Noisy_Oh, thank goodness.
+2762.49425	2763.4292170000003	00_46_08_Applejack_Neutral_Noisy_Phew!
+2763.725375	2765.060375	00_46_09_Applejack_Neutral_Noisy_Quick thinkin', twilight!
+2765.049875	2766.132469	00_46_10_Twilight_Happy_Noisy_Yahoo!
+2767.063625	2769.37644	00_46_12_Pinkie_Happy_Noisy_That was fun! can we do it again.
+2770.048875	2772.490862	00_46_15_Rainbow_Happy_Noisy_Next stop, mount aris!
+2772.618875	2774.230464	00_46_18_Twilight_Happy_Noisy_We're home free!
+2790.108	2791.184443	00_46_35_Grubber_Neutral_Noisy_There's no ponies.
+2791.733125	2792.698848	00_46_37_Grubber_Neutral_Noisy_But i found this.
+2793.778875	2797.414176	00_46_39_Grubber_Neutral_Noisy_It's a kind of a cupcake, some sprinkles.
+2797.539625	2798.874625	00_46_43_Grubber_Neutral_Noisy_Oh, yeah, and i found this, too.
+2802.935	2805.137095	00_46_48_Grubber_Neutral_Noisy_Wow. this is a real artist.
+2805.12	2807.469721	00_46_50_Tempest Shadow_Neutral_Noisy_Looks like they're heading to mount aris.
+2807.908125	2811.5618790000003	00_46_53_Capper_Anxious_Noisy_Really mount... mount aris i didn't...
+2811.572125	2814.149436	00_46_57_Capper_Anxious_Noisy_Well, that's my mistake. i didn't know that they...
+2814.15325	2816.4783669999997	00_46_59_Capper_Anxious_Noisy_Mount aris, my bad, i didn't...
+2816.480875	2819.987003	00_47_02_Capper_Anxious_Noisy_That's my bad. i'm sorry. i'm very, very sorry.
+2820.167125	2821.3788919999997	00_47_05_Tempest Shadow_Whispering_Noisy_Now...
+2822.610375	2824.707901	00_47_08_Tempest Shadow_Whispering_Noisy_About your betrayal.
+2847.9195	2851.4225	00_47_33_Rarity_Happy_Noisy_we had to crash the balloon at the bottom of the mountain.
+2851.998	2856.094634	00_47_37_Rarity_Happy_Noisy_That's it! i simply cannot even!
+2856.097625	2857.223277	00_47_41_Rarity_Sad_Noisy_I have nothing.
+2857.66075	2859.33385	00_47_43_Rarity_Shouting_Noisy_The bad guys have won!
+2859.827625	2861.3716249999998	00_47_45_Rarity_Sad_Noisy_I'm so sorry!
+2863.52025	2864.996514	00_47_49_Rainbow_Happy_Noisy_We're almost there!
+2865.795	2867.628028	00_47_51_Rarity_Sad__Will you stop saying that.
+2867.9565	2869.0698499999994	00_47_53_Rainbow_Neutral_Noisy_No, really.
+2869.904125	2872.7520849999996	00_47_55_Rainbow_Happy_Noisy_We're actually here!
+2877.186	2878.367012	00_48_02_Twilight_Happy_Noisy_this is it.
+2878.424125	2879.7550889999998	00_48_04_Pinkie_Happy_Noisy_Ooh!
+2879.754	2880.9596159999996	00_48_05_Applejack_Neutral_Noisy_Well, i'll be.
+2882.012375	2884.6758019999997	00_48_07_Applejack_Happy_Noisy_hippogriffs, here we come!
+2884.4845	2887.037208	00_48_10_Rarity_Exhausted_Noisy_ooh. time to rest my hooves.
+2899.736875	2902.196875	00_48_25_Rarity_Anxious_Noisy_Are we sure this is the right place.
+2902.305	2905.392853	00_48_27_Applejack_Shouting_Noisy_Hello is anypony home!
+2905.732375	2907.639216	00_48_31_Pinkie_Neutral_Noisy_No hippogriffies here.
+2908.10775	2910.90175	00_48_33_Pinkie_Happy_Noisy_Or here. or here. or here. or here. or here!
+2911.73125	2913.280481	00_48_37_Pinkie_Happy_Noisy_Wait...
+2913.684375	2915.978736	00_48_39_Pinkie_Happy__Nope. this place is empty.
+2917.802375	2919.9140370000005	00_48_43_Twilight_Anxious__But celestia...
+2920.745	2921.2247859999998	00_48_46_Twilight_Neutral__The map...
+2922.587125	2924.047125	00_48_48_Twilight_Anxious_Noisy_They have to be here.
+2927.4855	2930.123882	00_48_53_Spike_Anxious_Noisy_Something bad happened here.
+2930.5585	2934.851969	00_48_56_Spike_Anxious_Noisy_Something that turned this whole place into a ghost town.
+2936.485375	2937.8447690000003	00_49_02_Fluttershy_Anxious_Noisy_ghost town.
+2944.40375	2945.916922	00_49_09_Twilight_Neutral__it's coming from over there.
+2968.570375	2969.523796	00_49_34_Princess Skystar_Anxious_Noisy_what was that.
+2970.19275	2971.490632	00_49_35_Pinkie_Happy_Noisy_Hey! wait up!
+2971.58575	2972.822469	00_49_37_Pinkie_Happy_Noisy_Cannonball!
+2973.515375	2974.8255590000003	00_49_39_Twilight_Shouting_Noisy_Pinkie!
+2979.37025	2980.471297	00_49_44_Pinkie_Confused_Noisy_She's gone.
+2981.510375	2982.841339	00_49_47_Twilight_Sad_Noisy_Now what.
+2986.29575	2987.4152510000004	00_49_51_Rarity_Neutral_Noisy_Oh, boy.
+2987.4925	2989.682292	00_49_53_Rarity_Neutral_Noisy_I hate epic adventures.
+3015.869625	3019.0806249999996	00_50_21_Pinkie_Exhausted_Noisy_Way to leave it till the last minute, twilight.
+3020.199625	3021.7426250000003	00_50_25_Twilight_Happy_Noisy_I didn't make these bubbles.
+3022.064	3024.483	00_50_27_Fluttershy_Confused_Noisy_Then who did.
+3029.723625	3030.641625	00_50_35_Twilight_Anxious_Noisy_Hello.
+3031.064875	3032.607875	00_50_36_Twilight_Neutral_Noisy_We're looking for the hippogriffs.
+3033.582375	3035.956701	00_50_39_Princess Skystar_Confused_Noisy_how do i know i can trust you.
+3037.7325	3038.5382940000004	00_50_43_Twilight_Serious_Noisy_Please.
+3038.854375	3040.731375	00_50_44_Twilight_Serious_Noisy_The storm king invaded our land,.
+3040.847875	3042.348743	00_50_46_Twilight_Happy_Noisy_And we need their help.
+3043.168	3044.607358	00_50_48_Princess Skystar_Happy_Noisy_the storm king.
+3046.36875	3048.866097	00_50_51_Princess Skystar_Happy_Noisy_I'm so glad i saved you guys!
+3049.067625	3051.236625	00_50_54_Princess Skystar_Happy_Noisy_I'm totally taking you to my mom!
+3052.849375	3054.54708	00_50_58_Twilight_Confused_Noisy_Does your mother know where they are.
+3055.139625	3056.7204589999997	00_51_00_Princess Skystar_Happy_Noisy_She might have an idea.
+3066.103375	3067.836001	00_51_11_Princess Skystar_Happy_Noisy_We're almost there.
+3108.823625	3109.5063969999997	00_51_54_Princess Skystar_Happy_Noisy_Mother!
+3109.86325	3111.539596	00_51_55_Princess Skystar_Happy_Noisy_Look what i found!
+3112.257	3113.6409980000003	00_51_57_Queen Novo_Bored_Noisy_Is it another shell.
+3113.7945	3117.829623	00_51_59_Queen Novo_Bored_Noisy_because i am telling you, if it is another shell, i am...
+3118.1585	3120.569732	00_52_03_Queen Novo_Happy_Noisy_Princess skystar, what have you done.
+3120.678625	3123.347625	00_52_06_Queen Novo_Happy_Noisy_You know surface dwellers are forbidden here!
+3123.42225	3124.3018580000003	00_52_08_Queen Novo_Shouting_Noisy_guards!
+3126.484125	3130.722234	00_52_11_Princess Skystar_Happy_Noisy_No, no, no. mom, please! it is so not like that!
+3130.725375	3133.628695	00_52_16_Princess Skystar_Happy_Noisy_The storm king is trying to destroy their home, too!
+3133.639875	3135.485206	00_52_19_Twilight_Serious_Noisy_We need to find the hippogriffs.
+3135.62875	3137.277377	00_52_21_Twilight_Confused_Noisy_Do you know what happened to them.
+3137.50475	3140.887856	00_52_22_Queen Novo_Neutral__Well, of course i know. i'm the queen.
+3140.884875	3142.9708750000004	00_52_26_Queen Novo_Neutral__I know everything.
+3143.238125	3145.7416240000002	00_52_28_Princess Skystar_Happy_Noisy_Oh, oh. it's such a good story.
+3145.72225	3148.3426199999994	00_52_31_Queen Novo_Happy__Don't you dare tell them!
+3150.01175	3152.312262	00_52_35_Princess Skystar_Happy_Noisy_Once upon a time, like, a while ago,.
+3152.535625	3155.413625	00_52_37_Princess Skystar_Happy_Noisy_The hippogriffs did live on mount aris.
+3156.965625	3158.4480399999998	00_52_42_Queen Novo_Sarcastic_Noisy_Did i not say don't tell them?
+3158.40025	3162.0712500000004	00_52_43_Queen Novo_Neutral_Noisy_But, hey, i'm just the queen. don't mind me.
+3162.323875	3165.909967	00_52_47_Princess Skystar_Happy_Noisy_Fine! i can't tell you. but if i could tell you,.
+3165.912375	3169.480014	00_52_51_Princess Skystar_Neutral_Noisy_I'd say that that horned beast did show up to steal their magic.
+3169.729625	3170.6030819999996	00_52_55_Queen Novo_Annoyed_Noisy_Seriously?
+3170.775375	3176.2437050000003	00_52_56_Princess Skystar_Happy_Noisy_But to keep it out of his clutches their brave and majestic leader, queen novo,.
+3176.23225	3179.043303	00_53_01_Princess Skystar_Happy_Noisy_Hid them deep underwater where he could never go.
+3179.202375	3180.954375	00_53_04_Princess Skystar_Happy_Noisy_We are...
+3181.053125	3184.2639999999997	00_53_06_Princess Skystar_Happy_Noisy_Well, we were the hippogriffs!
+3184.2895	3185.2306189999995	00_53_09_Princess Skystar_Happy_Noisy_Tada!
+3186.945875	3188.613875	00_53_12_Princess Skystar_Whispering__but i totally did not tell you that.
+3189.199875	3192.911875	00_53_14_Queen Novo_Neutral_Noisy_Well, i guess the pearl is out the oyster now.
+3193.196625	3195.5326250000003	00_53_18_Queen Novo_Neutral_Noisy_I am queen novo.
+3196.367	3199.1200000000003	00_53_21_Applejack_Neutral_Noisy_Hold on now, let me get this straight.
+3199.314	3201.1079999999997	00_53_24_Applejack_Confused_Noisy_When the storm king came,.
+3201.121875	3204.5008749999997	00_53_26_Applejack_Confused_Noisy_You just abandoned your entire city and fled.
+3204.4945	3208.4155	00_53_29_Princess Skystar_Neutral_Noisy_We didn't flee, we swam. you know, in order to flee.
+3208.56075	3209.957051	00_53_33_Twilight_Confused_Noisy_But how.
+3209.9665	3211.024489	00_53_35_Princess Skystar_Happy_Noisy_Oh! can we show them.
+3211.53525	3214.05105	00_53_36_Princess Skystar_Happy_Noisy_These are the first guests we've had in, like, forever!
+3214.03825	3215.1639020000002	00_53_39_Princess Skystar_Happy_Noisy_Can we can we can we...
+3215.719	3221.433	00_53_41_Queen Novo_Neutral_Noisy_Well, i suppose i should make sure it still works.
+3229.027	3230.281825	00_53_54_Queen Novo_Neutral_Noisy_careful now.
+3248.438875	3249.650642	00_54_13_Fluttershy_Happy_Noisy_Wow.
+3250.222125	3250.9326109999997	00_54_15_Rainbow_Happy_Noisy_Haha!
+3251.433	3253.973406	00_54_16_Rarity_Happy_Noisy_These fins are divine!
+3253.958125	3256.585125	00_54_19_Rainbow_Happy_Noisy_Hey, applejack! i'll race ya to that coral!
+3256.7325	3257.692072	00_54_22_Applejack_Happy_Noisy_You're on!
+3258.181	3259.57044	00_54_23_Pinkie_Happy_Noisy_Woo-hoo!
+3259.665375	3262.008945	00_54_24_Pinkie_Happy_Noisy_Ooh, try it, fluttershy.
+3263.467625	3264.2303610000004	00_54_28_Fluttershy_Neutral_Noisy_Yay.
+3264.6475	3265.6905	00_54_29_Spike_Anxious_Noisy_Guys...
+3265.9225	3269.5701040000004	00_54_31_Spike_Anxious_Noisy_Guys, what is happening.
+3269.706875	3271.718285	00_54_35_Fluttershy_Happy_Noisy_Aw, so cute!
+3271.832875	3273.536731	00_54_37_Twilight_Happy_Noisy_This is amazing!
+3273.721875	3278.981067	00_54_39_Twilight_Happy_Noisy_With this, we could transform everypony at home into something powerful enough to face the storm king's army!
+3278.976	3282.303746	00_54_44_Queen Novo_Annoyed_Noisy_Or it could end up in his greedy claws.
+3282.4865	3283.04625	00_54_47_Twilight_Confused_Noisy_But.
+3284.275625	3287.449594	00_54_49_Queen Novo_Serious_Noisy_I'm sorry about your home. i truly am.
+3287.645	3291.6555190000004	00_54_52_Queen Novo_Serious_Noisy_But my responsibility is to protect my subjects.
+3291.656	3292.787802	00_54_56_Queen Novo_Happy_Noisy_The pearl...
+3294.471625	3297.098146	00_54_59_Queen Novo_Serious_Noisy_Is not going anywhere.
+3297.112375	3299.2803750000003	00_55_02_Twilight_Whispering_Noisy_But we've come all this way.
+3299.63225	3302.5663250000002	00_55_04_Twilight_Anxious_Noisy_And you can't just hide down here, trapped forever.
+3302.918	3304.378	00_55_08_Twilight_Happy_Noisy_There's so much you're missing.
+3304.500375	3308.212375	00_55_09_Queen Novo_Neutral_Noisy_We are one hundred percent okay with that.
+3309.85375	3311.2131440000003	00_55_15_Queen Novo_Confused_Noisy_yes, jamal.
+3311.817875	3314.266013	00_55_17_Queen Novo_Neutral_Noisy_Ooh, time for my seaweed wrap.
+3315.353625	3318.8843580000002	00_55_20_Queen Novo_Happy_Noisy_Yes, a massage, too. mama needs her deep tissue.
+3318.930625	3320.609876	00_55_24_Applejack_Annoyed_Noisy_So that's it?
+3320.77475	3322.4437500000004	00_55_26_Applejack_Annoyed_Noisy_We left home for nothin'?
+3325.66475	3327.66675	00_55_30_Princess Skystar_Happy_Noisy_Best idea.
+3327.6695	3330.8395	00_55_32_Princess Skystar_Happy_Noisy_You can stay with us forever!
+3330.84925	3333.9801610000004	00_55_36_Princess Skystar_Happy_Noisy_There are so many things we can do.
+3334.011625	3341.8358270000003	00_55_39_Princess Skystar_Neutral_Noisy_We could make friendship bracelets out of shells, and picture frames out of shells, and decorative waste baskets out of shells.
+3341.823625	3344.53011	00_55_47_Princess Skystar_Neutral_Noisy_Oh, i have so many projects that involve shells.
+3345.214125	3347.7729830000003	00_55_50_Princess Skystar_Neutral_Noisy_Now i have someone new to share them with.
+3347.95825	3350.16925	00_55_53_Princess Skystar_Neutral_Noisy_I mean, aside from my friends, shelly and sheldon.
+3350.707875	3353.672706	00_55_55_Princess Skystar_Confused_Noisy_Right, shelly and sheldon get it.
+3355.255125	3356.3001030000005	00_56_00_Rarity_Happy_Noisy_Oh, oh!
+3356.21575	3358.34275	00_56_01_Rarity_Neutral_Noisy_That sounds lovely, darling,.
+3358.3385	3360.983474	00_56_03_Rarity_Neutral_Noisy_But you must realize we can't stay.
+3360.9755	3362.9315500000002	00_56_06_Applejack_Happy_Noisy_We've gotta get back to our families.
+3363.87275	3366.437759	00_56_09_Princess Skystar_Neutral_Noisy_Oh, no. of course. of course.
+3366.87925	3370.403832	00_56_12_Princess Skystar_Neutral_Noisy_Of course you have your own friends back home. It's fine. it's fine!
+3371.122625	3373.011013	00_56_16_Princess Skystar_Whispering_Noisy_shelly and sheldon get jealous anyways.
+3373.622875	3374.8346420000003	00_56_18_Princess Skystar_Neutral_Noisy_it's probably for the best.
+3376.192125	3377.5392159999997	00_56_21_Princess Skystar_Neutral_Noisy_yeah, i'll just, um...
+3378.2045	3380.947891	00_56_23_Princess Skystar_Sad_Noisy_I'll get mom to turn you back so you can go home.
+3385.07025	3390.4524640000004	00_56_30_Pinkie_Happy_Noisy_I know we have to go, but you guys saw how disappointed princess skystar was.
+3390.584875	3393.3788750000003	00_56_35_Pinkie_Confused_Noisy_Couldn't we stay for just a little longer.
+3393.374875	3395.24481	00_56_38_Applejack_Neutral_Noisy_Pinkie, we just don't have time...
+3395.10725	3398.52725	00_56_40_Twilight_Neutral_Noisy_Oh, no. no, no. pinkie's right.
+3399.600125	3400.6431249999996	00_56_44_Rainbow_Confused__Say what now.
+3401.11625	3404.28625	00_56_46_Twilight_Neutral_Noisy_Well, we still need to come up with a plan to get back.
+3404.53275	3407.20275	00_56_49_Twilight_Neutral_Noisy_A few minutes won't make a huge difference.
+3407.31975	3413.8768250000003	00_56_52_Twilight_Neutral_Noisy_And if there's anypony who can cram a lifetime of fun into a blink of an eye, it's pinkie pie.
+3414.05625	3417.980365	00_56_59_Twilight_Happy__So go ahead and show skystar the best time ever!
+3418.552	3419.954662	00_57_03_Pinkie_Happy__I won't let you down!
+3420.92725	3422.391212	00_57_06_Twilight_Neutral_Noisy_I'm counting on it.
+3436.648625	3438.229458	00_57_21_Princess Skystar_Sad_Noisy_It's probably for the best.
+3443.472	3445.3070000000002	00_57_28_Pinkie_Singing_Noisy_hey, now, don't be sad.
+3445.311375	3447.5749800000003	00_57_30_Pinkie_Singing_Noisy_i know we cannot stay.
+3447.79875	3452.8241999999996	00_57_32_Pinkie_Singing_Noisy_but we've got a couple minutes and a little time to play.
+3453.082875	3455.6268750000004	00_57_38_Princess Skystar_Singing_Noisy_i know you have important things.
+3455.643	3458.023476	00_57_40_Princess Skystar_Singing_Noisy_so it's okay, just go.
+3457.978875	3462.8136409999997	00_57_43_Pinkie_Singing_Noisy_but we can still pick one small little thing to do with you, you know!
+3467.01275	3471.183197	00_57_52_Pinkie_Singing_Noisy_one small thing doesn't seem like a lot.
+3471.886125	3476.3456739999997	00_57_56_Pinkie_Singing_Noisy_one small thing, work with the time you've got.
+3476.600875	3481.700138	00_58_01_Pinkie_Singing_Noisy_soon one small thing becomes two after two perhaps another few.
+3481.684	3484.439694	00_58_06_Pinkie_Singing_Noisy_then one small thing is not so small.
+3484.392125	3487.8961249999998	00_58_09_Pinkie_Singing_Noisy_one small thing can be the biggest thing of all!
+3489.673125	3493.8312699999997	00_58_14_Princess Skystar_Singing_Noisy_all right now since you're here let's see what we can do.
+3494.008625	3498.9233560000002	00_58_19_Princess Skystar_Singing_Noisy_swim with the flow until you go together me and you.
+3498.94975	3503.5999830000005	00_58_24_Pinkie_Singing_Noisy_i've got necklaces for every fish! so what else do you got.
+3503.884375	3508.897523	00_58_28_Princess Skystar_Singing_Noisy_well, we could play the bubblefish you'll like this one a lot.
+3533.597625	3534.698672	00_58_58_Pinkie_Singing_Noisy_One small thing.
+3536.047125	3537.326555	00_59_01_Princess Skystar_Singing_Noisy_Or a tall thing.
+3538.428125	3539.7506120000003	00_59_03_Fluttershy_Singing_Noisy_Or a sing thing.
+3540.995625	3543.8620389999996	00_59_06_Rarity_Singing_Noisy_Or a bling thing.
+3543.5275	3545.1575420000004	00_59_08_Applejack_Singing_Noisy_A conga thing.
+3545.974375	3547.9611809999997	00_59_11_Rainbow_Singing_Noisy_Or a longah thing.
+3548.726625	3551.260879	00_59_13_Pinkie_Singing_Noisy_a blue thing, true thing, you thing.
+3551.24075	3553.658133	00_59_16_Princess Skystar_Singing_Noisy_a wee thing, sea thing, me thing.
+3563.683375	3568.5242930000004	00_59_28_Princess Skystar_Singing_Noisy_One small thing so much we can create.
+3568.54125	3573.394469	00_59_33_Princess Skystar_Singing_Noisy_you and me we started something great.
+3573.3555	3580.121713	00_59_38_Princess Skystar_Singing_Noisy_it's so amazing, look around at all the happy sights and sounds.
+3580.227625	3582.737275	00_59_45_Princess Skystar_Singing_Noisy_One small thing is big, it's true.
+3582.861125	3585.370774	00_59_47_Princess Skystar_Singing_Noisy_you did this all for us.
+3585.512875	3588.096338	00_59_50_Princess Skystar_Singing_Noisy_i just wish there was one small thing.
+3588.233375	3590.8968019999998	00_59_53_Princess Skystar_Singing_Noisy_an extra special kind of thing.
+3617.628625	3622.561808	01_00_22_Queen Novo_Neutral_Noisy_Well, i guess there is one small thing we can do.
+3631.425375	3632.343375	01_00_36_Twilight_Happy_Noisy_Ow.
+3638.985875	3640.5288749999995	01_00_43_Twilight_Happy_Noisy_No! please!
+3640.696375	3643.950375	01_00_45_Queen Novo_Annoyed_Noisy_All of this so you could sneak in and take the pearl?
+3645.348125	3649.102125	01_00_50_Queen Novo_Annoyed_Noisy_This is why we don't bring strangers into our home!
+3653.103625	3656.482763	01_00_58_Queen Novo_Serious_Noisy_You don't deserve to be one of us.
+3694.433875	3696.0024060000005	01_01_39_Applejack_Annoyed_Noisy_What were you thinking?
+3696.24975	3698.20975	01_01_41_Applejack_Annoyed_Noisy_I mean, stealing their pearl?
+3699.31625	3701.8751079999997	01_01_44_Twilight_Happy_Noisy_it was the only way to save equestria!
+3702.08525	3703.87825	01_01_46_Pinkie_Happy__Except it wasn't!
+3704.10375	3706.0217500000003	01_01_48_Pinkie_Happy__The queen was going to say yes!
+3706.08625	3710.1521279999997	01_01_50_Pinkie_Neutral_Noisy_We did what you told us, and that's what made her realize we were ponies worth saving.
+3711.766375	3712.824364	01_01_56_Pinkie_Neutral__unless,.
+3712.935375	3715.4508149999997	01_01_57_Pinkie_Happy__You didn't really want us to show her the best time ever!
+3715.875	3718.336	01_02_00_Pinkie_Angry__You just wanted us to distract her!
+3719.65125	3723.0302500000003	01_02_04_Twilight_Angry__I never would have done it, but this isn't equestria!
+3723.146875	3728.492183	01_02_08_Twilight_Angry__We can't just dance around with con artists, make rainbooms in the sky, and expect everything to work out!
+3728.689	3732.4010000000003	01_02_13_Twilight_Angry_Noisy_It's not enough. we are not enough!
+3732.40575	3734.847737	01_02_17_Pinkie_Angry__No, twilight. we stuck together.
+3735.0235	3737.0674999999997	01_02_19_Pinkie_Angry__We were gonna get the help we needed.
+3737.3835	3740.0944999999997	01_02_22_Pinkie_Annoyed_Noisy_The only thing that stopped us was you.
+3740.27975	3743.86675	01_02_25_Twilight_Angry_Noisy_Well, i'm doing the best i can! it's all on me.
+3743.940625	3747.034629	01_02_28_Twilight_Angry_Noisy_I'm the one tempest wants. i'm the last princess!
+3747.029625	3750.6956820000005	01_02_31_Pinkie_Angry_Noisy_You're also the only one who doesn't trust her friends!
+3750.640875	3754.171607	01_02_35_Twilight_Angry_Noisy_Well, maybe i would have been better off without friends like you!
+3767.85525	3769.73225	01_02_52_Twilight_Sad_Noisy_Pinkie, i...
+3772.044125	3774.130125	01_02_56_Pinkie_Sad_Noisy_I just can't talk to you right now.
+3820.404875	3821.446875	01_03_45_Spike_Sad_Noisy_Twilight...
+3822.51625	3823.76825	01_03_47_Spike_Sad_Noisy_It's okay.
+3824.5975	3825.7644999999998	01_03_49_Spike_Sad_Noisy_You'll figure it out.
+3827.892875	3828.809875	01_03_52_Twilight_Sad_Noisy_No.
+3830.504125	3831.580567	01_03_55_Twilight_Sad_Noisy_I can't.
+3832.795625	3834.3149470000003	01_03_57_Twilight_Sad_Noisy_I ruined everything.
+3836.287375	3838.789375	01_04_01_Twilight_Sad_Noisy_There's no chance to save equestria now.
+3841.38325	3843.290091	01_04_06_Twilight_Sad_Noisy_It's all my fault.
+3848.13025	3849.33925	01_04_12_Twilight_Sad_Noisy_Spike.
+3850.8495	3852.215045	01_04_15_Spike_Muffled_Noisy_twilight, look out!
+3855.01375	3857.094657	01_04_19_Twilight_Fear_Noisy_no, no, no, no, no!
+3858.857	3861.0517999999997	01_04_23_Twilight_Shouting_Noisy_Spike!
+3861.383	3863.3575039999996	01_04_26_Spike_Shouting_Noisy_twilight!
+3888.46475	3891.19584	01_04_53_Tempest Shadow_Neutral_Noisy_Aw, the princess of friendship.
+3892.054	3895.0188310000003	01_04_56_Tempest Shadow_Laughing_Noisy_With no friends.
+3896.302125	3897.6676700000003	01_05_00_Tempest Shadow_Neutral_Noisy_And no way out.
+3898.044125	3899.799241	01_05_02_Twilight_Serious__Why are you doing this.
+3900.080625	3903.0454560000003	01_05_04_Twilight_Serious_Noisy_You're a pony, just like me.
+3904.293625	3906.058991	01_05_08_Tempest Shadow_Angry_Noisy_I'm nothing like you.
+3906.90375	3908.829045	01_05_11_Tempest Shadow_Neutral_Noisy_I'm more than you'll ever be.
+3913.05675	3915.4925860000003	01_05_17_Tempest Shadow_Singing_Noisy_it's time you learned a lesson.
+3917.001875	3920.015915	01_05_21_Tempest Shadow_Singing_Noisy_it's time that you understand.
+3920.684	3923.8026090000003	01_05_25_Tempest Shadow_Singing_Noisy_don't ever count on anybody else.
+3924.042625	3927.265802	01_05_28_Tempest Shadow_Singing_Noisy_in this or any other land.
+3928.132875	3930.8147559999998	01_05_32_Tempest Shadow_Singing_Noisy_i once hoped for friendship.
+3931.036625	3935.1947700000005	01_05_35_Tempest Shadow_Singing_Noisy_to find a place among my kind.
+3935.908125	3939.371196	01_05_40_Tempest Shadow_Singing_Noisy_but those were the childish wishes.
+3939.181125	3942.374809	01_05_43_Tempest Shadow_Singing_Noisy_of someone who was blind.
+3942.319125	3946.3911540000004	01_05_46_Tempest Shadow_Singing_Noisy_open up your eyes.
+3946.39975	3949.825914	01_05_51_Tempest Shadow_Singing_Noisy_see the world from where i stand.
+3949.924125	3952.310753	01_05_54_Tempest Shadow_Singing_Noisy_me among the mighty.
+3952.321625	3957.045671	01_05_56_Tempest Shadow_Singing_Noisy_you caged at my command.
+3957.59925	3961.745092	01_06_02_Tempest Shadow_Singing_Noisy_open up your eyes.
+3961.72875	3964.9817500000004	01_06_06_Tempest Shadow_Singing_Noisy_give up your sweet fantasy land.
+3965.42375	3968.9975409999997	01_06_10_Tempest Shadow_Singing_Noisy_it's time to grow up and get wise.
+3969.31275	3971.711679	01_06_13_Tempest Shadow_Singing_Noisy_come now, little one.
+3971.928	3975.8401010000002	01_06_16_Tempest Shadow_Singing_Noisy_open up your eyes.
+3978.009375	3984.990875	01_06_22_Tempest Shadow_Singing_Noisy_we all start out the same with simple naive trust.
+3985.29225	3992.470586	01_06_29_Tempest Shadow_Singing_Noisy_shielded from the many ways that life's not fair or just.
+3993.203375	3996.069789	01_06_37_Tempest Shadow_Singing_Noisy_but then there comes a moment.
+3995.998	3999.780927	01_06_40_Tempest Shadow_Singing_Noisy_a simple truth that you must face.
+3999.983875	4003.85907	01_06_44_Tempest Shadow_Singing_Noisy_if you depend on others.
+4003.9225	4008.83723	01_06_48_Tempest Shadow_Singing_Noisy_you'll never find your place.
+4033.361125	4036.375165	01_07_17_Tempest Shadow_Singing_Noisy_and as you take that first step.
+4036.527	4039.971617	01_07_21_Tempest Shadow_Singing_Noisy_upon a path that's all your own.
+4040.47125	4044.35025	01_07_25_Tempest Shadow_Singing_Noisy_you see it all so clearly.
+4044.435875	4050.66079	01_07_28_Tempest Shadow_Singing_Noisy_the best way to survive is all alone.
+4051.581125	4055.702364	01_07_36_Tempest Shadow_Singing_Noisy_open up your eyes.
+4055.656375	4059.012886	01_07_40_Tempest Shadow_Singing_Noisy_see the world from where i stand.
+4059.0655	4061.5259410000003	01_07_43_Tempest Shadow_Singing_Noisy_me among the mighty.
+4061.505	4066.2905570000003	01_07_46_Tempest Shadow_Singing_Noisy_you caged at my command.
+4066.740125	4071.06435	01_07_51_Tempest Shadow_Singing_Noisy_open up your eyes.
+4070.97775	4074.471576	01_07_55_Tempest Shadow_Singing_Noisy_and behold the faded light.
+4074.6885	4078.4222190000005	01_07_59_Tempest Shadow_Singing_Noisy_it's time to grow up and get wise.
+4078.46	4080.6290000000004	01_08_02_Tempest Shadow_Singing_Noisy_come now, little one.
+4080.900625	4085.5324050000004	01_08_05_Tempest Shadow_Singing_Noisy_open up your eyes.
+4088.573875	4094.3313060000005	01_08_13_Tempest Shadow_Singing_Noisy_open up your eyes.
+4108.3255	4110.3695	01_08_32_Twilight_Serious_Noisy_I'm so sorry you felt so alone.
+4110.596625	4115.099232	01_08_35_Tempest Shadow_Neutral__I saw the truth. My friends abandoned me when times got tough.
+4116.268	4118.437	01_08_40_Tempest Shadow_Neutral_Noisy_Looks like i'm not the only one.
+4120.537875	4122.497875	01_08_44_Tempest Shadow_Whispering_Noisy_Face it, princess.
+4122.66725	4124.7893810000005	01_08_47_Tempest Shadow_Whispering_Noisy_Friendship has failed you too.
+4126.732875	4128.525875	01_08_51_Twilight_Sad_Noisy_Friendship didn't fail me.
+4129.533375	4131.577375	01_08_53_Twilight_Sad_Noisy_I failed friendship.
+4149.685375	4152.551788	01_09_14_Fluttershy_Sad_Noisy_This whole journey was such a mistake.
+4153.40325	4156.18912	01_09_17_Fluttershy_Sad_Noisy_All we wanted was somepony to help us.
+4159.84525	4163.450703	01_09_24_Applejack_Sad_Noisy_You think maybe it's time we talk to twilight.
+4164.294375	4168.034245	01_09_28_Spike_Shouting_Noisy_She's been taken!
+4168.106375	4169.190375	01_09_32_Rainbow_Happy_Noisy_What.
+4169.428	4171.514136999999	01_09_33_Spike_Happy_Noisy_Twilight's been taken! tempest!
+4171.786375	4174.382139999999	01_09_36_Spike_Happy_Noisy_She grabbed her and took her on her ship!
+4175.944	4177.254185	01_09_40_Rainbow_Happy_Noisy_we gotta get her back!
+4177.268	4180.054225	01_09_41_Fluttershy_Fear_Noisy_How. We'll never catch up.
+4180.32375	4182.826808	01_09_44_Applejack_Neutral_Noisy_And we got no way to defeat those monsters.
+4186.41325	4189.550311999999	01_09_50_Capper_Happy_Noisy_well, good thing i happen to know of a group of mighty heroes.
+4189.524625	4191.197724	01_09_53_Capper_Happy_Noisy_That could handle this easily.
+4192.4415	4195.4445	01_09_56_Rarity_Annoyed__Well, look what the cat dragged in.
+4195.591625	4196.864903000001	01_09_59_Rarity_Annoyed__Himself!
+4197.10975	4199.957710999999	01_10_01_Capper_Happy_Noisy_These heroes have faced the storm king's army.
+4199.967625	4201.148636	01_10_04_Capper_Happy_Noisy_And escaped.
+4201.20125	4204.2829520000005	01_10_05_Capper_Happy_Noisy_I've seen them tackle the streets of the roughest towns,.
+4204.255875	4206.365703	01_10_08_Capper_Happy_Noisy_Break out of the tightest situations,.
+4206.33675	4209.57223	01_10_10_Capper_Happy_Noisy_And inspire others to join their cause.
+4211.711	4215.674000000001	01_10_16_Applejack_Neutral__Now, don't get too excited. he's just talking about us.
+4217.88625	4223.213105	01_10_22_Capper_Happy_Noisy_They even escaped certain doom at the hooves of commander tempest.
+4223.56125	4226.648249999999	01_10_27_Rainbow_Neutral_Noisy_Yeah, that was pretty great.
+4226.654	4228.4890000000005	01_10_31_Captain Celaeno_Confused_Noisy_are you kidding me.
+4230.5435	4232.401133	01_10_34_Captain Celaeno_Happy_Noisy_That was awesome!
+4233.60275	4235.552649	01_10_37_Boyle_Happy_Noisy_Figured you could use a claw.
+4235.462125	4237.971774	01_10_39_Captain Celaeno_Happy_Noisy_We're onboard to help you fight the storm king.
+4238.19025	4240.773713	01_10_42_Captain Celaeno_Neutral_Noisy_Just not on board our actual ship.
+4240.7815	4242.805212	01_10_45_Mullet_Neutral_Noisy_That crazy unicorn sunk it,.
+4242.87425	4245.21025	01_10_47_Mullet_Neutral_Noisy_But you got back our argh.
+4245.811	4248.216081	01_10_50_Mullet_Neutral_Noisy_And we're ready to kick some booty.
+4266.13025	4268.42425	01_11_10_Capper_Confused_Noisy_Is that what i think it is.
+4271.93325	4273.760127	01_11_16_Princess Skystar_Happy_Noisy_Hello! me again!
+4274.768125	4277.104124999999	01_11_19_Princess Skystar_Neutral_Noisy_I'm gonna get so grounded.
+4277.140375	4282.387265	01_11_21_Princess Skystar_Neutral_Noisy_But i talked things over with shelly and sheldon, and they pointed out that you were just trying to help your friends.
+4282.80425	4284.13825	01_11_27_Princess Skystar_Happy_Noisy_So, i wanna help, too.
+4285.32075	4288.21792	01_11_29_Princess Skystar_Neutral_Noisy_Because, you know, one small thing...
+4288.457375	4290.185834999999	01_11_32_Princess Skystar_Whispering_Noisy_can make a really big difference.
+4292.403	4293.529	01_11_36_Spike_Confused_Noisy_That's it, right.
+4294.083	4296.001	01_11_38_Spike_Confused__We didn't make friends with anypony else.
+4296.7705	4300.4405	01_11_41_Capper_Neutral_Noisy_All right, y'all. i think our course is clear.
+4301.0285	4302.696500000001	01_11_45_Capper_Happy_Noisy_Y'all ready to do this thing.
+4303.19	4305.564326	01_11_47_Pinkie_Happy_Noisy_We're coming, twilight!
+4311.478625	4314.406548999999	01_11_55_Pinkie_Happy_Noisy_as soon as we bake up a plan!
+4323.696125	4329.5765790000005	01_12_07_Songbird Serenade_Singing_Noisy_i am here and i see your pain.
+4329.590375	4335.273993	01_12_13_Songbird Serenade_Singing_Noisy_through the storm through the clouds, the rain.
+4335.617625	4341.012141	01_12_19_Songbird Serenade_Singing_Noisy_i'm telling you, you cannot escape.
+4384.984625	4388.392336	01_13_09_Twilight_Serious_Noisy_Tempest, don't do this. don't give the storm king...
+4388.242875	4389.183994	01_13_12_Tempest Shadow_Confused_Noisy_Your magic.
+4390.03175	4392.1907870000005	01_13_14_Tempest Shadow_Confused_Noisy_Did you think you'd keep it all to yourself.
+4392.89775	4394.565750000001	01_13_17_Tempest Shadow_Happy_Noisy_Time to share.
+4395.19225	4399.670252000001	01_13_19_Tempest Shadow_Neutral_Noisy_I'd love for everybody out there to know what i can really do.
+4400.131	4402.119778	01_13_24_The Storm King_Happy_Noisy_ooh, fascinating.
+4403.330625	4405.913726999999	01_13_27_The Storm King_Serious_Noisy_What can you really do.
+4407.01	4409.888	01_13_31_Grubber_Neutral_Noisy_Your bidding, of course, your mighty one.
+4415.431625	4417.392625	01_13_39_The Storm King_Happy_Noisy_Bidding's good. i like bidding!
+4418.2345	4420.5285	01_13_42_The Storm King_Confused_Noisy_Um, what are you supposed to be.
+4421.54975	4423.8857499999995	01_13_45_Twilight_Serious_Noisy_I'm the princess of friendship.
+4426.544375	4427.713084	01_13_50_The Storm King_Happy_Noisy_oh!
+4428.6615	4429.885569	01_13_52_The Storm King_Neutral_Noisy_That's nice.
+4430.446375	4432.698375000001	01_13_54_The Storm King_Angry_Noisy_Why is this one still moving!
+4432.707625	4436.564366	01_13_56_Tempest Shadow_Neutral_Noisy_She and her friends put up a bit of a fight, but she's alone now.
+4437.0905	4438.671333	01_14_01_Tempest Shadow_Neutral_Noisy_She won't be a problem.
+4438.902125	4443.521602	01_14_03_The Storm King_Sarcastic_Noisy_Yeah. so, speaking of problems, this place, it seems a little too,.
+4443.4695	4444.625907000001	01_14_07_The Storm King_Sarcastic_Noisy_Oh, i don't know, cute!
+4445.081875	4446.016842	01_14_09_The Storm King_Shouting_Noisy_Cute!
+4446.533125	4449.098135	01_14_10_The Storm King_Angry_Noisy_I don't like cute. i never did like cute.
+4449.1045	4451.054399000001	01_14_13_The Storm King_Angry_Noisy_Doesn't really go with my whole big, bad,.
+4451.056375	4453.449154	01_14_15_The Storm King_Angry_Noisy_Powerful magic guy thing, does it!
+4454.183875	4457.84378	01_14_18_The Storm King_Angry_Noisy_Deliver the punch line, tempest, because this has gotta be a joke!
+4475.29925	4476.47156	01_14_39_Twilight_Fear_Noisy_No!
+4479.147375	4481.134180999999	01_14_43_The Storm King_Happy_Noisy_Check out the light show!
+4489.30125	4490.759062	01_14_53_The Storm King_Happy_Noisy_Wow!
+4494.059875	4495.894875	01_14_58_The Storm King_Happy_Noisy_Let's get this storm started!
+4495.934375	4498.610105	01_14_59_The Storm King_Whispering_Noisy_Ooh, hey, that's good, i should trademark that.
+4505.884875	4509.470968	01_15_09_The Storm King_Happy_Noisy_Not bad. actually, kind of first rate.
+4509.68725	4510.982308000001	01_15_13_The Storm King_Confused_Noisy_What else does it do.
+4510.977375	4514.963290000001	01_15_15_Tempest Shadow_Neutral_Noisy_Your excellency, you promised to restore my horn, and give...
+4515.559625	4516.679126	01_15_19_The Storm King_Happy_Noisy_okay, hang on.
+4521.2295	4523.435407000001	01_15_25_The Storm King_Happy_Noisy_You gotta be kidding me!
+4523.760625	4525.6182579999995	01_15_27_The Storm King_Happy_Noisy_I can move the sun.
+4527.263125	4528.216546000001	01_15_31_The Storm King_Happy_Noisy_Whoa!
+4529.5005	4531.9195	01_15_33_The Storm King_Happy_Noisy_Now this is what i'm talkin' about!
+4534.390125	4535.528079000001	01_15_38_The Storm King_Happy_Noisy_Time to play!
+4536.404375	4539.147766	01_15_40_The Storm King_Happy_Noisy_Tuesday, wednesday, thursday, friday!
+4539.260125	4543.830394	01_15_43_The Storm King_Happy_Noisy_Day, night, day, night, day, night, day, night, day, night,.
+4543.82725	4545.026715000001	01_15_47_The Storm King_Happy_Noisy_Sunrise, sunset...
+4561.002125	4564.8773200000005	01_16_05_Capper_Neutral_Noisy_Uh, yeah. i got a delivery here for a mister the storm king.
+4564.917625	4568.306882	01_16_08_Capper_Neutral_Noisy_I was given explicit instructions to bring this here cake.
+4568.3105	4570.863206999999	01_16_12_Capper_Neutral_Noisy_To this here castle's throne room.
+4577.840625	4579.126205	01_16_21_Capper_Neutral_Noisy_All right, then.
+4579.317875	4583.236127	01_16_23_Capper_Neutral_Noisy_Look here, could one of y'all go be a pal, go tell your boss.
+4583.234125	4587.730581	01_16_27_Capper_Neutral_Noisy_He's not getting his congratulations on subduing defenseless pastel ponies cake.
+4587.739125	4589.787442	01_16_31_Capper_Neutral_Noisy_'cause i don't want to be the one responsible.
+4589.78275	4591.867974	01_16_33_Capper_Neutral_Noisy_For the big guy missin' his special dessert...
+4591.923875	4593.258875	01_16_35_Capper_Neutral_Noisy_you know what i'm sayin'.
+4602.29825	4603.75725	01_16_46_Capper_Smug_Noisy_Thank you kindly, fellas.
+4603.852125	4606.563125000001	01_16_47_Capper_Neutral_Noisy_I'mma be sure and put in a good word for the both of y'all.
+4610.761125	4614.598125	01_16_54_Applejack_Whispering_Noisy_Pinkie, quit lookin' so happy. y'ain't foolin' nopony.
+4614.766375	4616.476382000001	01_16_58_Pinkie_Whispering_Noisy_Oh, okay!
+4627.252625	4628.9769049999995	01_17_11_Grubber_Happy_Noisy_Mmm, pie.
+4629.833875	4631.2098750000005	01_17_13_Grubber_Happy_Noisy_Oh, hello, cake.
+4634.0535	4635.971500000001	01_17_17_Grubber_Happy_Noisy_Ooh, don't mind if i do.
+4637.33275	4638.132393	01_17_21_Grubber_Happy_Noisy_Mmm.
+4638.681	4640.307999999999	01_17_22_Grubber_Happy_Noisy_It's some, like, gourmet icing.
+4641.702625	4643.603316	01_17_25_Grubber_Confused_Noisy_Who puts eyeballs in filling.
+4646.227375	4647.629827	01_17_30_Grubber_Fear_Noisy_guards!
+4649.62425	4651.170148	01_17_33_Capper_Neutral_Noisy_Uh-oh. plan b.
+4651.477375	4652.585980000001	01_17_35_Rainbow_Happy_Noisy_The jig is up!
+4661.41725	4662.616715	01_17_45_Captain Celaeno_Happy_Noisy_Come on!
+4665.323	4666.1841540000005	01_17_49_Princess Skystar_Happy_Noisy_Gotcha!
+4678.8565	4679.785316	01_18_02_Rarity_Happy_Noisy_Lovely.
+4680.185875	4681.280771000001	01_18_04_Pinkie_Happy_Noisy_Surprise!
+4683.319	4684.7460550000005	01_18_07_Pinkie_Happy_Noisy_Double surprise!
+4686.530125	4687.448125000001	01_18_10_Pinkie_Happy_Noisy_Whee!
+4693.10575	4693.948450999999	01_18_16_Fluttershy_Anxious_Noisy_oh!
+4695.57075	4699.24075	01_18_19_Fluttershy_Anxious_Noisy_You seem tense. do you wanna talk about it.
+4703.027125	4704.011301	01_18_26_Captain Celaeno_Happy_Noisy_Yeah!
+4706.278875	4708.363875	01_18_30_Captain Celaeno_Happy_Noisy_Head for the castle! we'll hold them off!
+4708.397375	4709.350796	01_18_32_Rainbow_Happy_Noisy_Come on!
+4711.585375	4713.516820999999	01_18_35_Fluttershy_Neutral_Noisy_Let it all out.
+4715.209375	4718.530970000001	01_18_39_Fluttershy_Neutral_Noisy_Oh, sorry, our time is up, buh-bye!
+4718.53775	4719.7310640000005	01_18_42_Storm Creature_Sad_Noisy_buh-bye.
+4727.162	4730.465142	01_18_50_Princess Skystar_Happy_Noisy_Keep going! shelly, sheldon...
+4732.951125	4734.851815	01_18_56_Storm Creature_Fear_Noisy_i can't see!
+4739.864625	4740.782625	01_19_03_Applejack_Anxious_Noisy_Uh-oh.
+4741.1965	4744.289709	01_19_05_Capper_Confused_Noisy_Hey, ain't you a firebreathin' dragon.
+4757.769375	4758.811374999999	01_19_21_Tempest Shadow_Confused_Noisy_What.
+4759.203875	4760.1511439999995	01_19_22_Tempest Shadow_Confused_Noisy_How.
+4763.268625	4764.541902999999	01_19_27_Twilight_Serious_Noisy_it's the magic of...
+4764.399	4769.934991	01_19_28_The Storm King_Sarcastic_Noisy_yeah, yeah. friendship and flowers and ponies, and blegh!
+4769.923875	4772.884875000001	01_19_33_The Storm King_Neutral_Noisy_I'm so totally over the cute pony thing.
+4773.0185	4775.423581	01_19_36_The Storm King_Angry_Noisy_This ends now!
+4786.65	4787.338924	01_19_50_Capper_Neutral_Noisy_Uh-oh.
+4795.36625	4796.45025	01_19_59_The Storm King_Happy_Noisy_Yeah!
+4802.5105	4804.3004710000005	01_20_06_Capper_Happy_Noisy_Move them hooves, ponies!
+4813.5555	4818.802390000001	01_20_17_Rainbow_Shouting_Noisy_You'd have to be flying faster than a speeding pegasus to break through that wind!
+4821.076125	4823.968542999999	01_20_24_Pinkie_Smug_Noisy_Excellent idea, rainbow dash!
+4825.084625	4829.974751000001	01_20_28_The Storm King_Shouting_Noisy_Now, i truly am the storm king!
+4829.94925	4836.955354999999	01_20_33_The Storm King_Shouting_Noisy_And the entire world will bow to my ba-ba-ba-boom, baby!
+4836.89175	4840.994535	01_20_40_Tempest Shadow_Happy_Noisy_Yes, yes you are every bit as powerful as i promised, sire.
+4840.966375	4846.496215	01_20_44_Tempest Shadow_Serious_Noisy_Now, restore my horn and i swear to use my magic to serve you.
+4847.973375	4851.541013999999	01_20_51_The Storm King_Annoyed_Noisy_Who cares about your dinky little unicorn horn?
+4851.631125	4854.3841250000005	01_20_55_Tempest Shadow_Anxious_Noisy_But we, we had an agreement.
+4854.3895	4860.8125	01_20_58_The Storm King_Annoyed_Noisy_Get with the program! i used you. it's kind of what i do.
+4879.734	4880.901000000001	01_21_23_Twilight_Shouting_Noisy_Hold on!
+4881.563375	4883.3573750000005	01_21_25_Tempest Shadow_Fear_Noisy_Why are you saving me!
+4884.524875	4887.5606880000005	01_21_28_Twilight_Neutral_Noisy_Because this is what friends do.
+4897.43325	4901.357653	01_21_41_The Storm King_Sarcastic_Noisy_Aw, isn't that just so sweet.
+4902.686	4903.651722999999	01_21_46_The Storm King_Neutral_Noisy_yeah.
+4904.56225	4905.47925	01_21_48_The Storm King_Neutral_Noisy_See ya.
+4907.50225	4909.25325	01_21_51_Mullet_Confused_Noisy_You sure about this.
+4913.289875	4916.402332000001	01_21_56_Pinkie_Happy_Noisy_I'm excited. who's excited i've never been so excited!
+4931.452125	4933.090507	01_22_15_Pinkie_Dizzy_Noisy_Bullseye!
+4933.982625	4936.252382	01_22_17_Twilight_Happy_Noisy_Pinkie! you all came back!
+4936.345125	4938.947042	01_22_19_Twilight_Happy_Noisy_I'm so sorry! i was wrong to...
+4939.924125	4941.509125	01_22_23_Pinkie_Neutral_Noisy_i'm sorry, too!
+4942.424625	4945.001937	01_22_26_Pinkie_Neutral_Noisy_Friends mess up sometimes, but we never should...
+4944.74	4947.827058	01_22_28_Rainbow_Happy_Noisy_Uh, make up later! this isn't over!
+4965.663375	4967.456375000001	01_22_49_Twilight_Happy_Noisy_I've got to get control of it!
+4967.687	4970.545489	01_22_51_Pinkie_Shouting_Noisy_Go! you've got this, twilight!
+4971.073625	4973.964985	01_22_54_Twilight_Serious_Noisy_No. we've got this.
+4975.27025	4975.989929	01_22_58_Twilight_Neutral_Noisy_Together.
+4989.832625	4992.6928880000005	01_23_13_The Storm King_Angry_Noisy_The staff belongs to me!
+5001.677625	5004.703967	01_23_25_The Storm King_Happy_Noisy_No! that's my staff!
+5011.294	5013.6720000000005	01_23_34_The Storm King_Fear_Noisy_mine! mine!
+5013.946875	5015.134037	01_23_37_Twilight_Fear_Noisy_No!
+5015.51175	5018.937913999999	01_23_39_The Storm King_Fear_Noisy_oh, no, no!
+5018.86725	5020.285250000001	01_23_42_Pinkie_Shouting_Noisy_twilight!
+5020.3175	5024.186543000001	01_23_43_Pinkie_Shouting_Noisy_No!
+5082.912125	5084.556933	01_24_46_Pinkie_Happy_Noisy_yay!
+5083.7305	5086.5665	01_24_47_Applejack_Happy_Noisy_yeehaw! all right!
+5087.68375	5089.063923000001	01_24_51_Pinkie_Happy_Noisy_Group hug!
+5114.813125	5116.481125	01_25_18_Tempest Shadow_Happy_Noisy_No!
+5153.736375	5154.622134	01_25_57_Rainbow_Happy_Noisy_whoa.
+5155.61975	5157.5377499999995	01_25_59_Rainbow_Neutral_Noisy_I can't believe she did that.
+5158.53925	5159.234324	01_26_01_Twilight_Neutral__I can.
+5176.2385	5177.6565	01_26_19_Fluttershy_Confused_Noisy_Now what.
+5189.25725	5192.461974999999	01_26_32_Tempest Shadow_Neutral_Noisy_Now, we fix everything.
+5206.498375	5209.171411	01_26_49_Celestia_Happy_Noisy_Ah! twilight!
+5209.842125	5210.874939	01_26_53_Twilight_Happy_Noisy_Princesses!
+5249.253	5251.941591	01_27_32_Spike_Happy_Noisy_fillies and gentlecolts!
+5252.509125	5254.219125	01_27_35_Spike_Happy_Noisy_get ready for a little...
+5257.004125	5259.9241250000005	01_27_40_Spike_Happy_Noisy_songbird serenade!
+5264.26925	5269.454629	01_27_47_Songbird Serenade_Happy_Noisy_And now, to celebrate the fact that we're all still here in one piece,.
+5269.6015	5272.529425	01_27_52_Songbird Serenade_Happy_Noisy_Give it up for princess twilight.
+5272.532375	5275.202375	01_27_55_Songbird Serenade_Happy_Noisy_And her friends!
+5275.11875	5277.886746	01_27_58_Code Red_Happy_Noisy_All right! way to go, guys!
+5279.383875	5280.7432690000005	01_28_02_Bulk Biceps_Happy_Noisy_Yeah!
+5292.892875	5298.397875	01_28_16_Songbird Serenade_Singing_Noisy_i know you, you're a special one.
+5298.638625	5303.497995999999	01_28_21_Songbird Serenade_Singing_Noisy_some see crazy where i see love.
+5304.473125	5309.763072000001	01_28_27_Songbird Serenade_Singing_Noisy_you fall so low but shoot so high.
+5310.4705	5315.641500000001	01_28_33_Songbird Serenade_Singing_Noisy_big dreamers shoot for open sky.
+5316.194875	5321.866875000001	01_28_39_Songbird Serenade_Singing_Noisy_so much life in those open eyes.
+5322.1725	5327.161044	01_28_45_Songbird Serenade_Singing_Noisy_so much depth you look forward to life.
+5324.386875	5325.5309799999995	01_28_47_Capper_Happy_Noisy_Ooh.
+5325.424875	5327.516248999999	01_28_48_Rarity_Happy_Noisy_and perfection.
+5327.180625	5333.134891999999	01_28_50_Songbird Serenade_Singing_Noisy_but when your wounds open, you will cry.
+5332.920875	5334.015771	01_28_56_Princess Skystar_Happy_Noisy_Mom!
+5334.872375	5338.120157	01_28_58_Queen Novo_Happy_Noisy_You are so grounded.
+5341.07175	5343.692119	01_29_04_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5343.641875	5346.612857	01_29_06_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5346.965875	5349.537035	01_29_10_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5349.5015	5352.454029	01_29_12_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5352.87225	5355.400352000001	01_29_16_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5355.329875	5358.634142	01_29_18_Songbird Serenade_Singing_Noisy_in your tears as the sun comes out.
+5358.817625	5363.2218139999995	01_29_22_Songbird Serenade_Singing_Noisy_as the sun comes out.
+5380.823625	5383.64083	01_29_43_Tempest Shadow_Serious_Noisy_well, that's one thing that never changes around here.
+5384.24425	5385.265761000001	01_29_47_Tempest Shadow_Serious_Noisy_A party.
+5386.747375	5389.466858	01_29_49_Twilight_Neutral_Noisy_Well, i hope you'll stay.
+5389.583625	5392.429949	01_29_52_Twilight_Neutral_Noisy_More friends are definitely merrier.
+5393.859875	5394.905563	01_29_57_Tempest Shadow_Sad_Noisy_But, um...
+5396.20525	5397.314775000001	01_29_59_Tempest Shadow_Sad_Noisy_My horn.
+5398.004375	5398.976598	01_30_01_Twilight_Neutral_Noisy_You know...
+5400.3385	5402.454479	01_30_03_Twilight_Neutral_Noisy_Your horn is pretty powerful,.
+5402.9325	5405.0605000000005	01_30_06_Twilight_Neutral_Noisy_Just like the pony it belongs to.
+5407.4835	5413.480824	01_30_10_Tempest Shadow_Confused_Noisy_I did tell you i wanted to show everypony in equestria what i could do, right.
+5419.62575	5422.233816999999	01_30_22_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5422.245375	5425.050277000001	01_30_25_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5425.57375	5428.071096999999	01_30_28_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5427.975625	5430.805131	01_30_31_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5432.362	5434.531	01_30_35_Pinkie_Neutral_Noisy_Nice touch, tempest.
+5434.96675	5437.567248	01_30_38_Tempest Shadow_Neutral_Noisy_Actually, that's not my real name.
+5437.909625	5440.420051000001	01_30_41_Pinkie_Happy_Noisy_Ooh! what is it.
+5442.43075	5444.964643	01_30_45_Tempest Shadow_Whispering_Noisy_It's fizzlepop berrytwist.
+5447.1555	5452.4945	01_30_50_Pinkie_Happy_Noisy_Okay! that is the most awesome name ever!
+5455.64875	5458.250666000001	01_30_58_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5458.198375	5461.316984	01_31_01_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5461.599625	5464.170786	01_31_04_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5464.057875	5467.065764000001	01_31_07_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5467.4565	5469.880034	01_31_10_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5469.863	5473.264559	01_31_12_Songbird Serenade_Singing_Noisy_in your tears as the sun comes out.
+5473.35875	5477.916717	01_31_16_Songbird Serenade_Singing_Noisy_as the sun comes out.
+5477.7885	5483.64435	01_31_20_Songbird Serenade_Singing_Noisy_i am here, and i see your pain.
+5483.628625	5489.426625	01_31_26_Songbird Serenade_Singing_Noisy_through the storms through the clouds, the rain.
+5489.42175	5494.754755	01_31_32_Songbird Serenade_Singing_Noisy_'m tellin' you, you cannot escape.
+5495.278625	5500.658624999999	01_31_38_Songbird Serenade_Singing_Noisy_you can do it, just feel, baby.
+5502.5	5504.919	01_31_45_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5504.882875	5507.995333	01_31_47_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5508.440125	5510.962077	01_31_51_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5510.916	5513.8377740000005	01_31_53_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5514.23325	5516.822864000001	01_31_57_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5516.809375	5519.485103999999	01_31_59_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5520.1775	5522.779417	01_32_03_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5522.7085	5525.414984999999	01_32_05_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5525.998	5528.417	01_32_09_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5528.398125	5531.768928999999	01_32_11_Songbird Serenade_Singing_Noisy_in your tears as the sun comes out.
+5531.837875	5536.451201	01_32_14_Songbird Serenade_Singing_Noisy_as the sun comes out.
+5538.139125	5543.515188	01_32_21_Songbird Serenade_Singing_Noisy_here comes the sun smiling down.
+5543.494625	5549.510403	01_32_26_Songbird Serenade_Singing_Noisy_here comes the sun smiling down.
+5549.487375	5555.392432999999	01_32_32_Songbird Serenade_Singing_Noisy_here comes the sun smiling down.
+5555.36625	5558.392593	01_32_38_Songbird Serenade_Singing_Noisy_smiling down.
+5561.100625	5563.714844	01_32_44_Songbird Serenade_Singing_Noisy_i can see a rainbow.
+5563.586375	5566.628339	01_32_46_Songbird Serenade_Singing_Noisy_in your tears as they're fallin' down.
+5567.058875	5569.593128999999	01_32_50_Songbird Serenade_Singing_Noisy_i can see your soul grow.
+5569.5005	5572.3785	01_32_52_Songbird Serenade_Singing_Noisy_through the pain as they hit the ground.
+5572.906875	5575.330409	01_32_55_Songbird Serenade_Singing_Noisy_i can see a rainbow.
