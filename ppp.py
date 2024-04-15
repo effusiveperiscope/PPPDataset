@@ -2,7 +2,7 @@ HORSEWORDS_DICTIONARY = "./horsewords.clean"
 CMU_DICTIONARY = "./cmudict-0.7b.txt"
 import os
 if os.name == "nt":
-    SLICED_DIALOGUE = r"X:"
+    SLICED_DIALOGUE = r"X:\Sliced Dialogue"
     SONGS = r"D:\MLP_Samples\AI Data\Songs"
 else:
     SLICED_DIALOGUE = r"/mnt/nvme1n1p2/MLP_Samples/AI Data/Master file/Sliced Dialogue"
@@ -260,6 +260,19 @@ class PPPDataset:
             mapping += 'S' + specifier[0] + '/s' + specifier[0] + 'e' + str(int(specifier[1:]))
             return mapping, se_specifier, False
 
+    def label_mapping2(label_basename):
+        if label_basename in SPECIAL_LABEL_MAPPINGS:
+            return (SPECIAL_LABEL_MAPPINGS[label_basename], 
+                SPECIAL_LABEL_MAPPINGS_SPECIFIER.get(label_basename), True)
+        mapping = ''
+        sp = label_basename.split('_')
+
+        mapping = 'MASTER_FILE_1/Sliced Dialogue/FiM/'
+        specifier = ''.join(re.findall(r'\d+', sp[0]))[1:] 
+        se_specifier = 's' + specifier[0] + 'e' + str(int(specifier[1:]))
+        mapping += 'S' + specifier[0] + '/s' + specifier[0] + 'e' + str(int(specifier[1:]))
+        return mapping, se_specifier, False
+
     #def specifier_to_num(sp):
         #return sp[1], sp[3:]
 
@@ -353,6 +366,77 @@ class PPPDataset:
                                 'parse': parse
                             })
                             line = f2.readline()
+            return index
+
+    def generate_fim_episodes_labels_index2(
+            labels_dir = SLICED_DIALOGUE + "/Label files",
+            master_file_1 = 'D:/MLP_Samples/AIData/Master file',
+            master_file_2 = 'D:/MEGASyncDownloads/Master file 2',
+            max_noise = 1,
+            ignore_text = False,
+            no_parse = False,
+            audio_input_format = '.flac',
+            force_character = '',
+            emotions : list = [],
+            override_select : list = [],
+            special_source_handling : bool = True):
+            index = {}
+            dirty_flag = False
+            for (root,_,files) in os.walk(labels_dir):
+                for f in tqdm(files, desc="Label files"):
+                    # 'Other' not in scope for now
+                    if 'Other' in root:
+                        continue
+                    # Ignore original/demu text lists, we just care about overall
+                    if f.endswith('_original.txt') or f.endswith('_master_ver.txt') or f.endswith('_demu1.txt') or f.endswith('_demu0.txt'):
+                        continue
+                    f_basename = f.removesuffix('.txt')
+                    f_basename_true = f_basename
+
+                    mapping, specifier, special_source = PPPDataset.label_mapping2(f_basename)
+                    if len(override_select) != 0 and specifier not in override_select:
+                        continue
+                    print(f"specifier for {f_basename_true}: {specifier}")
+                    placeholder_mapping = mapping
+                    mapping = mapping.replace('MASTER_FILE_1', master_file_1)
+                    mapping = mapping.replace('MASTER_FILE_2', master_file_2)
+                    assert os.path.exists(mapping), mapping
+
+                    index[specifier] = {
+                        'lines': []
+                    }
+                    if len(override_select) == 0:
+                        index[specifier]['season'] = specifier[1]
+                        index[specifier]['episode'] = specifier[3:]
+                    with open(os.path.join(root,f)) as f2:
+                        line = f2.readline()
+                        while line:
+                            sp = [x.strip() for x in line.split('\t')]
+                            sig = sp[2]
+                            sig = sig.replace('?','_')
+                            parse = PPPDataset.character_parse(sig)
+                            filepath = os.path.join(mapping, sig+'.flac')
+                            if not os.path.exists(longpath(filepath)):
+                                alt_filepath = os.path.join(mapping, sig.rstrip('.').rstrip()+'.flac')
+                                if os.path.exists(longpath(alt_filepath)):
+                                    filepath = alt_filepath
+                            placeholder_filepath = os.path.join(placeholder_mapping, sig+'.flac')
+                            if not os.path.exists(longpath(filepath)):
+                                print(f"Warning: {filepath} not found")
+                                # Ignore lines for which the original file does not exist
+                                dirty_flag = True
+                                line = f2.readline()
+                                continue
+                            #assert os.path.exists(longpath(filepath)), filepath
+                            index[specifier]['lines'].append({
+                                'ts': sp[0],
+                                'te': sp[1],
+                                'label': sp[2],
+                                'orig_file': placeholder_filepath.replace('\\','/'),
+                                'parse': parse
+                            })
+                            line = f2.readline()
+            print(dirty_flag)
             return index
 
     def all_dialogue_paths(self):
@@ -835,7 +919,6 @@ class PPPDataset:
                 if not os.path.exists(out_path):
                     ffmpeg.input(x['file']).output(
                             out_path, **ff_opts).run()
-
                 #vocal_path|speaker_name|language|text
                 train_file_data.append(Path(out_path).name+"|"+x['char']+"|en|"
                     +unidecode(x['line'])+"\n")
@@ -866,8 +949,12 @@ idx = PPPDataset.generate_fim_episodes_labels_index(
     special_source_handling = False
 )
 import json
-with open('extras_labels_index.json','w',encoding='utf-8') as f:
+with open('extras_labels_index_v2.json','w',encoding='utf-8') as f:
     json.dump(idx, f, ensure_ascii=False)
+#idx = PPPDataset.generate_fim_episodes_labels_index2()
+#import json
+#with open('episodes_labels_index_v2.json','w',encoding='utf-8') as f:
+#    json.dump(idx, f, ensure_ascii=False)
 print("Done")
 
 # There are two main episode specifications:
