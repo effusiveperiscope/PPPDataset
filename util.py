@@ -26,3 +26,23 @@ def longpath(path):
         return path
     else:
         return path
+
+def character_parse(fname):
+    ret = {}
+    split = os.path.basename(fname).split('_')
+    try:
+        ret['hour'] = split[0]
+        ret['min'] = split[1]
+        ret['sec'] = split[2]
+        ret['char'] = split[3]
+        ret['emotion'] = split[4]
+        ret['noise'] = split[5]
+    except IndexError as e:
+        return None
+    return ret
+
+def test_extensions(file, extensions):
+    for e in extensions:
+        if file.endswith(e):
+            return e
+    return None
